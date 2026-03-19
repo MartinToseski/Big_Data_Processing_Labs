@@ -29,8 +29,8 @@ response = requests.post(OVERPASS_URL, data={"data": query})
 data = response.json()
 
 if response.status_code != 200:
-    print("!!! ERROR !!!")
     print(response.text)
+    raise Exception("Overpass request failed")
 
 print(data)
 with open("overpass_data.json", "w", encoding="utf-8") as f:
