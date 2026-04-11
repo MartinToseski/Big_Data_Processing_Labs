@@ -1,0 +1,3384 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-11T13:11:44Z",
+    "timestamp_areas_base": "2026-04-11T03:31:18Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 99884,
+      "lat": 51.5243642,
+      "lon": -0.1528165,
+      "tags": {
+        "amenity": "waste_basket",
+        "waste": "dog_excrement;trash"
+      }
+    },
+    {
+      "type": "node",
+      "id": 108539,
+      "lat": 51.5291251,
+      "lon": -0.0933878,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "docking_station",
+        "brand": "Santander Cycles",
+        "brand:wikidata": "Q807961",
+        "capacity": "24",
+        "local": "Hoxton",
+        "name": "Windsor Terrace",
+        "network": "tfl_cycle_hire",
+        "official_name": "Windsor Terrace, Hoxton",
+        "official_ref": "30",
+        "operator": "Serco",
+        "operator:type": "private",
+        "operator:wikidata": "Q499104"
+      }
+    },
+    {
+      "type": "node",
+      "id": 109575,
+      "lat": 51.5282624,
+      "lon": -0.1431214,
+      "tags": {
+        "amenity": "advice",
+        "name": "Citizens advice bureau"
+      }
+    },
+    {
+      "type": "node",
+      "id": 110075,
+      "lat": 51.5342486,
+      "lon": -0.1402678,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "capacity": "2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 451152,
+      "lat": 51.6008404,
+      "lon": -0.1946078,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "King of Prussia",
+        "addr:housenumber": "363",
+        "addr:postcode": "N3 1DH",
+        "addr:street": "Regents Park Road",
+        "amenity": "pub",
+        "cuisine": "pizza;burger",
+        "diet:gluten_free": "yes",
+        "diet:meat": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "1854668",
+        "food": "yes",
+        "internet_access": "wlan",
+        "name": "King of Prussia",
+        "opening_hours": "Mo-Th 12:00-23:00; Fr-Sa 12:00-24:00; Su 12:00-23:00",
+        "operator": "Mitchells & Butlers",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 81065270",
+        "smoking": "outside",
+        "source:addr": "FHRS Open Data",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.thekingfinchley.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 451153,
+      "lat": 51.6020306,
+      "lon": -0.1935029,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Central Restaurant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 451154,
+      "lat": 51.5995788,
+      "lon": -0.196028,
+      "tags": {
+        "addr:housenumber": "319",
+        "addr:postcode": "N3 1DP",
+        "addr:street": "Regents Park Road",
+        "amenity": "pub",
+        "fhrs:id": "1814163",
+        "food": "yes",
+        "name": "The Catcher in the Rye",
+        "real_ale": "3",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 451271,
+      "lat": 51.6141038,
+      "lon": -0.1765556,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "749",
+        "addr:postcode": "N12 0BP",
+        "addr:street": "High Road",
+        "amenity": "pub",
+        "fhrs:id": "1800991",
+        "indoor_seating": "yes",
+        "name": "The Tally Ho",
+        "outdoor_seating": "yes",
+        "website": "https://thetallyhopub.co.uk/",
+        "wikidata": "Q24298976",
+        "wikipedia": "en:The Tally Ho, Finchley"
+      }
+    },
+    {
+      "type": "node",
+      "id": 629438,
+      "lat": 51.4623279,
+      "lon": -0.0125942,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3210224,
+      "lat": 51.599014,
+      "lon": -0.1965456,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 16:15; Sa 10:30",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "N3 4",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10698810,
+      "lat": 51.4108051,
+      "lon": -0.3017784,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:00, Sa 12:00",
+        "note": "has 2 refs 12 & 1201",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:type": "pillar",
+        "ref": "KT1 12;KT1 1201",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10702727,
+      "lat": 51.4100244,
+      "lon": -0.3050068,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 17:45; Sa 12:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "KT1 135",
+        "royal_cypher": "EIIR",
+        "royal_cypher:wikidata": "Q33102113"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10806290,
+      "lat": 51.3509907,
+      "lon": -0.1616453,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "denomination": "evangelical",
+        "name": "Stanley Park Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11898550,
+      "lat": 51.5856353,
+      "lon": 0.0337981,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_b",
+        "post_box:type": "pillar",
+        "ref": "E18 22D",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12242503,
+      "lat": 51.5920158,
+      "lon": 0.0279621,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Greene King",
+        "brand:wikidata": "Q5564162",
+        "name": "Railway Bell",
+        "real_ale": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.greeneking.co.uk/pubs/greater-london/railway-bell"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13799212,
+      "lat": 51.5210756,
+      "lon": -0.1156142,
+      "tags": {
+        "amenity": "library",
+        "check_date": "2025-09-10",
+        "name": "Holborn Library",
+        "opening_hours": "Mo-Th 10:00-19:00, Fr 10:00-17:00, Sa 11:00-17:00",
+        "wheelchair": "yes",
+        "wikidata": "Q20870267"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13833379,
+      "lat": 51.4397806,
+      "lon": -0.0016647,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:postcode": "SE6 1RF",
+        "addr:street": "Torridon Road",
+        "amenity": "post_office",
+        "brand": "Post Office",
+        "brand:wikidata": "Q1783168",
+        "contact:website": "https://www.postoffice.co.uk/branch-finder/2380072/torridon-road",
+        "name": "Torridon Road Post Office",
+        "ref:pol_id": "86659"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13833380,
+      "lat": 51.4352741,
+      "lon": -0.0086337,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 17:30; Sa 12:00; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_b",
+        "post_box:type": "pillar",
+        "ref": "SE6 16",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13833381,
+      "lat": 51.4375916,
+      "lon": -0.0019415,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 17:30; Sa 12:00; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_a",
+        "post_box:type": "pillar",
+        "ref": "SE6 13",
+        "royal_cypher": "EVIIR",
+        "royal_cypher:wikidata": "Q33102324"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13878265,
+      "lat": 51.4461634,
+      "lon": -0.0212195,
+      "tags": {
+        "access": "yes",
+        "addr:city": "London",
+        "addr:housenumber": "23-24",
+        "addr:postcode": "SE6 4JU",
+        "addr:street": "Winslade Way",
+        "amenity": "library",
+        "check_date": "2024-10-08",
+        "email": "catfordlibrary@lewisham.gov.uk",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "level": "0",
+        "name": "Catford Library",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00; Su 10:00-16:00",
+        "operator": "Lewisham Council",
+        "operator:type": "public",
+        "phone": "+44 20 8314 8816",
+        "website": "https://www.lewisham.gov.uk/myservices/libraries/branches/Pages/Catford-Library.aspx",
+        "wikidata": "Q55111296"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13893285,
+      "lat": 51.4249457,
+      "lon": -0.0391511,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13893291,
+      "lat": 51.4253916,
+      "lon": -0.0386701,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 15262028,
+      "lat": 51.5164813,
+      "lon": -0.1698266,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "30",
+        "addr:postcode": "W2 1JQ",
+        "addr:street": "Southwick Street",
+        "ale": "yes",
+        "amenity": "pub",
+        "brand": "Hall & Woodhouse",
+        "brand:wikidata": "Q5642555",
+        "brewery": "yes",
+        "check_date": "2025-12-16",
+        "contact:facebook": "The-Monkey-Puzzle-219528061409967",
+        "contact:instagram": "monkeypuzzlepub",
+        "diet:vegetarian": "yes",
+        "email": "gary@themonkeypuzzlepub.co.uk",
+        "fhrs:id": "413057",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "The Monkey Puzzle",
+        "opening_hours": "Mo-Sa 12:00-23:30; Su 12:00-22:30",
+        "operator": "Hall & Woodhouse",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 7723 0143",
+        "real_fire": "no",
+        "smoking": "outside",
+        "source": "survey",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://themonkeypuzzlepub.co.uk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 16602695,
+      "lat": 51.4491706,
+      "lon": -0.4145233,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KX100",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 16960853,
+      "lat": 51.4099265,
+      "lon": -0.3362121,
+      "tags": {
+        "amenity": "fountain",
+        "artwork_type": "statue",
+        "name": "Diana Fountain",
+        "tourism": "artwork",
+        "wikidata": "Q5271155",
+        "wikipedia": "en:Diana Fountain, Bushy Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 17345465,
+      "lat": 51.6518666,
+      "lon": -0.0645475,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 17978996,
+      "lat": 51.574614,
+      "lon": -0.3355776,
+      "tags": {
+        "amenity": "parking",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 18235090,
+      "lat": 51.4628591,
+      "lon": -0.2266975,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "289",
+        "addr:postcode": "SW15 6SP",
+        "addr:street": "Upper Richmond Road",
+        "amenity": "pub",
+        "fhrs:id": "1782259",
+        "name": "The Arab Boy",
+        "operator": "Greene King",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20599885,
+      "lat": 51.5302738,
+      "lon": -0.117551,
+      "tags": {
+        "amenity": "disused_pub",
+        "name": "Golden Lion"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20821133,
+      "lat": 51.5004234,
+      "lon": -0.1777428,
+      "tags": {
+        "amenity": "pub",
+        "name": "The Union Bar",
+        "opening_hours": "\"by appointment\""
+      }
+    },
+    {
+      "type": "node",
+      "id": 20849686,
+      "lat": 51.4087329,
+      "lon": -0.3323747,
+      "tags": {
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "check_date": "2021-09-11",
+        "created_by": "JOSM",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20849687,
+      "lat": 51.4110074,
+      "lon": -0.3340174,
+      "tags": {
+        "amenity": "cafe",
+        "note": "is a trailer parked there, serving tea, sandwiches, ice-cream etc.",
+        "operator": "ECSI Limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20910215,
+      "lat": 51.4059121,
+      "lon": -0.3360281,
+      "tags": {
+        "amenity": "toilets"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20973308,
+      "lat": 51.4675058,
+      "lon": -0.2057992,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "SW6 45",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20973312,
+      "lat": 51.4691887,
+      "lon": -0.2100687,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Larrik",
+        "addr:housenumber": "425",
+        "addr:postcode": "SW6 4RN",
+        "addr:street": "New King's Road",
+        "amenity": "pub",
+        "dog": "yes",
+        "fhrs:id": "896680",
+        "name": "Kings Arms",
+        "operator": "Wadworth",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.kingsarms-fulham.co.uk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20973316,
+      "lat": 51.4727261,
+      "lon": -0.1811598,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Riverside Tower",
+        "addr:postcode": "SW6 2SU",
+        "addr:street": "The Boulevard",
+        "addr:unit": "2",
+        "amenity": "pub",
+        "fhrs:id": "346109",
+        "name": "The Waterside",
+        "outdoor_seating": "yes",
+        "source:addr": "FHRS Open Data",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21104108,
+      "lat": 51.666416,
+      "lon": -0.1352243,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21381871,
+      "lat": 51.3642584,
+      "lon": -0.1185504,
+      "tags": {
+        "addr:city": "Croydon",
+        "addr:housenumber": "514",
+        "addr:postcode": "CR0 4RE",
+        "addr:street": "Purley Way",
+        "amenity": "fuel",
+        "brand": "Texaco",
+        "brand:wikidata": "Q775060",
+        "brand:wikipedia": "en:Texaco",
+        "compressed_air": "yes",
+        "fhrs:authority": "Croydon",
+        "fhrs:id": "293501",
+        "name": "Texaco Fiveways"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21381999,
+      "lat": 51.3567054,
+      "lon": -0.1293848,
+      "tags": {
+        "amenity": "recycling",
+        "created_by": "JOSM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21382015,
+      "lat": 51.36989,
+      "lon": -0.1171568,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "contact:website": "https://www.esso.co.uk/en-gb/find-station/esso-croydon-essomfgwaddoncourt-100354374",
+        "name": "Esso",
+        "operator": "Motor Fuel Group",
+        "operator:website": "https://www.motorfuelgroup.com/locations/waddon-court-fs870/",
+        "operator:wikidata": "Q107271358"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21390491,
+      "lat": 51.4197615,
+      "lon": -0.1277262,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Applegreen",
+        "brand:wikidata": "Q7178908",
+        "check_date": "2026-01-09",
+        "compressed_air": "yes",
+        "name": "GG On The Move",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21442271,
+      "lat": 51.3989399,
+      "lon": -0.2434391,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "check_date": "2024-02-04",
+        "contact:website": "https://www.esso.co.uk/en-gb/find-station/esso-newmalden-essomfgkingston-100200947",
+        "name": "Esso",
+        "opening_hours": "24/7",
+        "operator": "Motor Fuel Group",
+        "operator:website": "https://www.motorfuelgroup.com/locations/kingston-fs911/",
+        "operator:wikidata": "Q107271358",
+        "payment:american_express": "yes",
+        "payment:cash": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21489350,
+      "lat": 51.5562337,
+      "lon": -0.3611851,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "BP",
+        "brand:wikidata": "Q152057",
+        "name": "BP",
+        "operator": "BP",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21524558,
+      "lat": 51.5546665,
+      "lon": -0.1995923,
+      "tags": {
+        "amenity": "bench"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21563447,
+      "lat": 51.5125836,
+      "lon": -0.1067767,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "check_date": "2025-05-06",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:type": "pillar",
+        "ref": "EC4Y 423D;EC4Y 4231D",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21565294,
+      "lat": 51.517885,
+      "lon": -0.1091282,
+      "tags": {
+        "amenity": "bicycle_parking",
+        "bicycle_parking": "stands",
+        "capacity": "16",
+        "covered": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21593232,
+      "lat": 51.5153316,
+      "lon": -0.1117428,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "95",
+        "addr:postcode": "WC2A 1DT",
+        "addr:street": "Chancery Lane",
+        "amenity": "pub",
+        "check_date": "2023-03-25",
+        "fhrs:id": "1619261",
+        "food": "yes",
+        "name": "The Last Judgement",
+        "start_date": "2023-05-03",
+        "was:name": "The Knights Templar",
+        "was:wikidata": "Q88965904",
+        "wheelchair": "yes",
+        "wikidata": "Q88965904"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21593236,
+      "lat": 51.5172518,
+      "lon": -0.1191791,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "12",
+        "addr:postcode": "WC2A 3HP",
+        "addr:street": "Gate Street",
+        "amenity": "pub",
+        "check_date": "2023-04-18",
+        "contact:email": "info@theshiptavern.co.uk",
+        "contact:phone": "+44 20 7405 1992",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "423859",
+        "fhrs:local_authority_id": "13830",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Ship Tavern",
+        "outdoor_seating": "no",
+        "real_ale": "yes",
+        "smoking": "no",
+        "wikidata": "Q7497944",
+        "wikipedia": "en:Ship Tavern, Holborn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21593237,
+      "lat": 51.5173465,
+      "lon": -0.1189566,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "6",
+        "addr:postcode": "WC1V 7DX",
+        "addr:street": "Little Turnstile",
+        "amenity": "bar",
+        "cuisine": "polish",
+        "fhrs:id": "424696",
+        "fhrs:local_authority_id": "30976",
+        "food": "yes",
+        "name": "The Polish Bar (Na Zdrowie)",
+        "old_name": "Bar Polski",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21593238,
+      "lat": 51.5163376,
+      "lon": -0.119321,
+      "tags": {
+        "addr:city": "London",
+        "addr:country": "GB",
+        "addr:housenumber": "58",
+        "addr:postcode": "WC2B 6DX",
+        "addr:street": "Kingsway",
+        "amenity": "bar",
+        "brand": "All Bar One",
+        "brand:wikidata": "Q4728624",
+        "brand:wikipedia": "en:All Bar One",
+        "check_date": "2026-04-04",
+        "cocktails": "yes",
+        "contact:phone": "+44 20 7269 5171",
+        "contact:website": "http://www.allbarone.co.uk/all-bar-one-kingsway/",
+        "fhrs:id": "424280",
+        "name": "All Bar One",
+        "opening_hours": "Mo-Th 09:00-23:00; Fr-Sa 09:00-24:00; Su 10:00-22:30",
+        "opening_hours:food": "Mo-Sa 09:00-22:00; Su 10:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21596437,
+      "lat": 51.4387738,
+      "lon": -0.0197528,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:30; Sa 12:00; Su off",
+        "drive_through": "no",
+        "note": "late collection time",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_k",
+        "post_box:type": "pillar",
+        "ref": "SE6 6",
+        "royal_cypher": "EIIR",
+        "royal_cypher:wikidata": "Q33102113"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21663357,
+      "lat": 51.5791119,
+      "lon": -0.341838,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "BP",
+        "brand:wikidata": "Q152057",
+        "name": "BP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21686579,
+      "lat": 51.5154029,
+      "lon": -0.1043348,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "17",
+        "addr:postcode": "EC4A 4AB",
+        "addr:street": "Farringdon Street",
+        "amenity": "pub",
+        "fhrs:id": "1097476",
+        "name": "White Haus",
+        "operator": "Stonegate",
+        "operator:wikidata": "Q7619176",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.thewhitehaus.co.uk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21693791,
+      "lat": 51.5150736,
+      "lon": -0.0997325,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "EC4M 7DQ",
+        "addr:street": "Rose Steet",
+        "amenity": "bar",
+        "email": "thesaint@wearebar.com",
+        "fhrs:id": "294160",
+        "name": "The Saint",
+        "opening_hours": "Mo-Fr 10:00+",
+        "phone": "+44 20 7600 5500",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "http://www.jamies.london/bars/the-saint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21776749,
+      "lat": 51.5578322,
+      "lon": -0.3356444,
+      "tags": {
+        "addr:city": "Harrow",
+        "addr:street": "Greenford Road",
+        "amenity": "post_office",
+        "brand": "Post Office",
+        "brand:wikidata": "Q1783168",
+        "check_date": "2023-09-27",
+        "name": "Sudbury Hill Post Office",
+        "ref:pol_id": "19461",
+        "website": "https://www.postoffice.co.uk/branch-finder/2100207/sudbury-hill"
+      }
+    },
+    {
+      "type": "node",
+      "id": 23693588,
+      "lat": 51.5330895,
+      "lon": -0.0522207,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_a",
+        "post_box:type": "pillar",
+        "ref": "E2 6D",
+        "royal_cypher": "GVIR",
+        "royal_cypher:wikidata": "Q33102169",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25471087,
+      "lat": 51.5128467,
+      "lon": -0.1212167,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "39",
+        "addr:street": "Bow Street",
+        "amenity": "pub",
+        "brand": "Young's",
+        "brand:wikidata": "Q8057802",
+        "brand:wikipedia": "en:Young's",
+        "check_date": "2026-04-06",
+        "name": "Marquess of Anglesey",
+        "operator": "Young's",
+        "outdoor_seating": "roof",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.themarquess.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25473538,
+      "lat": 51.509731,
+      "lon": -0.0785318,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "15",
+        "addr:postcode": "EC3N 4AA",
+        "addr:street": "Trinity Square",
+        "amenity": "pub",
+        "brand": "Wetherspoon",
+        "brand:wikidata": "Q6109362",
+        "check_date": "2025-06-20",
+        "dog": "no",
+        "fhrs:id": "294245",
+        "foot": "yes",
+        "name": "The Liberty Bounds",
+        "operator": "JD Weatherspoon",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.jdwetherspoon.com/pubs/all-pubs/england/london/the-liberty-bounds-tower-of-london",
+        "website:menu": "https://order.jdwetherspoon.com/venue/jdw/550/menus",
+        "wikidata": "Q88965892"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25474641,
+      "lat": 51.5197763,
+      "lon": -0.0937556,
+      "tags": {
+        "amenity": "cinema",
+        "name": "Barbican Centre (Cinema)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25475187,
+      "lat": 51.5114165,
+      "lon": -0.0776978,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "48",
+        "addr:postcode": "EC3N 2AP",
+        "addr:street": "Crutched Friars",
+        "amenity": "pub",
+        "contact:phone": "+44 207 702 1628",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:authority": "City of London Corporation",
+        "fhrs:id": "294974",
+        "fhrs:local_authority_id": "PI/000019691",
+        "name": "The Cheshire Cheese",
+        "opening_hours": "Mo-Fr 11:00-23:00; Sa 12:00-22:00; Su 12:00-20:00",
+        "outdoor_seating": "no",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.greatukpubs.co.uk/cheshire-cheese-tower-hill",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25475341,
+      "lat": 51.5115049,
+      "lon": -0.0772257,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "check_date": "2025-05-03",
+        "collection_times": "Mo-Fr 18:00; Sa 12:00",
+        "drive_through": "no",
+        "note": "LH aperture First Class and Abroad, RH aperture Second Class",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:type": "pillar",
+        "ref": "EC3N 305;EC3N 3051",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25475389,
+      "lat": 51.5265807,
+      "lon": -0.1292505,
+      "tags": {
+        "amenity": "cafe",
+        "fixme": "not on FHRS",
+        "name": "Woburn Cafe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25475914,
+      "lat": 51.5210917,
+      "lon": -0.1228519,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Greene King",
+        "brand:wikidata": "Q5564162",
+        "check_date": "2026-03-05",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "The Swan",
+        "outdoor_seating": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://www.greeneking.co.uk/pubs/greater-london/swan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25496840,
+      "lat": 51.5167141,
+      "lon": -0.1103638,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "26",
+        "addr:postcode": "EC4A 1JS",
+        "addr:street": "Furnival Street",
+        "amenity": "pub",
+        "contact:email": "hello@26furnivalstreet.com",
+        "name": "26 Furnival Street",
+        "old_name": "The Castle",
+        "phone": "+44 20 3301 7555",
+        "website": "https://www.26furnivalstreet.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25496842,
+      "lat": 51.50623,
+      "lon": -0.1110639,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "Cornwall Road Parking",
+        "operator": "APCOA Parking",
+        "operator:type": "private",
+        "operator:wikidata": "Q296108",
+        "parking": "underground",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25497832,
+      "lat": 51.5247641,
+      "lon": -0.1161125,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "250",
+        "amenity": "cafe",
+        "name": "Cafe Angel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25510381,
+      "lat": 51.4994616,
+      "lon": -0.1139642,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "133-135",
+        "addr:postcode": "SE1 7HR",
+        "addr:street": "Westminster Bridge Road",
+        "amenity": "pub",
+        "check_date": "2025-08-23",
+        "check_date:opening_hours": "2025-08-27",
+        "contact:facebook": "CrownAndCushionLdn",
+        "contact:twitter": "CrownCushionLdn",
+        "email": "crownandcushionpub@gmail.com",
+        "fhrs:authority": "Lambeth",
+        "fhrs:id": "606768",
+        "name": "Crown & Cushion",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 11:00-22:30",
+        "phone": "+44 20 7803 0573",
+        "website": "https://www.thecrownandcushion-london.foodanddrinksites.co.uk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25523569,
+      "lat": 51.4053384,
+      "lon": 0.0034181,
+      "tags": {
+        "addr:city": "Bromley",
+        "addr:postcode": "BR2 0EY",
+        "addr:street": "Station Road",
+        "addr:suburb": "Shortlands",
+        "amenity": "pub",
+        "check_date": "2022-10-02",
+        "email": "shortlandstavern@live.co.uk",
+        "fhrs:id": "765062",
+        "name": "Shortlands Tavern",
+        "opening_hours": "12:00-23:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+44 20 8466 0202",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.shortlandstavern.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25524219,
+      "lat": 51.3803526,
+      "lon": -0.0133037,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Ember Inns",
+        "brand:wikidata": "Q116272278",
+        "contact:website": "https://www.emberinns.co.uk/nationalsearch/southeast/the-railway-hotel-west-wickham",
+        "name": "The Railway"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25530336,
+      "lat": 51.4842735,
+      "lon": -0.1168602,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 17:30; Sa 12:00",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_a",
+        "post_box:type": "pillar",
+        "ref": "SE11 9",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25530879,
+      "lat": 51.4885694,
+      "lon": -0.1206603,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "brand:wikipedia": "en:Royal Mail",
+        "check_date": "2024-03-17",
+        "collection_times": "Mo-Fr 17:30; Sa 12:00",
+        "colour": "red",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_a",
+        "post_box:type": "pillar",
+        "postal_code": "SE11",
+        "ref": "SE11 26",
+        "royal_cypher": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25534499,
+      "lat": 51.4946389,
+      "lon": -0.1322444,
+      "tags": {
+        "amenity": "toilets",
+        "fee": "yes",
+        "wheelchair": "designated"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25534556,
+      "lat": 51.5544289,
+      "lon": -0.3645835,
+      "tags": {
+        "amenity": "post_box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25535969,
+      "lat": 51.5517841,
+      "lon": -0.3722273,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "created_by": "JOSM",
+        "mapillary": "708696834374110",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "survey:date": "2023-08-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25536894,
+      "lat": 51.4907501,
+      "lon": -0.1305636,
+      "tags": {
+        "amenity": "recycling",
+        "created_by": "JOSM",
+        "recycling:beverage_cartons": "yes",
+        "recycling:cans": "yes",
+        "recycling:clothes": "yes",
+        "recycling:food_waste": "yes",
+        "recycling:glass_bottles": "yes",
+        "recycling:paper": "yes",
+        "recycling:plastic": "no",
+        "recycling:plastic_bottles": "yes",
+        "recycling:plastic_packaging": "no",
+        "recycling:shoes": "yes",
+        "recycling:small_electrical_appliances": "yes",
+        "recycling_type": "container"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25544097,
+      "lat": 51.51148,
+      "lon": -0.0795688,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "check_date": "2024-05-19",
+        "collection_times": "Mo-Fr 18:00; Sa 12:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "parcel",
+        "ref": "EC3R 315P",
+        "royal_cypher": "no",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25592547,
+      "lat": 51.5089598,
+      "lon": -0.3385051,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "161",
+        "addr:postcode": "W7 3SP",
+        "addr:street": "Uxbridge Road",
+        "addr:suburb": "Hanwell",
+        "amenity": "pub",
+        "check_date": "2026-03-30",
+        "fhrs:id": "1033359",
+        "name": "The Duke of York",
+        "source:addr": "FHRS Open Data",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25597628,
+      "lat": 51.5347892,
+      "lon": -0.1072883,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "57",
+        "addr:postcode": "N1 0RJ",
+        "addr:street": "Liverpool Road",
+        "amenity": "pub",
+        "fhrs:id": "416973",
+        "indoor_seating": "yes",
+        "name": "The Angelic",
+        "outdoor_seating": "yes",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25628128,
+      "lat": 51.5747475,
+      "lon": -0.3352965,
+      "tags": {
+        "amenity": "parking",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25628964,
+      "lat": 51.5517472,
+      "lon": -0.3394802,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "EG",
+        "name": "Greenford Service Station",
+        "operator": "EG Group"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25641588,
+      "lat": 51.5519446,
+      "lon": -0.1807384,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "NW3 43D",
+        "royal_cypher": "EIIR",
+        "royal_cypher:wikidata": "Q33102113"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25649631,
+      "lat": 51.632223,
+      "lon": -0.0375768,
+      "tags": {
+        "amenity": "bus_station"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25717653,
+      "lat": 51.5780132,
+      "lon": -0.0990941,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "405",
+        "addr:postcode": "N4 1EU",
+        "addr:street": "Green Lanes",
+        "addr:suburb": "Harringay",
+        "air_conditioning": "no",
+        "alt_name": "Old Ale House",
+        "amenity": "pub",
+        "check_date": "2024-04-26",
+        "live_music": "no",
+        "microbrewery": "no",
+        "name": "The Old Ale Emporium",
+        "opening_hours": "Mo-Th 11:00-00:00; Fr-Sa 11:00-01:00; Su 12:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+44 20 8348 6200",
+        "real_ale": "yes",
+        "real_fire": "no",
+        "toilets": "yes",
+        "website": "https://the-old-ale-emporium.edan.io/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25717655,
+      "lat": 51.5763654,
+      "lon": -0.0987786,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Public House",
+        "addr:housenumber": "359",
+        "addr:postcode": "N4 1DZ",
+        "addr:street": "Green Lanes",
+        "addr:suburb": "Hornsey",
+        "alt_name": "The Beaconfield Public House",
+        "amenity": "pub",
+        "fhrs:id": "548124",
+        "fhrs:local_authority_id": "PI/000076327",
+        "name": "The Beaconsfield"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25722469,
+      "lat": 51.6659584,
+      "lon": -0.1055535,
+      "tags": {
+        "amenity": "parking_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25729218,
+      "lat": 51.4534062,
+      "lon": -0.038511,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "the brockley jack",
+        "addr:housenumber": "408-410",
+        "addr:postcode": "SE4 2DH",
+        "addr:street": "Brockley Road",
+        "addr:suburb": "Crofton Park",
+        "amenity": "pub",
+        "brand": "Greene King",
+        "brand:wikidata": "Q5564162",
+        "check_date": "2024-09-15",
+        "cuisine": "international",
+        "fhrs:id": "1598737",
+        "fhrs:local_authority_id": "PI/000024249",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "The Brockley Jack",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "source:addr": "FHRS Open Data",
+        "takeaway": "no",
+        "website": "https://www.greeneking.co.uk/pubs/greater-london/brockley-jack",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25744359,
+      "lat": 51.5603823,
+      "lon": -0.174963,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "post_box:type": "wall",
+        "ref": "NW3 31D",
+        "royal_cypher": "GVIR",
+        "royal_cypher:wikidata": "Q33102169"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25744422,
+      "lat": 51.5649774,
+      "lon": -0.140689,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "126",
+        "addr:postcode": "N19 5HS",
+        "addr:street": "Dartmouth Park Hill",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "Pizza;mediterranean",
+        "email": "foodandbar@boldcafe.co.uk",
+        "food": "yes",
+        "name": "Bold Food & Bar",
+        "opening_hours": "Mo-Th 16:00-23:00; Fr-Sa 16:00-24:00; Su 12:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+447585 957 145",
+        "toilets": "yes",
+        "website": "https://www.thehouselondon.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25744507,
+      "lat": 51.5566538,
+      "lon": -0.1383959,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "156-158",
+        "addr:postcode": "NW5 2HP",
+        "addr:street": "Fortess Road",
+        "addr:suburb": "Tufnell Park",
+        "amenity": "pub",
+        "check_date": "2026-03-22",
+        "cocktails": "yes",
+        "cuisine": "pizza",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "fhrs:id": "653514",
+        "fhrs:local_authority_id": "79929",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "level": "0;-1",
+        "live_music": "yes",
+        "name": "Aces and Eights Saloon Bar",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "real_ale": "yes",
+        "short_name": "Aces and Eights",
+        "website": "https://www.acesandeightssaloonbar.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25746185,
+      "lat": 51.5123895,
+      "lon": -0.1131849,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "WC2R 3LD",
+        "amenity": "pub",
+        "fhrs:confidence_management": "10",
+        "fhrs:hygiene": "10",
+        "fhrs:id": "412472",
+        "fhrs:local_authority_id": "00842/0005/0/000",
+        "fhrs:rating": "3",
+        "fhrs:structural": "10",
+        "food": "yes",
+        "name": "The Cheshire Cheese",
+        "phone": "+44 20 7836 2347",
+        "real_ale": "yes",
+        "smoking": "no",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "yes",
+        "wikidata": "Q27087707"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25813306,
+      "lat": 51.5455813,
+      "lon": -0.133287,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "name": "Esso",
+        "operator": "Esso"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25831302,
+      "lat": 51.5410872,
+      "lon": -0.1466139,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "78–89",
+        "addr:postcode": "NW1 8AF",
+        "addr:street": "Camden Lock Place",
+        "amenity": "bar",
+        "level": "1",
+        "name": "Lockside Lounge",
+        "opening_hours": "Su-We 12:00-22:00; Th-Fr 12:00-23:00; Sa 11:00-00:00",
+        "phone": "+44 20 7284 0007",
+        "website": "https://www.camdenlockside.co.uk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25831313,
+      "lat": 51.5412394,
+      "lon": -0.14576,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "11",
+        "addr:postcode": "NW1 8AB",
+        "addr:street": "Camden Lock Place",
+        "amenity": "bar",
+        "level": "1",
+        "name": "Lock 17",
+        "website": "http://www.lock17-camden.co.uk",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25894993,
+      "lat": 51.5672223,
+      "lon": -0.1219758,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "472",
+        "addr:street": "Hornsey Road",
+        "amenity": "pub",
+        "name": "The Corner Flag",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25962570,
+      "lat": 51.5510518,
+      "lon": -0.0761147,
+      "tags": {
+        "amenity": "recycling",
+        "created_by": "YahooApplet 1.0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25991205,
+      "lat": 51.5509046,
+      "lon": -0.0724776,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "E8 2EZ",
+        "addr:street": "Shacklewell Lane",
+        "amenity": "cafe",
+        "fhrs:id": "470043",
+        "name": "Jack's Cafe",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26018491,
+      "lat": 51.6004363,
+      "lon": -0.1954392,
+      "tags": {
+        "amenity": "courthouse",
+        "name": "St Mary's Court"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26038523,
+      "lat": 51.3794336,
+      "lon": -0.2989338,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "KT6 112D",
+        "royal_cypher": "EVIIR",
+        "royal_cypher:wikidata": "Q33102324"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26047836,
+      "lat": 51.5545276,
+      "lon": -0.0681217,
+      "tags": {
+        "amenity": "recycling",
+        "created_by": "YahooApplet 1.0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26065849,
+      "lat": 51.5655221,
+      "lon": -0.1027062,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "314",
+        "addr:postcode": "N4 2AP",
+        "addr:street": "Seven Sisters Road",
+        "amenity": "fuel",
+        "brand": "Texaco",
+        "brand:wikidata": "Q775060",
+        "name": "Finsbury Services",
+        "self_service": "yes",
+        "website": "https://locations.valero.com/en-gb/LocationDetails/Index/314-322-SEVEN-SISTERS-ROAD/0000887402"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26065903,
+      "lat": 51.5645126,
+      "lon": -0.104466,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "284",
+        "addr:postcode": "N4 2HY",
+        "addr:street": "Seven Sisters Road",
+        "amenity": "pub",
+        "check_date": "2025-12-10",
+        "email": "info@blackstockpub.com",
+        "name": "The BlackStock",
+        "opening_hours": "Mo-Th 14:00-24:00; Fr 14:00-24:00; Sa 00:00-02:00,11:00-24:00; Su 00:00-02:00,11:00-24:00",
+        "phone": "+44 20 7561 1337"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26122845,
+      "lat": 51.5531306,
+      "lon": -0.0750091,
+      "tags": {
+        "amenity": "recycling"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26196951,
+      "lat": 51.5687977,
+      "lon": -0.111228,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 17:30; Sa 12:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "N4 44",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26197017,
+      "lat": 51.5693773,
+      "lon": -0.1126397,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "125-127",
+        "addr:street": "Stroud Green Road",
+        "amenity": "pub",
+        "fhrs:id": "939857",
+        "name": "The White Lion of Mortimer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26197230,
+      "lat": 51.5698907,
+      "lon": -0.113208,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "N4 45",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26198082,
+      "lat": 51.5689927,
+      "lon": -0.1184085,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KXPlus",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26199004,
+      "lat": 51.5124902,
+      "lon": -0.2444046,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KX100",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26268106,
+      "lat": 51.5644221,
+      "lon": -0.0549145,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_b",
+        "post_box:type": "pillar",
+        "ref": "E5 24D",
+        "royal_cypher": "EVIIR",
+        "royal_cypher:wikidata": "Q33102324",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26268421,
+      "lat": 51.5676223,
+      "lon": -0.05496,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_b",
+        "post_box:type": "pillar",
+        "ref": "E5 30D",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26269218,
+      "lat": 51.5691513,
+      "lon": -0.0598633,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Springfield Park",
+        "addr:postcode": "E5 9EF",
+        "addr:street": "Springfield",
+        "addr:suburb": "Hackney",
+        "alt_name": "Sparks Cafe",
+        "amenity": "cafe",
+        "check_date": "2025-02-28",
+        "contact:facebook": "https://www.facebook.com/springfieldparkcafe",
+        "contact:twitter": "@sparkhackney",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "dog": "no",
+        "fhrs:id": "469408",
+        "fhrs:local_authority_id": "24425",
+        "highchair": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "name": "Springfield Park Cafe",
+        "opening_hours": "Mo-Su 10:00-18:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "website": "https://springfieldparkcafe.co.uk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26310696,
+      "lat": 51.536675,
+      "lon": -0.1031148,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "1",
+        "addr:postcode": "N1 2XH",
+        "addr:street": "Islington Green",
+        "alt_name": "The Slug",
+        "amenity": "bar",
+        "brand": "Slug and Lettuce",
+        "brand:wikidata": "Q7542224",
+        "cocktails": "yes",
+        "fhrs:id": "416888",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Fox on the Green",
+        "operator": "Stonegate",
+        "operator:wikidata": "Q7619176",
+        "outdoor_seating": "yes",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.crafted-social.co.uk/fox-on-the-green-islington",
+        "wikidata": "Q17020568"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26363049,
+      "lat": 51.6419852,
+      "lon": -0.2424157,
+      "tags": {
+        "alt_name": "The Gate Public House",
+        "amenity": "pub",
+        "name": "The Gate",
+        "toilets": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26425131,
+      "lat": 51.5256523,
+      "lon": -0.0998416,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KXPlus",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26425461,
+      "lat": 51.5270016,
+      "lon": -0.1002301,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KXPlus",
+        "check_date": "2023-08-06",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26462198,
+      "lat": 51.3793186,
+      "lon": -0.1621875,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:45; Sa 12:30; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "SM5 284",
+        "royal_cypher": "GVIR",
+        "royal_cypher:wikidata": "Q33102169",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26462213,
+      "lat": 51.3777498,
+      "lon": -0.167564,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:45; Sa 12:15; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "SM5 251",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26462232,
+      "lat": 51.3740713,
+      "lon": -0.1655579,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:design": "type_b",
+        "post_box:type": "pillar",
+        "ref": "SM5 109D",
+        "royal_cypher": "GVIR",
+        "royal_cypher:wikidata": "Q33102169",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26462254,
+      "lat": 51.3754992,
+      "lon": -0.1702562,
+      "tags": {
+        "amenity": "post_box",
+        "created_by": "JOSM",
+        "postal_code": "SM5",
+        "ref": "SM5 138"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26468744,
+      "lat": 51.3726598,
+      "lon": -0.1750104,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "SM5 281D",
+        "royal_cypher": "GVIR",
+        "royal_cypher:wikidata": "Q33102169",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26468751,
+      "lat": 51.3806313,
+      "lon": -0.1680723,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:45; Sa 12:15; Su off",
+        "drive_through": "no",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "SM5 257",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26508294,
+      "lat": 51.5271172,
+      "lon": -0.1078232,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "K2",
+        "check_date": "2025-07-21",
+        "covered": "booth",
+        "listed_status": "Grade II",
+        "operator": "BT",
+        "operator:wikidata": "Q593786",
+        "wikidata": "Q27084165"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26508303,
+      "lat": 51.5264365,
+      "lon": -0.1038235,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:type": "pillar",
+        "ref": "EC1V 126D;EC1V 1261D",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26525066,
+      "lat": 51.3882698,
+      "lon": -0.1618357,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:00; Sa 12:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "meter",
+        "ref": "CR4 601P",
+        "royal_cypher": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26525209,
+      "lat": 51.3932649,
+      "lon": -0.1633304,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "CR4 51"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26541768,
+      "lat": 51.3910526,
+      "lon": -0.15873,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "CR4 5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26541903,
+      "lat": 51.3977211,
+      "lon": -0.1623598,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "CR4 19",
+        "royal_cypher": "EIIR",
+        "royal_cypher:wikidata": "Q33102113"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26542844,
+      "lat": 51.4007103,
+      "lon": -0.1678725,
+      "tags": {
+        "amenity": "school",
+        "created_by": "Potlatch 0.5d"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26542873,
+      "lat": 51.4006324,
+      "lon": -0.1693706,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 17:15; Sa 12:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "CR4 6",
+        "royal_cypher": "EVIIR",
+        "royal_cypher:wikidata": "Q33102324"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26542878,
+      "lat": 51.4003633,
+      "lon": -0.1693495,
+      "tags": {
+        "amenity": "telephone",
+        "atm": "yes",
+        "booth": "KXCash",
+        "colour": "grey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26544484,
+      "lat": 51.3980144,
+      "lon": -0.1722345,
+      "tags": {
+        "addr:city": "Mitcham",
+        "addr:housename": "The Crown Inn",
+        "addr:housenumber": "407",
+        "addr:postcode": "CR4 4BG",
+        "addr:street": "London Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "fhrs:authority": "Merton",
+        "fhrs:id": "200005",
+        "name": "Casuarina Tree",
+        "old_name": "The Crown Inn",
+        "survey:date": "2018-11-02",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26544810,
+      "lat": 51.3898469,
+      "lon": -0.17904,
+      "tags": {
+        "amenity": "post_box",
+        "post_box:type": "pillar",
+        "postal_code": "SM4",
+        "ref": "SM4 202"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26573161,
+      "lat": 51.5102139,
+      "lon": -0.1290844,
+      "tags": {
+        "amenity": "cinema",
+        "brand": "Odeon",
+        "brand:wikidata": "Q6127470",
+        "brand:wikipedia": "en:Odeon Cinemas",
+        "name": "Odeon Mezzanine",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26573168,
+      "lat": 51.5109335,
+      "lon": -0.1304091,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "5-6",
+        "addr:postcode": "WC2H 7NA",
+        "addr:street": "Leicester Square",
+        "amenity": "cinema",
+        "brand": "Cineworld",
+        "brand:wikidata": "Q5120901",
+        "brand:wikipedia": "en:Cineworld",
+        "cinema:3D": "yes",
+        "cinema:IMAX": "yes",
+        "cinema:dolby_atmos": "yes",
+        "fhrs:confidence_management": "5",
+        "fhrs:hygiene": "5",
+        "fhrs:id": "412954",
+        "fhrs:local_authority_id": "00989/0005/0/001",
+        "fhrs:rating": "2",
+        "fhrs:structural": "15",
+        "name": "Cineworld Leicester Square",
+        "screen": "9",
+        "source:addr": "FSA Food Hygiene Ratings Database",
+        "source:postcode": "FSA Food Hygiene Ratings Database",
+        "website": "https://www.cineworld.co.uk/cinemas/london-leicester-square/103",
+        "wheelchair": "limited",
+        "wikidata": "Q3724821",
+        "wikipedia": "en:Empire, Leicester Square"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26573173,
+      "lat": 51.5112449,
+      "lon": -0.1293677,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "3",
+        "addr:postcode": "WC2H 7AL",
+        "addr:street": "Cranbourn Street",
+        "amenity": "cinema",
+        "brand": "Vue",
+        "brand:wikidata": "Q2535134",
+        "brand:wikipedia": "en:Vue Cinemas",
+        "contact:website": "https://www.myvue.com/cinema/leicester-square/about",
+        "name": "Vue Leicester Square",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26603473,
+      "lat": 51.5362244,
+      "lon": -0.4769664,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:housenumber": "33",
+        "addr:postcode": "UB8 2PU",
+        "addr:street": "Villier Street",
+        "amenity": "pub",
+        "name": "The Loft",
+        "opening_hours": "Mo-Fr 15:00-23:00; Sa-Su 12:00-23:00",
+        "phone": "+44 1895 753179",
+        "website": "https://www.theloftuxbridge.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26603928,
+      "lat": 51.5271668,
+      "lon": -0.4816991,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Karma Lounge",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "website": "https://thekarmalounge.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26603929,
+      "lat": 51.5310186,
+      "lon": -0.4820512,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:postcode": "UB8 2NL",
+        "addr:street": "High Street",
+        "amenity": "pub",
+        "fhrs:id": "1791692",
+        "name": "The Crown",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+44 1895 473713",
+        "wikidata": "Q16988250"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26604024,
+      "lat": 51.525732,
+      "lon": -0.4585479,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:housenumber": "91",
+        "addr:postcode": "UB8 3NJ",
+        "addr:street": "Pield Heath Road",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "fhrs:id": "520182",
+        "name": "Jin Li",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "phone": "+44 1895 252 980",
+        "website": "https://www.jinli.co.uk/en/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26610587,
+      "lat": 51.5394566,
+      "lon": -0.1446078,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "30",
+        "addr:postcode": "NW1 7HB",
+        "addr:street": "Inverness Street",
+        "amenity": "pub",
+        "check_date": "2024-04-26",
+        "fhrs:id": "1492504",
+        "historic": "monument",
+        "name": "The Good Mixer",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26610590,
+      "lat": 51.5405479,
+      "lon": -0.1443341,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "265",
+        "addr:postcode": "NW1 7BU",
+        "addr:street": "Camden High Street",
+        "amenity": "pub",
+        "contact:facebook": "oxfordarms",
+        "contact:instagram": "explore/locations/227378938",
+        "contact:phone": "+44 20 7267 4945",
+        "contact:twitter": "oxfordarms",
+        "contact:website": "https://oxfordarmscamden.co.uk",
+        "fhrs:id": "423942",
+        "internet_access": "wlan",
+        "name": "The Oxford Arms",
+        "opening_hours": "Fr-Sa 12:00-02:00; Su-Th 12:00-01:00",
+        "source:addr": "FHRS Open Data",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26610612,
+      "lat": 51.5411992,
+      "lon": -0.1458705,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "38",
+        "addr:postcode": "NW1 8AF",
+        "addr:street": "Middle Yard, Camden Lock Place",
+        "amenity": "bar",
+        "level": "0",
+        "name": "Canalside Bar",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26671735,
+      "lat": 51.5071604,
+      "lon": -0.1302097,
+      "tags": {
+        "amenity": "parking",
+        "created_by": "Potlatch 0.5a"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26671967,
+      "lat": 51.5095663,
+      "lon": -0.1312249,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "11-18",
+        "addr:postcode": "SW1Y 4DP",
+        "addr:street": "Panton Street",
+        "amenity": "cinema",
+        "brand": "Odeon",
+        "brand:wikidata": "Q6127470",
+        "brand:wikipedia": "en:Odeon Cinemas",
+        "fhrs:id": "411970",
+        "name": "Odeon Luxe Haymarket",
+        "website": "https://www.odeon.co.uk/cinemas/london-haymarket/",
+        "wikidata": "Q42030169"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26699541,
+      "lat": 51.5126577,
+      "lon": -0.1306078,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "99",
+        "addr:postcode": "W1D 5DY",
+        "addr:street": "Shaftesbury Avenue",
+        "amenity": "cinema",
+        "brand": "Curzon",
+        "brand:wikidata": "Q16953326",
+        "check_date": "2025-10-16",
+        "contact:website": "https://www.curzon.com/venues/soho/",
+        "fhrs:id": "411768",
+        "fhrs:local_authority_id": "12/00121/COMM",
+        "name": "Curzon Soho",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes",
+        "wikidata": "Q42029812"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26699558,
+      "lat": 51.5165109,
+      "lon": -0.1307587,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Nicholson's",
+        "brand:wikidata": "Q113130666",
+        "check_date": "2026-01-07",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "The Flying Horse",
+        "old_name": "The Tottenham",
+        "opening_hours": "Mo-Sa 11:00-23:00; Su 12:00-22:30",
+        "outdoor_seating": "no",
+        "real_ale": "yes",
+        "website": "https://www.nicholsonspubs.co.uk/restaurants/london/theflyinghorseoxfordstreetlondon",
+        "wikidata": "Q16707773"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26756585,
+      "lat": 51.4364908,
+      "lon": -0.1972458,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "262-270",
+        "addr:postcode": "SW19 8DS",
+        "addr:street": "Durnsford Road",
+        "amenity": "place_of_worship",
+        "name": "Wimbledon Mosque",
+        "religion": "muslim",
+        "source:addr": "promotional leaflet",
+        "website": "https://wimbledonmosque.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26769263,
+      "lat": 51.4440021,
+      "lon": -0.1911938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Gregory's",
+        "religion": "christian",
+        "source:name": "local knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26815254,
+      "lat": 51.5306043,
+      "lon": -0.1060151,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "check_date": "2024-04-04",
+        "collection_plate": "CP1D",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "colour": "red",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:type": "pillar",
+        "ref": "EC1R 128D;EC1R 1281D",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356",
+        "source": "survey",
+        "wikimedia_commons": "Category:United Kingdom post box EC1R 128D and EC1R 1281D"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26816002,
+      "lat": 51.5209294,
+      "lon": -0.0999515,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:manufacturer": "Handyside & Co Ltd, Derby & London",
+        "post_box:type": "pillar",
+        "ref": "EC1M 130D;EC1M 1301D",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26816003,
+      "lat": 51.5204541,
+      "lon": -0.0991614,
+      "tags": {
+        "amenity": "public_bookcase",
+        "booth": "K2",
+        "disused:amenity": "telephone",
+        "listed_status": "Grade II",
+        "man_made": "telephone_box",
+        "name": "Free Library",
+        "public_bookcase:type": "phone_box",
+        "wikidata": "Q27080292"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26816010,
+      "lat": 51.5227918,
+      "lon": -0.0996753,
+      "tags": {
+        "amenity": "university",
+        "name": "St Bartholomew's and the Royal London School of Medicine and Dentistry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26819248,
+      "lat": 51.5159737,
+      "lon": -0.1885334,
+      "tags": {
+        "amenity": "toilets",
+        "changing_table": "yes",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes",
+        "name": "Queensway",
+        "opening_hours": "Mo-Su 07:30-00:30",
+        "operator": "City of Westminster"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26819333,
+      "lat": 51.5159688,
+      "lon": -0.1881212,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "K6",
+        "check_date": "2025-10-22",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26819335,
+      "lat": 51.5157064,
+      "lon": -0.1897583,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "K6",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26845558,
+      "lat": 51.5110542,
+      "lon": -0.1325596,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "taiwanese",
+        "name": "Old Tree Daiwan Bee"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26846355,
+      "lat": 51.512357,
+      "lon": -0.1295014,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "brand": "Q-Park",
+        "brand:wikidata": "Q1127798",
+        "brand:wikipedia": "en:Q-Park",
+        "fee": "yes",
+        "layer": "-1",
+        "name": "QPark Chinatown",
+        "opening_hours": "24/7",
+        "operator": "Q-Park",
+        "operator:wikidata": "Q1127798",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26866990,
+      "lat": 51.5153419,
+      "lon": -0.142835,
+      "tags": {
+        "amenity": "parking",
+        "name": "Soho Cark Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26975414,
+      "lat": 51.5427803,
+      "lon": -0.0813261,
+      "tags": {
+        "amenity": "post_box",
+        "brand": "Royal Mail",
+        "brand:wikidata": "Q638098",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:apertures": "2",
+        "post_box:design": "type_c",
+        "post_box:type": "pillar",
+        "ref": "N1 66D;N1 166D",
+        "royal_cypher": "EIIR",
+        "royal_cypher:wikidata": "Q33102113",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26979398,
+      "lat": 51.5459392,
+      "lon": -0.4799811,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:housenumber": "54",
+        "addr:postcode": "UB8 1AB",
+        "addr:street": "Windsor Street",
+        "amenity": "pub",
+        "brand": "Greene King",
+        "brand:wikidata": "Q5564162",
+        "fhrs:id": "1786278",
+        "name": "Queen's Head",
+        "phone": "+44 1895 258750",
+        "website": "https://www.greeneking-pubs.co.uk/pubs/middlesex/queens-head/",
+        "wikidata": "Q17018369"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26979399,
+      "lat": 51.5454653,
+      "lon": -0.480097,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:housenumber": "8,9",
+        "addr:postcode": "UB8 1AB",
+        "addr:street": "Windsor Street",
+        "amenity": "pub",
+        "fhrs:id": "519912",
+        "name": "The Metropolitan",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 12:00-22:00",
+        "operator": "Stonegate",
+        "operator:wikidata": "Q7619176",
+        "phone": "+44 1895 230031",
+        "website": "https://www.greatukpubs.co.uk/metropolitan-tavern-uxbridge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26979400,
+      "lat": 51.5455668,
+      "lon": -0.4802997,
+      "tags": {
+        "addr:city": "Uxbridge",
+        "addr:country": "GB",
+        "addr:housenumber": "49",
+        "addr:postcode": "UB8 1AB",
+        "addr:street": "Windsor Street",
+        "amenity": "pub",
+        "brand": "Greene King",
+        "brand:wikidata": "Q5564162",
+        "fhrs:id": "519920",
+        "name": "The Fig Tree",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-01:00; Su 12:00-23:00",
+        "phone": "+44 1895 257932",
+        "website": "https://www.greeneking-pubs.co.uk/pubs/middlesex/fig-tree/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26979401,
+      "lat": 51.5476493,
+      "lon": -0.4806061,
+      "tags": {
+        "amenity": "pub",
+        "fhrs:id": "519877",
+        "name": "Whelans",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wikidata": "Q26354638"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26979403,
+      "lat": 51.5456282,
+      "lon": -0.4788813,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Greene King",
+        "brand:wikidata": "Q5564162",
+        "fhrs:id": "519874",
+        "name": "The Three Tuns",
+        "website": "https://www.greeneking.co.uk/pubs/middlesex/three-tuns",
+        "wikidata": "Q17022824"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26979404,
+      "lat": 51.546377,
+      "lon": -0.4792492,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "Five Guys",
+        "brand:wikidata": "Q1131810",
+        "brand:wikipedia": "en:Five Guys",
+        "contact:website": "https://restaurants.fiveguys.co.uk/greater-london/162-163-high-st",
+        "cuisine": "burger",
+        "drive_through": "no",
+        "fhrs:id": "518699",
+        "name": "Five Guys",
+        "official_name": "Five Guys Burgers and Fries",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26980235,
+      "lat": 51.6630788,
+      "lon": -0.0854123,
+      "tags": {
+        "amenity": "pub",
+        "name": "The Wonder",
+        "opening_hours": "Mo-Th 11:00-23:00; Su 12:00-23:00; Fr,Sa 11:00-24:00",
+        "wikidata": "Q60135745",
+        "wikipedia": "en:The Wonder (pub)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26982478,
+      "lat": 51.6781721,
+      "lon": -0.0593586,
+      "tags": {
+        "addr:postcode": "EN2 9HE",
+        "amenity": "pub",
+        "name": "The Pied Bull",
+        "wikidata": "Q26350046"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26982535,
+      "lat": 51.6813611,
+      "lon": -0.0770974,
+      "tags": {
+        "amenity": "pub",
+        "name": "The King and Tinker",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wikidata": "Q26484378"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26992533,
+      "lat": 51.4455382,
+      "lon": -0.044651,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "73",
+        "addr:postcode": "SE23 1EX",
+        "addr:street": "Bovill Road",
+        "amenity": "pub",
+        "fhrs:id": "1636302",
+        "name": "General Napier"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26992679,
+      "lat": 51.4428876,
+      "lon": -0.0450111,
+      "tags": {
+        "amenity": "fire_station",
+        "check_date": "2023-06-17",
+        "level": "0"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26992680,
+      "lat": 51.4428978,
+      "lon": -0.044571,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Malham Christian Centre",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26992933,
+      "lat": 51.4432329,
+      "lon": -0.0422998,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "St Germains Hotel",
+        "addr:housenumber": "1",
+        "addr:postcode": "SE23 1RH",
+        "addr:street": "St Germans Road",
+        "amenity": "pub",
+        "brewery": "yes",
+        "check_date": "2023-06-17",
+        "contact:instagram": "thehonoroakpub",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "hello@honoroak.pub",
+        "fhrs:id": "1599832",
+        "level": "0",
+        "lgbtq": "welcome",
+        "name": "The Honor Oak",
+        "opening_hours": "Su-Th 12:00-23:00; Fr-Sa 12:00-25:00",
+        "opening_hours:kitchen": "Mo-Sa 12:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "outside",
+        "source": "survey",
+        "toilets": "yes",
+        "website": "https://www.honoroak.pub/",
+        "website:menu": "https://www.honoroak.pub/menu",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27000982,
+      "lat": 51.4549262,
+      "lon": -0.0313739,
+      "tags": {
+        "addr:city": "London",
+        "addr:postcode": "SE4 1EA",
+        "addr:street": "Huxbear Street",
+        "addr:suburb": "Crofton Park",
+        "amenity": "place_of_worship",
+        "denomination": "baptist",
+        "fhrs:id": "516372",
+        "name": "Crofton Park Baptist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27017235,
+      "lat": 51.5234117,
+      "lon": -0.1618602,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "21",
+        "addr:street": "Balcombe Street",
+        "amenity": "pub",
+        "check_date": "2025-04-28",
+        "name": "Sir John Balcombe",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27242140,
+      "lat": 51.446355,
+      "lon": -0.300114,
+      "tags": {
+        "amenity": "post_box",
+        "check_date:collection_times": "2025-04-05",
+        "collection_times": "Mo-Fr 09:00; Sa 07:00",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "TW10 48D",
+        "royal_cypher": "EIIR",
+        "royal_cypher:wikidata": "Q33102113"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27245287,
+      "lat": 51.465564,
+      "lon": -0.299238,
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "121-123",
+        "addr:postcode": "TW9 2PN",
+        "addr:street": "Kew Road",
+        "amenity": "pub",
+        "check_date:opening_hours": "2023-05-28",
+        "fhrs:id": "1574771",
+        "indoor_seating": "yes",
+        "name": "The Shaftesbury Arms",
+        "opening_hours:signed": "no",
+        "outdoor_seating": "no",
+        "source:addr": "FHRS Open Data",
+        "source:name": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27248233,
+      "lat": 51.4397261,
+      "lon": -0.148007,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KX100",
+        "covered": "booth",
+        "phone": "+44 20 8673 2529"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27334600,
+      "lat": 51.5362564,
+      "lon": -0.1907252,
+      "tags": {
+        "access": "private",
+        "amenity": "parking_entrance",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27348824,
+      "lat": 51.671207,
+      "lon": -0.083777,
+      "tags": {
+        "amenity": "pub",
+        "name": "Rose and Crown",
+        "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-22:30",
+        "operator": "British Waterways/Scottish",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wikidata": "Q26352471"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27349206,
+      "lat": 51.656505,
+      "lon": -0.0874147,
+      "tags": {
+        "amenity": "pub",
+        "name": "Cricketers Arms",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27349264,
+      "lat": 51.6499158,
+      "lon": -0.063099,
+      "tags": {
+        "addr:city": "Enfield",
+        "addr:housenumber": "253",
+        "addr:postcode": "EN1 1RG",
+        "addr:street": "Southbury Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "thai",
+        "name": "The Meeting Bar and Restaurant",
+        "outdoor_seating": "yes",
+        "website": "https://www.themeetingenfield.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27359713,
+      "lat": 51.5755814,
+      "lon": 0.2107384,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 17:00; Sa 12:30",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "RM11 239"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27364392,
+      "lat": 51.5783635,
+      "lon": -0.0819029,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2024-10-14",
+        "name": "No.8 Seven Sisters",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27386452,
+      "lat": 51.5743099,
+      "lon": 0.2030686,
+      "tags": {
+        "amenity": "doctors",
+        "healthcare": "doctor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27386453,
+      "lat": 51.571745,
+      "lon": 0.2100511,
+      "tags": {
+        "addr:city": "Hornchurch",
+        "addr:housenumber": "140",
+        "addr:postcode": "RM11 2DL",
+        "addr:street": "Hillview Avenue",
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 18:00; Sa 12:30",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "RM11 203"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27408323,
+      "lat": 51.5116826,
+      "lon": -0.3051555,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "24-25",
+        "addr:postcode": "W5 5DB",
+        "addr:street": "High Street",
+        "amenity": "pub",
+        "check_date": "2025-10-03",
+        "fhrs:id": "1032609",
+        "food": "yes",
+        "name": "The Drapers Arms",
+        "source:addr": "FHRS Open Data"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27411455,
+      "lat": 51.5673615,
+      "lon": -0.1254903,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "N19 9",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27411479,
+      "lat": 51.5662847,
+      "lon": -0.123722,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "ref": "N19 10"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27411557,
+      "lat": 51.5646374,
+      "lon": -0.1217505,
+      "tags": {
+        "amenity": "pub",
+        "description": "formely 'The Pink Chameleon'",
+        "name": "North Nineteen",
+        "opening_hours": "Mo-Th 16:00-12:00, Fr 16:00-01:00",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27412196,
+      "lat": 51.5625296,
+      "lon": -0.1200983,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "N7 2",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27413769,
+      "lat": 51.5616225,
+      "lon": -0.1167294,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Esso",
+        "brand:wikidata": "Q867662",
+        "brand:wikipedia": "en:Esso",
+        "contact:website": "https://www.esso.co.uk/en-gb/find-station/esso-islington-essomfghornseyroad-100347051",
+        "name": "Esso",
+        "operator": "Motor Fuel Group",
+        "operator:website": "https://www.motorfuelgroup.com/locations/hornsey-road-fs748/",
+        "operator:wikidata": "Q107271358"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27413885,
+      "lat": 51.5599216,
+      "lon": -0.1158818,
+      "tags": {
+        "amenity": "telephone",
+        "booth": "KXPlus",
+        "covered": "booth"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27431854,
+      "lat": 51.6000487,
+      "lon": 0.0258347,
+      "tags": {
+        "amenity": "post_box",
+        "collection_times": "Mo-Fr 16:30, Sa 11:30",
+        "postal_code": "IG8 9HR",
+        "ref": "IG8 44",
+        "royal_cypher": "GR",
+        "royal_cypher:wikidata": "Q33102273"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27475739,
+      "lat": 51.5102956,
+      "lon": -0.3052313,
+      "tags": {
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "check_date": "2025-10-03",
+        "level": "0",
+        "name": "The Grove",
+        "outdoor_seating": "yes",
+        "real_ale": "yes",
+        "toilets": "yes",
+        "toilets:access": "customers"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27475983,
+      "lat": 51.5080196,
+      "lon": -0.3050181,
+      "tags": {
+        "amenity": "pub",
+        "brand": "Fuller's",
+        "brand:wikidata": "Q5253950",
+        "check_date": "2025-09-13",
+        "name": "The Red Lion",
+        "outdoor_seating": "yes",
+        "website": "https://www.theredlionw5.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27476034,
+      "lat": 51.5061889,
+      "lon": -0.3053344,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "The Castle",
+        "addr:housenumber": "36",
+        "addr:postcode": "W5 5EU",
+        "addr:street": "St Marys Road",
+        "addr:suburb": "Ealing",
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "brand": "Fuller's",
+        "brand:wikidata": "Q5253950",
+        "check_date": "2025-09-13",
+        "fhrs:id": "1032681",
+        "name": "The Castle Inn",
+        "source:addr": "FHRS Open Data",
+        "website": "https://www.castleealing.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27476300,
+      "lat": 51.5081772,
+      "lon": -0.3000644,
+      "tags": {
+        "amenity": "post_box",
+        "operator": "Royal Mail",
+        "operator:wikidata": "Q638098",
+        "post_box:type": "pillar",
+        "ref": "W5 30",
+        "royal_cypher": "VR",
+        "royal_cypher:wikidata": "Q33102356"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27476983,
+      "lat": 51.5148399,
+      "lon": -0.302661,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2025-10-03",
+        "name": "The Shanakee",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27476990,
+      "lat": 51.5138717,
+      "lon": -0.3018562,
+      "tags": {
+        "amenity": "pub",
+        "check_date": "2025-12-13",
+        "food": "yes",
+        "level": "0",
+        "name": "The North Star",
+        "note": "Great Young Pub",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27477157,
+      "lat": 51.5169211,
+      "lon": -0.299932,
+      "tags": {
+        "addr:city": "London",
+        "addr:housenumber": "41",
+        "addr:postcode": "W5 2HZ",
+        "addr:street": "Haven Lane",
+        "ale": "yes",
+        "amenity": "pub",
+        "brand": "Fuller's",
+        "brand:wikidata": "Q5253950",
+        "email": "wheatsheaf@fullers.co.uk",
+        "fhrs:id": "1032516",
+        "fixme:place": "Ealing",
+        "name": "The Wheatsheaf",
+        "operator": "Fuller's",
+        "phone": "+44 20 8997 5240",
+        "source:addr": "FHRS Open Data",
+        "website": "https://wheatsheaf-ealing.co.uk/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27477159,
+      "lat": 51.5168303,
+      "lon": -0.3000951,
+      "tags": {
+        "addr:city": "London",
+        "addr:housename": "Haven Arms",
+        "addr:housenumber": "33",
+        "addr:postcode": "W5 2HZ",
+        "addr:street": "Haven Lane",
+        "amenity": "pub",
+        "facebook": "Havenarms",
+        "fhrs:id": "1033730",
+        "fixme:place": "Ealing",
+        "name": "The Haven Arms",
+        "phone": "+44 20 8997 0378",
+        "source:addr": "FHRS Open Data",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "twitter": "HavenArms",
+        "website": "http://www.thehavenarms.co.uk/"
+      }
+    }
+  ]
+}

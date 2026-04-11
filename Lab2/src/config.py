@@ -5,4 +5,25 @@
 # - Own Selected City (Skopje)
 # Objects: Monuments/Statues & Shops/stores
 
-OVERPASS_URL = "https://overpass-api.de/api/interpreter"
+DB_NAME = "lab2.db"
+
+CITIES = [
+    "London",
+    "New York",
+    "Mexico City",
+    "Berlin"
+]
+
+PLACE_TYPES = [
+    "monument",
+    "statue",
+    "shop",
+    "store"
+]
+
+MIN_OBJECTS_PER_CITY = 200
+REQUEST_DELAY = 0.5
+MAX_RETRIES = 5
+
+OVERPASS_API = "https://overpass-api.de/api/interpreter"
+WIKI_API = "https://en.wikipedia.org/w/api.php"
