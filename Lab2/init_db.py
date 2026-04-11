@@ -1,7 +1,7 @@
 import sqlite3
 from src.config import DB_NAME
 
-DB = f"{DB_NAME}.db"
+DB = f"db/{DB_NAME}"
 
 def connect():
     conn = sqlite3.connect(DB)
