@@ -27,3 +27,4 @@ MAX_RETRIES = 5
 
 OVERPASS_API = "https://overpass-api.de/api/interpreter"
 WIKI_API = "https://en.wikipedia.org/w/api.php"
+NOMINATIM_API = "https://nominatim.openstreetmap.org/search"

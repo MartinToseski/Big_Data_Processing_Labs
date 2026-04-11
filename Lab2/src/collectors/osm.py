@@ -27,7 +27,7 @@ def fetch_osm_data(city, timeout=60):
         node["shop"](area.searchArea);
         node["tourism"="artwork"](area.searchArea);
     );
-    out body 400;
+    out body 300;
     """
 
     data = safe_request(query)

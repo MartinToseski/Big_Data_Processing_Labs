@@ -1,0 +1,4306 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-11T15:54:39Z",
+    "timestamp_areas_base": "2026-04-11T11:17:26Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 75427609,
+      "lat": 42.0495412,
+      "lon": -73.4873386,
+      "tags": {
+        "boundary": "marker",
+        "description": "Tripoint boundary marker for Connecticut, Massachusetts, and New York",
+        "ele": "654",
+        "historic": "monument",
+        "inscription": "THE NORTH SIDE IS INSCRIBED 'MASS', THE SOUTH SIDE IS INSCRIBED 'NEW YORK', THE WEST SIDE IS INSCRIBED '1898' AND THE EAST SIDE IS UNMARKED.",
+        "name": "Tri-State Marker",
+        "tourism": "attraction",
+        "wikidata": "Q131294087",
+        "wikimedia_commons": "File:CT-MA-NY Tri-State Monument - 2024 - looking east.jpg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 116670837,
+      "lat": 42.1564544,
+      "lon": -74.5282017,
+      "tags": {
+        "alt_name": "Fleischmanns Wines",
+        "name": "Fleischmanns Spirits",
+        "phone": "+1-845-254-4919",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 117182732,
+      "lat": 42.1683117,
+      "lon": -75.1313601,
+      "tags": {
+        "beauty": "hair;nails",
+        "name": "Just Hair & More",
+        "phone": "+1-607-865-7471",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 117434145,
+      "lat": 42.156192,
+      "lon": -74.5268632,
+      "tags": {
+        "name": "The Tinder Box",
+        "opening_hours": "Tu-Sa 09:00-15:00",
+        "phone": "+1-845-254-5999",
+        "shop": "fireplace",
+        "website": "https://www.thetinderboxltd.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 117434243,
+      "lat": 42.1565295,
+      "lon": -74.5270369,
+      "tags": {
+        "name": "The Golden Nest",
+        "shop": "antiques"
+      }
+    },
+    {
+      "type": "node",
+      "id": 175197972,
+      "lat": 42.7675682,
+      "lon": -78.6118118,
+      "tags": {
+        "name": "Dan's Auto Repair",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 265837170,
+      "lat": 42.8995639,
+      "lon": -78.8787798,
+      "tags": {
+        "name": "Holly Farms",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 266031108,
+      "lat": 42.8995376,
+      "lon": -78.8720469,
+      "tags": {
+        "addr:housenumber": "55",
+        "addr:street": "Allen Street",
+        "check_date": "2024-06-05",
+        "contact:website": "https://rickcycleshop.com/",
+        "name": "Rick Cycle Shop",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 266031177,
+      "lat": 42.899535,
+      "lon": -78.8731539,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Allen Street",
+        "check_date": "2024-06-06",
+        "contact:instagram": "https://www.instagram.com/saiboafrican",
+        "name": "Saibo African Imports",
+        "origin": "africa",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 280572143,
+      "lat": 40.7707762,
+      "lon": -73.9083348,
+      "tags": {
+        "addr:housenumber": "23-05",
+        "addr:street": "Steinway Street",
+        "name": "Steinway Auto Repairs",
+        "phone": "+1-718-545-6129",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293302295,
+      "lat": 42.920248,
+      "lon": -78.8989003,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "1330",
+        "addr:postcode": "14213",
+        "addr:state": "NY",
+        "addr:street": "Niagara St",
+        "air_conditioning": "yes",
+        "alt_name": "Campus Wheel Works",
+        "check_date": "2025-11-04",
+        "drinking_water": "yes",
+        "email": "ejohnson@campuswheelworks.com",
+        "name": "Campus Wheelworks",
+        "nysgissam:nysaddresspointid": "ERIE132664",
+        "opening_hours": "Tu-Sa 10:00-18:00; Su 10:00-15:00; Oct-Apr Su off, PH",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "phone": "+17168813613;+17162482372",
+        "service:bicycle:cleaning": "yes",
+        "service:bicycle:ebike": "yes",
+        "service:bicycle:pump": "yes",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "yes",
+        "service:bicycle:sales": "yes",
+        "service:bicycle:service": "yes",
+        "service:bicycle:tools": "yes",
+        "shop": "bicycle",
+        "website": "https://www.campuswheelworks.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293302323,
+      "lat": 42.9473954,
+      "lon": -78.8401239,
+      "tags": {
+        "created_by": "Potlatch 0.10b",
+        "name": "Shickluna Bikes",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 293302405,
+      "lat": 42.965135,
+      "lon": -78.8437546,
+      "tags": {
+        "created_by": "Potlatch 0.10b",
+        "name": "Handlebars Bike Shop",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 298906744,
+      "lat": 43.238224,
+      "lon": -78.9100443,
+      "tags": {
+        "created_by": "Potlatch 0.10b",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 335016567,
+      "lat": 44.6680848,
+      "lon": -74.987992,
+      "tags": {
+        "addr:city": "Potsdam",
+        "addr:housenumber": "1",
+        "addr:postcode": "13676-1888",
+        "addr:state": "NY",
+        "addr:street": "Maple Street",
+        "brand": "Ace Hardware",
+        "brand:wikidata": "Q4672981",
+        "name": "Evans and Whites",
+        "opening_hours": "Mo-Sa 07:00-19:00; Su 09:00-17:00",
+        "phone": "+1 315-265-4350",
+        "ref": "18268",
+        "shop": "doityourself"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438112,
+      "lat": 44.6700729,
+      "lon": -74.9837278,
+      "tags": {
+        "name": "Purple Rice",
+        "not:brand:wikidata": "Q28228105",
+        "organic": "only",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438113,
+      "lat": 44.6710711,
+      "lon": -74.9871309,
+      "tags": {
+        "name": "US Armed Forces Recruiting Center",
+        "shop": "services"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438117,
+      "lat": 44.6713765,
+      "lon": -74.9870687,
+      "tags": {
+        "name": "Carol Lee Shoppe",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438123,
+      "lat": 44.6712841,
+      "lon": -74.9870646,
+      "tags": {
+        "name": "Morgan Stanley Smith Barney",
+        "shop": "office"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438131,
+      "lat": 44.6716845,
+      "lon": -74.9854374,
+      "tags": {
+        "name": "Potsdam Laundry & Dry cleaners",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438133,
+      "lat": 44.671555,
+      "lon": -74.9870688,
+      "tags": {
+        "name": "Northwestern Mutual Financial Network",
+        "shop": "office"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438143,
+      "lat": 44.6708488,
+      "lon": -74.9866685,
+      "tags": {
+        "name": "Health Services of Northern New York",
+        "shop": "office"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438146,
+      "lat": 44.6707436,
+      "lon": -74.9866794,
+      "tags": {
+        "name": "Penski Inc.",
+        "shop": "office"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438148,
+      "lat": 44.6706129,
+      "lon": -74.986674,
+      "tags": {
+        "name": "Northern Interiors",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438150,
+      "lat": 44.670433,
+      "lon": -74.9866666,
+      "tags": {
+        "name": "Pinto, Mucenski & Watson, P.C.",
+        "shop": "office"
+      }
+    },
+    {
+      "type": "node",
+      "id": 339438155,
+      "lat": 44.6700955,
+      "lon": -74.9866934,
+      "tags": {
+        "addr:city": "Potsdam",
+        "addr:postcode": "13676",
+        "addr:state": "NY",
+        "addr:street": "Market Street",
+        "name": "Argents",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 353886426,
+      "lat": 44.6687808,
+      "lon": -74.9859368,
+      "tags": {
+        "name": "Main Street Barber",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 353886458,
+      "lat": 44.6687809,
+      "lon": -74.9860212,
+      "tags": {
+        "name": "Hair Salon & Tanning",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354753772,
+      "lat": 44.6673349,
+      "lon": -75.0204032,
+      "tags": {
+        "name": "Willow Tree",
+        "shop": "garden_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354753798,
+      "lat": 44.658457,
+      "lon": -75.0358308,
+      "tags": {
+        "name": "Steve's RV",
+        "shop": "caravan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354760242,
+      "lat": 44.6552844,
+      "lon": -75.0413063,
+      "tags": {
+        "name": "Not Just RVs",
+        "shop": "caravan"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354760272,
+      "lat": 44.6351821,
+      "lon": -75.0769904,
+      "tags": {
+        "name": "Adirondack Furniture Center",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354764547,
+      "lat": 44.6308065,
+      "lon": -75.0845848,
+      "tags": {
+        "name": "Sovie's Cycle",
+        "shop": "motorcycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354764552,
+      "lat": 44.6315703,
+      "lon": -75.0842432,
+      "tags": {
+        "name": "Clothes Closet",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354764557,
+      "lat": 44.6217833,
+      "lon": -75.1000782,
+      "tags": {
+        "name": "Windy Hill Storage",
+        "shop": "storage_rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354764565,
+      "lat": 44.6092887,
+      "lon": -75.1237952,
+      "tags": {
+        "name": "Waldroff Equipment",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354764570,
+      "lat": 44.6050023,
+      "lon": -75.1338148,
+      "tags": {
+        "name": "Rt. 11 Truck & Equipment Sales Center",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354782217,
+      "lat": 44.5975702,
+      "lon": -75.1482144,
+      "tags": {
+        "addr:city": "Canton",
+        "addr:housenumber": "115",
+        "addr:postcode": "13617",
+        "addr:state": "NY",
+        "addr:street": "East Main Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "phone": "+1 315-386-3157",
+        "ref": "119",
+        "shop": "convenience",
+        "website": "https://locations.stewartsshops.com/ll/US/NY/Canton/115-East-Main-Street"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354782218,
+      "lat": 44.5974497,
+      "lon": -75.148796,
+      "tags": {
+        "check_date": "2024-08-05",
+        "name": "Monroe Muffler",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354782221,
+      "lat": 44.5983061,
+      "lon": -75.1495687,
+      "tags": {
+        "brand": "Price Chopper",
+        "brand:wikidata": "Q7242574",
+        "check_date": "2024-08-05",
+        "name": "Price Chopper",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354782223,
+      "lat": 44.5973689,
+      "lon": -75.150728,
+      "tags": {
+        "brand": "Mobil Mart",
+        "brand:wikidata": "Q109676002",
+        "name": "Mobil Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354789085,
+      "lat": 44.5955698,
+      "lon": -75.1721593,
+      "tags": {
+        "name": "Nature's Storehouse",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354793296,
+      "lat": 44.5090157,
+      "lon": -75.2678094,
+      "tags": {
+        "addr:city": "De Kalb Junction",
+        "addr:housenumber": "4420",
+        "addr:postcode": "13630-5101",
+        "addr:state": "NY",
+        "addr:street": "Highway 11",
+        "brand": "Ace Hardware",
+        "brand:wikidata": "Q4672981",
+        "name": "Carvel Hardware",
+        "opening_hours": "Mo-Sa 07:30-17:00; Su 08:00-16:00",
+        "phone": "+1 315-347-3465",
+        "ref": "16709",
+        "shop": "doityourself"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354793301,
+      "lat": 44.5045088,
+      "lon": -75.2749784,
+      "tags": {
+        "name": "Allen-Denesha Funeral Home",
+        "shop": "funeral_directors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354793308,
+      "lat": 44.4787336,
+      "lon": -75.3077506,
+      "tags": {
+        "name": "Green Thumb Therapy",
+        "shop": "garden_centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354793319,
+      "lat": 44.3455327,
+      "lon": -75.4472741,
+      "tags": {
+        "name": "Spellicy Auto Sales",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354793324,
+      "lat": 44.3410616,
+      "lon": -75.4549137,
+      "tags": {
+        "brand": "Price Chopper",
+        "brand:wikidata": "Q7242574",
+        "name": "Price Chopper",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 354793327,
+      "lat": 44.3394064,
+      "lon": -75.4566832,
+      "tags": {
+        "name": "Northern Collision",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 355447177,
+      "lat": 44.3300192,
+      "lon": -74.130802,
+      "tags": {
+        "shop": "antiques"
+      }
+    },
+    {
+      "type": "node",
+      "id": 355447197,
+      "lat": 44.3291535,
+      "lon": -74.1300123,
+      "tags": {
+        "created_by": "Potlatch 0.10f",
+        "name": "Grand Union",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357554764,
+      "lat": 43.3771434,
+      "lon": -73.7003289,
+      "tags": {
+        "ele": "181",
+        "gnis:feature_id": "947167",
+        "historic": "monument",
+        "leisure": "park",
+        "name": "Colonel Williams Monument",
+        "wikidata": "Q34819277"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357561582,
+      "lat": 43.5731678,
+      "lon": -73.6007909,
+      "tags": {
+        "ele": "97",
+        "gnis:feature_id": "951184",
+        "name": "Glen Island Ranger Station",
+        "shop": "convenience",
+        "url": "http://www.dec.ny.gov/docs/permits_ej_operations_pdf/lgislands080510.pdf",
+        "website": "https://newyorkstateparks.reserveamerica.com/campgroundDetails.do?contractCode=NY&parkId=140"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357595798,
+      "lat": 43.0065143,
+      "lon": -77.2242535,
+      "tags": {
+        "ele": "197",
+        "gnis:feature_id": "969319",
+        "historic": "monument",
+        "name": "Angel Moroni Monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357620718,
+      "lat": 40.7714555,
+      "lon": -73.9679875,
+      "tags": {
+        "architect": "Bruce Price",
+        "artist_name": "Daniel Chester French",
+        "artwork_type": "bust",
+        "ele": "26",
+        "gnis:feature_id": "2083525",
+        "historic": "memorial",
+        "name": "Richard Morris Hunt",
+        "start_date": "1898",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/756",
+        "website:alternate": "https://www.centralparknyc.org/locations/richard-morris-hunt",
+        "wikidata": "Q18156903",
+        "wikipedia": "en:Richard Morris Hunt Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357621823,
+      "lat": 40.7941111,
+      "lon": -73.9764799,
+      "tags": {
+        "artist_name": "Anna Vaughn Hyatt Huntington",
+        "artwork_subject": "Joan of Arc",
+        "artwork_type": "sculpture",
+        "ele": "19",
+        "gnis:feature_id": "2084645",
+        "material": "bronze",
+        "name": "Joan of Arc Memorial",
+        "start_date": "1915",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/riverside-park/monuments/819"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357621896,
+      "lat": 41.3946465,
+      "lon": -73.9526198,
+      "tags": {
+        "ele": "46",
+        "gnis:feature_id": "2091622",
+        "historic": "monument",
+        "name": "Kosciuszko Monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357621901,
+      "lat": 41.3944659,
+      "lon": -73.9566073,
+      "tags": {
+        "ele": "46",
+        "gnis:feature_id": "2091623",
+        "historic": "monument",
+        "name": "Sedgwick Monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357622235,
+      "lat": 41.4986111,
+      "lon": -74.01,
+      "tags": {
+        "designation": "Newburgh Art Supply",
+        "ele": "31",
+        "gnis:feature_id": "2093294",
+        "religion": "christian",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357623896,
+      "lat": 40.6611011,
+      "lon": -73.953359,
+      "tags": {
+        "name": "Hee-Space Thrift Shop",
+        "opening_hours": "Th-Su 12:00-18:00",
+        "shop": "charity",
+        "website": "https://www.hee-space.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357625372,
+      "lat": 40.645825,
+      "lon": -74.0169726,
+      "tags": {
+        "atm": "yes",
+        "cuisine": "sandwich;latin_american",
+        "drink:beer": "yes",
+        "name": "The First Stop Deli Grocery",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357625435,
+      "lat": 40.651682,
+      "lon": -73.9755124,
+      "tags": {
+        "atm": "yes",
+        "cuisine": "sandwich",
+        "drink:beer": "yes",
+        "drink:coffee": "yes",
+        "name": "New Blondie",
+        "phone": "+1-717-686-1003",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357645476,
+      "lat": 40.6900102,
+      "lon": -73.9929109,
+      "tags": {
+        "name": "Alnoor Boutique",
+        "phone": "+1-718-802-1514",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 357647461,
+      "lat": 40.7387161,
+      "lon": -73.9824733,
+      "tags": {
+        "addr:housenumber": "207",
+        "addr:postcode": "10010",
+        "addr:street": "East 23rd Street",
+        "fax": "+1-212-592-2914",
+        "name": "SVA Campus Store",
+        "opening_hours": "Mo-Fr 10:00-18:00",
+        "operator": "School of Visual Arts",
+        "phone": "+1-212-592-2900",
+        "shop": "gift"
+      }
+    },
+    {
+      "type": "node",
+      "id": 359931550,
+      "lat": 44.3640183,
+      "lon": -73.8961774,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "Big Wooden Bear (8')",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 362003276,
+      "lat": 44.7972819,
+      "lon": -74.9834046,
+      "tags": {
+        "name": "Al Smith's Superette",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 362003285,
+      "lat": 44.7945951,
+      "lon": -74.9836535,
+      "tags": {
+        "name": "Norfolk Liquor",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 362758580,
+      "lat": 44.6629436,
+      "lon": -74.9746445,
+      "tags": {
+        "name": "Minerva Statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214475,
+      "lat": 43.0839227,
+      "lon": -73.7435819,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214478,
+      "lat": 43.1236429,
+      "lon": -73.7674183,
+      "tags": {
+        "addr:city": "Wilton",
+        "addr:housenumber": "445",
+        "addr:street": "Northern Pines Road",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214486,
+      "lat": 42.9032306,
+      "lon": -73.7963998,
+      "tags": {
+        "addr:city": "Ballston+Lake",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214494,
+      "lat": 43.0790242,
+      "lon": -73.804347,
+      "tags": {
+        "addr:city": "Saratoga Springs",
+        "addr:housenumber": "87",
+        "addr:postcode": "12866",
+        "addr:state": "NY",
+        "addr:street": "West Avenue",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=17"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214514,
+      "lat": 43.028291,
+      "lon": -73.927557,
+      "tags": {
+        "addr:city": "Ballston Spa",
+        "addr:housenumber": "101",
+        "addr:postcode": "12020",
+        "addr:state": "NY",
+        "addr:street": "West Milton Road",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "opening_hours": "Mo-Su 04:30-24:00",
+        "operator": "Stewart's Shops",
+        "phone": "+1-518-885-0684",
+        "shop": "convenience",
+        "source": "https://locations.stewartsshops.com/ll/US/NY/Ballston-Spa/101-West-Milton-Road",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=23",
+        "website": "https://www.stewartsshops.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214536,
+      "lat": 43.1012374,
+      "lon": -73.5802666,
+      "tags": {
+        "addr:city": "Schuylerville",
+        "name": "Olde Saratoga Wine & Spirits",
+        "shop": "alcohol",
+        "was:name": "Stewart's Shops",
+        "was:shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214540,
+      "lat": 42.9942988,
+      "lon": -73.8503521,
+      "tags": {
+        "addr:city": "Ballston Spa",
+        "addr:floor": "Floor 1",
+        "addr:housenumber": "170",
+        "addr:postcode": "12020",
+        "addr:state": "NY",
+        "addr:street": "Church Avenue",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "nysgissam:nysaddresspointid": "SARA002001;SARA094469",
+        "nysgissam:review": "found > 1 existing matching address",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=27"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214556,
+      "lat": 43.1705599,
+      "lon": -73.7181251,
+      "tags": {
+        "addr:city": "Gansevoort",
+        "addr:postcode": "12831",
+        "addr:state": "NY",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=29"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214560,
+      "lat": 42.8049662,
+      "lon": -73.6668979,
+      "tags": {
+        "addr:city": "Waterford",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=33"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214563,
+      "lat": 43.0922867,
+      "lon": -73.7727964,
+      "tags": {
+        "addr:city": "Saratoga+Springs",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=39"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214569,
+      "lat": 42.9430407,
+      "lon": -74.1882934,
+      "tags": {
+        "addr:city": "Amsterdam",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=49"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214573,
+      "lat": 44.2818448,
+      "lon": -73.9819936,
+      "tags": {
+        "addr:city": "Lake Placid",
+        "addr:housenumber": "2711",
+        "addr:postcode": "12946",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "nysgissam:nysaddresspointid": "ESSE004053",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=54"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214586,
+      "lat": 42.6532621,
+      "lon": -73.7882819,
+      "tags": {
+        "addr:city": "Albany",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=61"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214591,
+      "lat": 42.6637916,
+      "lon": -73.7749047,
+      "tags": {
+        "addr:city": "Albany",
+        "name": "Miami Market",
+        "old_name": "Stewart's Shops",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214600,
+      "lat": 42.5927285,
+      "lon": -73.9869447,
+      "tags": {
+        "addr:city": "Voorheesville",
+        "amenity": "fuel",
+        "compressed_air": "yes",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=84"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214607,
+      "lat": 42.7351149,
+      "lon": -73.7004917,
+      "tags": {
+        "addr:city": "Watervliet",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=74"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214620,
+      "lat": 42.7606855,
+      "lon": -74.245278,
+      "tags": {
+        "addr:city": "Esperance",
+        "amenity": "fuel",
+        "brand": "Stewart's",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=105"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214644,
+      "lat": 42.7690803,
+      "lon": -73.8751199,
+      "tags": {
+        "addr:city": "Schenectady",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=106",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214651,
+      "lat": 42.2633277,
+      "lon": -73.8071559,
+      "tags": {
+        "addr:city": "Athens",
+        "addr:state": "NY",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://www.stewartsshops.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214652,
+      "lat": 41.6044143,
+      "lon": -74.2950631,
+      "tags": {
+        "addr:city": "Pine+Bush",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=140"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214656,
+      "lat": 41.502998,
+      "lon": -74.0466484,
+      "tags": {
+        "addr:city": "Newburgh",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=145"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214660,
+      "lat": 42.8437978,
+      "lon": -73.9481052,
+      "tags": {
+        "addr:city": "Scotia",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=123"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214663,
+      "lat": 43.960009,
+      "lon": -75.913529,
+      "tags": {
+        "addr:city": "Watertown",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=126"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214664,
+      "lat": 43.9787916,
+      "lon": -75.9161538,
+      "tags": {
+        "addr:city": "Watertown",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=130"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214665,
+      "lat": 43.975996,
+      "lon": -75.628329,
+      "tags": {
+        "addr:city": "Carthage",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=131"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214666,
+      "lat": 44.0890268,
+      "lon": -75.8081402,
+      "tags": {
+        "addr:city": "Evans+Mills",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=133"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214667,
+      "lat": 43.3221214,
+      "lon": -73.64411,
+      "tags": {
+        "addr:city": "Glens Falls",
+        "addr:housenumber": "250",
+        "addr:postcode": "12801",
+        "addr:state": "NY",
+        "addr:street": "Ridge Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=165"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214670,
+      "lat": 43.3054554,
+      "lon": -73.6550468,
+      "tags": {
+        "addr:city": "Glens Falls",
+        "addr:housenumber": "118",
+        "addr:postcode": "12801",
+        "addr:state": "NY",
+        "addr:street": "Broad Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=161"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214671,
+      "lat": 43.2965457,
+      "lon": -73.6832771,
+      "tags": {
+        "addr:city": "Queensbury",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=171"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214672,
+      "lat": 43.262311,
+      "lon": -73.832177,
+      "tags": {
+        "addr:city": "Lake+Luzerne",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=170"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214676,
+      "lat": 41.78514,
+      "lon": -73.6931016,
+      "tags": {
+        "addr:city": "Millbrook",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=151"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214681,
+      "lat": 41.836061,
+      "lon": -73.763382,
+      "tags": {
+        "addr:city": "Clinton",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=155"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214682,
+      "lat": 41.9724026,
+      "lon": -73.6549866,
+      "tags": {
+        "addr:city": "Pine+Plains",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=154"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214685,
+      "lat": 41.5390457,
+      "lon": -74.0942123,
+      "tags": {
+        "addr:city": "Newburgh",
+        "addr:housenumber": "407",
+        "addr:postcode": "12550",
+        "addr:state": "NY",
+        "addr:street": "South Plank Road",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "nysgissam:nysaddresspointid": "ORAN081286",
+        "opening_hours": "Mo-Su 05:00-21:00",
+        "phone": "+1-845-564-9655",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214696,
+      "lat": 42.7150168,
+      "lon": -73.6936162,
+      "tags": {
+        "addr:city": "Troy",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=195"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214697,
+      "lat": 43.268969,
+      "lon": -75.46662,
+      "tags": {
+        "addr:city": "Rome",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=190"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214699,
+      "lat": 44.002401,
+      "lon": -75.983873,
+      "tags": {
+        "addr:city": "Brownville",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=177"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214701,
+      "lat": 43.311768,
+      "lon": -73.6495614,
+      "tags": {
+        "addr:city": "Glens Falls",
+        "addr:housenumber": "360",
+        "addr:postcode": "12801",
+        "addr:state": "NY",
+        "addr:street": "Glen Street",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=172"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214702,
+      "lat": 43.8944241,
+      "lon": -75.6745388,
+      "tags": {
+        "addr:city": "Copenhagen",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=174"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214704,
+      "lat": 43.037518,
+      "lon": -75.068712,
+      "tags": {
+        "addr:city": "Frankfort",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=184"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214706,
+      "lat": 43.015901,
+      "lon": -75.033711,
+      "tags": {
+        "addr:city": "Ilion",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=181"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214714,
+      "lat": 42.9035435,
+      "lon": -73.585631,
+      "tags": {
+        "addr:city": "Schaghticoke",
+        "addr:housenumber": "62",
+        "addr:postcode": "12154",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "phone": "+1-581-753-0109",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=209"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214718,
+      "lat": 42.896586,
+      "lon": -73.351805,
+      "tags": {
+        "addr:city": "Hoosick+Falls",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=204"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214721,
+      "lat": 42.5181633,
+      "lon": -73.6182932,
+      "tags": {
+        "addr:city": "Nassau",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=199"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214722,
+      "lat": 42.7516448,
+      "lon": -73.6816067,
+      "tags": {
+        "addr:city": "Troy",
+        "name": "Perfect Mart",
+        "old_name": "Stewart's Shops",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214725,
+      "lat": 44.2236981,
+      "lon": -74.4639546,
+      "tags": {
+        "addr:city": "Tupper+Lake",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=242"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214726,
+      "lat": 44.830437,
+      "lon": -74.511259,
+      "tags": {
+        "addr:city": "Brushton",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=243"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214727,
+      "lat": 44.8491701,
+      "lon": -74.3014327,
+      "tags": {
+        "addr:city": "Malone",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=244"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214735,
+      "lat": 42.410533,
+      "lon": -74.624876,
+      "tags": {
+        "addr:city": "Stamford",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=239"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214737,
+      "lat": 44.9270666,
+      "lon": -74.0776811,
+      "tags": {
+        "addr:city": "Chateauagy",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=240"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214741,
+      "lat": 42.6244647,
+      "lon": -75.332654,
+      "tags": {
+        "addr:city": "New+Berlin",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=221"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214748,
+      "lat": 42.6786779,
+      "lon": -75.4987866,
+      "tags": {
+        "addr:city": "Sherburne",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=222"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214749,
+      "lat": 44.6876376,
+      "lon": -73.4845071,
+      "tags": {
+        "addr:city": "Plattsburgh",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=223"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214750,
+      "lat": 44.5808653,
+      "lon": -73.5279372,
+      "tags": {
+        "addr:city": "Peru",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=225"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214761,
+      "lat": 43.2380722,
+      "lon": -73.4909065,
+      "tags": {
+        "addr:city": "Argyle",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=264"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214763,
+      "lat": 43.31972,
+      "lon": -73.5727118,
+      "tags": {
+        "addr:city": "Hudson Falls",
+        "addr:state": "NY",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=263"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214765,
+      "lat": 43.3003952,
+      "lon": -73.5863856,
+      "tags": {
+        "addr:city": "Hudson Falls",
+        "addr:housenumber": "175",
+        "addr:postcode": "12839",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "name": "Stewarts",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214772,
+      "lat": 43.1749922,
+      "lon": -73.3273201,
+      "tags": {
+        "addr:city": "Salem",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=257"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214779,
+      "lat": 42.6943358,
+      "lon": -74.9346274,
+      "tags": {
+        "addr:city": "Cooperstown",
+        "amenity": "fuel",
+        "brand": "Stewart's",
+        "brand:wikidata": "Q7615690",
+        "compressed_air": "yes",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=253"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214785,
+      "lat": 41.4598016,
+      "lon": -74.0597612,
+      "tags": {
+        "addr:city": "New Windsor",
+        "addr:housenumber": "68",
+        "addr:postcode": "12553",
+        "addr:state": "NY",
+        "addr:street": "Old Temple Hill Road",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214790,
+      "lat": 41.846658,
+      "lon": -74.0754273,
+      "tags": {
+        "addr:city": "Rosendale",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=287"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214796,
+      "lat": 44.943962,
+      "lon": -74.90028,
+      "tags": {
+        "addr:city": "Massena",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=280"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214798,
+      "lat": 44.6997918,
+      "lon": -75.4871066,
+      "tags": {
+        "addr:city": "Ogdensburg",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=281"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214801,
+      "lat": 44.3371952,
+      "lon": -75.4602915,
+      "tags": {
+        "addr:city": "Gouverneur",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=279"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214805,
+      "lat": 44.7950007,
+      "lon": -74.7871598,
+      "tags": {
+        "addr:city": "Winthrop",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=276"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214809,
+      "lat": 41.657917,
+      "lon": -74.682316,
+      "tags": {
+        "addr:city": "Monticello",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=271"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214814,
+      "lat": 41.7302691,
+      "lon": -74.6054746,
+      "tags": {
+        "addr:city": "Fallsburgh",
+        "addr:housenumber": "5",
+        "addr:postcode": "12733",
+        "addr:state": "NY",
+        "addr:street": "Brickman Road",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "opening_hours": "Mo-Su 05:00-23:00",
+        "phone": "+18454369502",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=270"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214819,
+      "lat": 42.8791971,
+      "lon": -73.7231537,
+      "tags": {
+        "addr:city": "Halfmoon",
+        "addr:housenumber": "2",
+        "addr:postcode": "12065",
+        "addr:street": "Vosburgh Road",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=321",
+        "website": "https://www.stewartsshops.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214821,
+      "lat": 42.8248904,
+      "lon": -73.7081799,
+      "tags": {
+        "addr:city": "Waterford",
+        "amenity": "fuel",
+        "brand": "Stewart's",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=319"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214825,
+      "lat": 43.2854099,
+      "lon": -73.586012,
+      "tags": {
+        "addr:city": "Fort Edward",
+        "addr:housenumber": "107",
+        "addr:postcode": "12828",
+        "addr:state": "NY",
+        "addr:street": "Broadway",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "phone": "+1-518-747-2473",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=326",
+        "website": "https://www.stewartsshops.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214826,
+      "lat": 43.0463528,
+      "lon": -73.849706,
+      "tags": {
+        "addr:city": "Ballston+Spa",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=325"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214828,
+      "lat": 44.9830548,
+      "lon": -73.3635594,
+      "tags": {
+        "addr:city": "Rouses Point",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "check_date": "2024-07-08",
+        "name": "Stewart's Shops",
+        "opening_hours": "05:00-24:00",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=324"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214841,
+      "lat": 41.771385,
+      "lon": -74.317779,
+      "tags": {
+        "addr:city": "Kerhonkson",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=291"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214850,
+      "lat": 41.7172429,
+      "lon": -74.3955261,
+      "tags": {
+        "addr:city": "Ellenville",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=292"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214852,
+      "lat": 41.9873576,
+      "lon": -73.987669,
+      "tags": {
+        "addr:city": "Lake+Katrine",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=296"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365214858,
+      "lat": 41.928807,
+      "lon": -74.037701,
+      "tags": {
+        "addr:city": "Kingston",
+        "name": "Stewart's",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=300"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365314742,
+      "lat": 44.1490413,
+      "lon": -75.3195901,
+      "tags": {
+        "atm": "yes",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365786267,
+      "lat": 43.7835931,
+      "lon": -75.4901059,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Stewart's",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365786274,
+      "lat": 44.0340171,
+      "lon": -75.718181,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Stewart's",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365786277,
+      "lat": 44.3309939,
+      "lon": -75.4755879,
+      "tags": {
+        "brand": "NAPA Auto Parts",
+        "brand:wikidata": "Q6970842",
+        "name": "NAPA Auto Parts",
+        "operator": "Genuine Parts Company",
+        "operator:wikidata": "Q5533818",
+        "operator:wikipedia": "en:Genuine Parts Company",
+        "shop": "car_parts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365786278,
+      "lat": 44.3299898,
+      "lon": -75.4769494,
+      "tags": {
+        "name": "Nice and Easy",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365788803,
+      "lat": 43.38423,
+      "lon": -76.606688,
+      "tags": {
+        "brand": "Lowe's",
+        "brand:wikidata": "Q1373493",
+        "name": "Lowe's",
+        "shop": "doityourself",
+        "url": "http://stores.lowes.com/lowes/cgi/site?site=1908"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365788805,
+      "lat": 41.0420436,
+      "lon": -73.9475841,
+      "tags": {
+        "addr:city": "Orangeburg",
+        "addr:housenumber": "206",
+        "addr:postcode": "10962",
+        "addr:state": "NY",
+        "addr:street": "Route 303",
+        "check_date": "2023-06-06",
+        "name": "Lowe's",
+        "nysgissam:nysaddresspointid": "ROCK059189",
+        "phone": "+1-845-613-6000",
+        "shop": "doityourself",
+        "url": "http://stores.lowes.com/lowes/cgi/site?site=1192",
+        "website": "https://www.lowes.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365788811,
+      "lat": 40.838754,
+      "lon": -72.996702,
+      "tags": {
+        "name": "Lowe's",
+        "shop": "doityourself",
+        "url": "http://stores.lowes.com/lowes/cgi/site?site=1189"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365788892,
+      "lat": 40.8722877,
+      "lon": -73.1277849,
+      "tags": {
+        "addr:city": "Stony Brook",
+        "addr:housenumber": "2150",
+        "addr:postcode": "11790",
+        "addr:state": "NY",
+        "addr:street": "Nesconset Highway",
+        "brand": "Lowe's",
+        "brand:wikidata": "Q1373493",
+        "name": "Lowe's",
+        "nysgissam:nysaddresspointid": "SUFF404922",
+        "nysgissam:review": "existing element's addr:housenumber has different addr:housenumber",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-21:00",
+        "phone": "+1 631-406-2015",
+        "ref": "2233",
+        "shop": "doityourself",
+        "start_date": "2008-01-27",
+        "url": "http://stores.lowes.com/lowes/cgi/site?site=2233",
+        "website": "https://www.lowes.com/store/ny-stony-brook/2233"
+      }
+    },
+    {
+      "type": "node",
+      "id": 365788906,
+      "lat": 40.6276619,
+      "lon": -74.1623531,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "2171",
+        "addr:postcode": "10303",
+        "addr:state": "NY",
+        "addr:street": "Forest Avenue",
+        "brand": "Lowe's",
+        "brand:wikidata": "Q1373493",
+        "name": "Lowe's",
+        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-20:00",
+        "phone": "+1 718-682-9027",
+        "ref": "1583",
+        "shop": "doityourself",
+        "start_date": "2003-09-24",
+        "url": "http://stores.lowes.com/lowes/cgi/site?site=1583",
+        "website": "https://www.lowes.com/store/ny-staten-island/1583",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368047907,
+      "lat": 40.6437244,
+      "lon": -74.0115417,
+      "tags": {
+        "name": "Porta Bella",
+        "opening_hours": "Mo-Th 10:30-19:30; Fr 10:00-20:00; Sa 10:00-20:30; Su 10:00-19:00",
+        "phone": "+1-718-765-1450",
+        "shop": "clothes",
+        "website": "https://www.portabellastores.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368048171,
+      "lat": 42.152124,
+      "lon": -77.0598614,
+      "tags": {
+        "addr:city": "Corning",
+        "addr:flats": "101;201-202",
+        "addr:housenumber": "9",
+        "addr:postcode": "14830",
+        "addr:state": "NY",
+        "addr:street": "Ontario Street",
+        "ele": "285",
+        "gnis:feature_id": "2370368",
+        "name": "Northside Liquor Company",
+        "nysgissam:nysaddresspointid": "STEU056056;STEU056058;STEU056057;STEU019434",
+        "opening_hours": "11:00-21:00",
+        "phone": "+1 607-973-0727",
+        "shop": "alcohol",
+        "source": "USGS Geonames",
+        "website": "www.northsideliquorcompany.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368049317,
+      "lat": 40.6903192,
+      "lon": -73.72079,
+      "tags": {
+        "addr:state": "NY",
+        "brand": "Dollar Tree",
+        "brand:wikidata": "Q5289230",
+        "check_date": "2018-04-08",
+        "gnis:feature_id": "2074733",
+        "name": "Dollar Tree",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368053310,
+      "lat": 40.7369258,
+      "lon": -73.9896011,
+      "tags": {
+        "addr:city": "New York",
+        "addr:country": "US",
+        "addr:housenumber": "33",
+        "addr:postcode": "10003",
+        "addr:state": "NY",
+        "addr:street": "East 17th Street",
+        "branch": "Union Square",
+        "brand": "Barnes & Noble",
+        "brand:wikidata": "Q795454",
+        "name": "Barnes & Noble",
+        "opening_hours": "Su 10:00-21:00; Mo-Th 09:00-21:00; Fr, Sa 09:00-22:00",
+        "opening_hours:signed": "no",
+        "phone": "+1 212-253-0810",
+        "shop": "books",
+        "website": "https://stores.barnesandnoble.com/store/2675"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368056642,
+      "lat": 41.9555556,
+      "lon": -75.2825,
+      "tags": {
+        "addr:city": "Hancock",
+        "addr:housenumber": "16",
+        "addr:postcode": "13783",
+        "addr:state": "NY",
+        "addr:street": "West Main Street",
+        "brand": "Tops",
+        "brand:wikidata": "Q7825137",
+        "ele": "0",
+        "gnis:feature_id": "2401494",
+        "name": "Tops",
+        "official_name": "Tops Friendly Markets",
+        "phone": "+1 607-637-3369",
+        "ref": "726",
+        "shop": "supermarket",
+        "source": "USGS Geonames"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368061395,
+      "lat": 40.8786111,
+      "lon": -73.9172222,
+      "tags": {
+        "addr:state": "NY",
+        "ele": "48",
+        "gnis:feature_id": "2377155",
+        "name": "Knolls Shopping Center",
+        "shop": "mall",
+        "source": "USGS Geonames"
+      }
+    },
+    {
+      "type": "node",
+      "id": 368061607,
+      "lat": 40.7250957,
+      "lon": -74.0049076,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "145",
+        "addr:postcode": "10013-1548",
+        "addr:state": "NY",
+        "addr:street": "Sixth Avenue",
+        "check_date:opening_hours": "2024-09-08",
+        "ele": "16",
+        "gnis:feature_id": "2091587",
+        "name": "Dahesh Museum of Art Gift Shop and Offices",
+        "note": "\"There are no art exhibitions on view at this location\"",
+        "opening_hours": "Tu-Sa 10:00-17:00",
+        "shop": "gift",
+        "start_date": "1995",
+        "website": "https://www.daheshmuseum.org/",
+        "wikidata": "Q2999991",
+        "wikipedia": "en:Dahesh Museum of Art"
+      }
+    },
+    {
+      "type": "node",
+      "id": 369768423,
+      "lat": 42.6375903,
+      "lon": -73.5416743,
+      "tags": {
+        "addr:city": "Averill Park",
+        "addr:state": "NY",
+        "addr:street": "Miller Hill Road",
+        "brand": "Cumberland Farms",
+        "brand:wikidata": "Q1143685",
+        "name": "Cumberland Farms",
+        "operator": "Cumberland Farms",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 369772079,
+      "lat": 42.6421268,
+      "lon": -73.5740527,
+      "tags": {
+        "addr:city": "Averill Park",
+        "addr:housenumber": "3305",
+        "addr:postcode": "12018",
+        "addr:state": "NY",
+        "addr:street": "State  Highway 43",
+        "name": "On The Go",
+        "operator": "Sunoco",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 370221652,
+      "lat": 42.6471768,
+      "lon": -73.699808,
+      "tags": {
+        "addr:city": "Rensselaer",
+        "addr:housenumber": "600",
+        "addr:postcode": "12144",
+        "addr:state": "NY",
+        "addr:street": "North Greenbush Road",
+        "brand": "Staples",
+        "brand:wikidata": "Q785943",
+        "name": "Staples",
+        "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00; Su 10:00-18:00",
+        "phone": "+1 518-283-3039",
+        "shop": "stationery",
+        "website": "https://stores.staples.com/ny/rensselaer/600-greenbush-road"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373006380,
+      "lat": 42.5980363,
+      "lon": -73.7122033,
+      "tags": {
+        "brand": "AutoZone",
+        "brand:wikidata": "Q4826087",
+        "name": "AutoZone",
+        "shop": "car_parts",
+        "website": "https://www.autozone.com/locations/ny/east-greenbush/598-columbia-tpke.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373062437,
+      "lat": 42.5971285,
+      "lon": -73.7112505,
+      "tags": {
+        "name": "Discount Liquor",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373067621,
+      "lat": 42.6467041,
+      "lon": -73.7000645,
+      "tags": {
+        "amenity": "fast_food",
+        "amenity_1": "shop",
+        "cuisine": "deli;sandwich",
+        "drive_through": "no",
+        "name": "Roasted Red Pepper",
+        "phone": "+1-518-283-4485",
+        "shop": "deli",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373069793,
+      "lat": 40.7055641,
+      "lon": -74.0134462,
+      "tags": {
+        "artist_name": "Arturo Di Modica",
+        "artwork_type": "sculpture",
+        "material": "bronze",
+        "name": "Charging Bull",
+        "name:fr": "Taureau de Wall Street",
+        "tourism": "artwork",
+        "website": "https://chargingbull.com/",
+        "wheelchair": "limited",
+        "wikidata": "Q860129",
+        "wikipedia": "en:Charging Bull"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373495602,
+      "lat": 42.7072361,
+      "lon": -73.6788668,
+      "tags": {
+        "name": "Bob DiMeo's Discount Wines and Liquors",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373510710,
+      "lat": 42.6817384,
+      "lon": -73.6888105,
+      "tags": {
+        "name": "Healthy Pet Center",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00; Su 10:00-17:00",
+        "shop": "pet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 373513176,
+      "lat": 42.6612046,
+      "lon": -73.6915722,
+      "tags": {
+        "addr:city": "Rensselaer",
+        "addr:housenumber": "449",
+        "addr:state": "NY",
+        "addr:street": "North Greenbush Road",
+        "name": "Organic Cleaners",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 375939065,
+      "lat": 42.7076489,
+      "lon": -73.8224359,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "1440",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Central Avenue",
+        "brand": "Staples",
+        "brand:wikidata": "Q785943",
+        "name": "Staples",
+        "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-21:00; Su 10:00-18:00",
+        "shop": "stationery",
+        "website": "https://stores.staples.com/ny/albany/1440-central-ave"
+      }
+    },
+    {
+      "type": "node",
+      "id": 384975555,
+      "lat": 42.9745019,
+      "lon": -73.8447376,
+      "tags": {
+        "addr:city": "Ballston Spa",
+        "addr:country": "US",
+        "addr:housenumber": "885",
+        "addr:postcode": "12010",
+        "addr:street": "Route 67",
+        "name": "Curtis Lumber",
+        "operator": "Curtis Lumber",
+        "shop": "doityourself",
+        "url": "www.curtislumber.com; www.curiouswoods.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 387515965,
+      "lat": 42.9362038,
+      "lon": -74.1883296,
+      "tags": {
+        "brand": "Rent-A-Center",
+        "brand:wikidata": "Q7313497",
+        "name": "Rent-A-Center",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 390620953,
+      "lat": 42.6461489,
+      "lon": -73.606876,
+      "tags": {
+        "addr:city": "West Sand Lake",
+        "addr:state": "NY",
+        "addr:street": "Mall Way",
+        "brand": "NAPA Auto Parts",
+        "brand:wikidata": "Q6970842",
+        "entrance": "yes",
+        "name": "NAPA Auto Parts",
+        "shop": "car_parts"
+      }
+    },
+    {
+      "type": "node",
+      "id": 390620954,
+      "lat": 42.6460516,
+      "lon": -73.6059043,
+      "tags": {
+        "addr:city": "West Sand Lake",
+        "addr:housenumber": "43",
+        "addr:state": "NY",
+        "addr:street": "Mall Way",
+        "name": "4 Corners Liquor",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 390620956,
+      "lat": 42.6462018,
+      "lon": -73.6071019,
+      "tags": {
+        "addr:city": "West Sand Lake",
+        "addr:state": "NY",
+        "addr:street": "Mall Way",
+        "entrance": "yes",
+        "name": "The Laundry Basket",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 390667715,
+      "lat": 44.7182238,
+      "lon": -74.9868894,
+      "tags": {
+        "name": "Summerhaven",
+        "shop": "swimming_pool",
+        "website": "https://www.summer-haven.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 391152357,
+      "lat": 42.7113706,
+      "lon": -73.8144476,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:country": "US",
+        "addr:housenumber": "131",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Colonie Center",
+        "brand": "Macy's",
+        "brand:wikidata": "Q629269",
+        "name": "Macy's",
+        "phone": "+1 518-459-1950",
+        "shop": "department_store",
+        "website": "https://www.macys.com/stores/ny/albany/colonie-center_83.html",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 391152359,
+      "lat": 42.7098445,
+      "lon": -73.8153291,
+      "tags": {
+        "addr:city": "Colonie",
+        "addr:housenumber": "131",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Colonie Center",
+        "brand": "Boscov's",
+        "brand:wikidata": "Q4947190",
+        "name": "Boscov's",
+        "shop": "department_store",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 391152361,
+      "lat": 42.7112679,
+      "lon": -73.816248,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "131",
+        "addr:postcode": "12205",
+        "addr:state": "NY",
+        "addr:street": "Colonie Center",
+        "brand": "Barnes & Noble",
+        "brand:wikidata": "Q795454",
+        "name": "Barnes & Noble",
+        "phone": "+1 518-438-1728",
+        "shop": "books",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410691098,
+      "lat": 44.0517045,
+      "lon": -75.7924422,
+      "tags": {
+        "historic": "monument",
+        "name": "10th Mountain Division (Light Infantry) Monument"
+      }
+    },
+    {
+      "type": "node",
+      "id": 411656123,
+      "lat": 44.0442607,
+      "lon": -75.8074115,
+      "tags": {
+        "name": "Fort Drum PX",
+        "operator": "AAFES",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 411657089,
+      "lat": 44.0449455,
+      "lon": -75.8079694,
+      "tags": {
+        "name": "Fort Drum Commissary",
+        "operator": "AAFES",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 411658687,
+      "lat": 44.0590904,
+      "lon": -75.8033603,
+      "tags": {
+        "name": "Auto Skills Center",
+        "operator": "AAFES",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 411658692,
+      "lat": 44.0587203,
+      "lon": -75.8028282,
+      "tags": {
+        "name": "Ziebert Automotive",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 414392643,
+      "lat": 42.9192684,
+      "lon": -78.8768086,
+      "tags": {
+        "addr:city": "Buffalo",
+        "addr:housenumber": "807",
+        "addr:postcode": "14222",
+        "addr:state": "NY",
+        "addr:street": "Elmwood Avenue",
+        "addr:unit": "1",
+        "name": "Lexington Co-op",
+        "nysgissam:nysaddresspointid": "ERIE462147;ERIE131641",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 716-886-2667",
+        "shop": "supermarket",
+        "website": "https://lexington.coop/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 417259741,
+      "lat": 40.6467854,
+      "lon": -74.0764928,
+      "tags": {
+        "alt_name": "Staten Island September 11 Memorial",
+        "historic": "memorial",
+        "name": "Postcards",
+        "start_date": "2004",
+        "tourism": "artwork",
+        "wikidata": "Q530301",
+        "wikipedia": "en:Postcards (memorial)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 418520887,
+      "lat": 40.636934,
+      "lon": -74.076656,
+      "tags": {
+        "addr:city": "Staten Island",
+        "addr:housenumber": "208",
+        "addr:state": "NY",
+        "addr:street": "Bay Street",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Everything Goes Book Cafe",
+        "outdoor_seating": "yes",
+        "shop": "books",
+        "smoking": "no",
+        "toilets:wheelchair": "no",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419360013,
+      "lat": 40.6870366,
+      "lon": -73.9664572,
+      "tags": {
+        "alt_name": "Waverly Gourmet Market",
+        "delivery": "yes",
+        "drink:beer": "yes",
+        "name": "Waverly Urban Market",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-21:00",
+        "phone": "+1-718-638-5454",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419360792,
+      "lat": 40.6506127,
+      "lon": -74.0048114,
+      "tags": {
+        "cuisine": "latin_american",
+        "delivery": "yes",
+        "name": "Los Castillos",
+        "phone": "+1-718-633-5947",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361172,
+      "lat": 40.6900737,
+      "lon": -73.993141,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/Dellapietras",
+        "name": "Dellapietras",
+        "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-17:00",
+        "phone": "+1-718-618-9575",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361320,
+      "lat": 40.6505269,
+      "lon": -74.0048997,
+      "tags": {
+        "name": "Market Carniceria",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361416,
+      "lat": 40.6901158,
+      "lon": -73.9919765,
+      "tags": {
+        "addr:housenumber": "123",
+        "addr:postcode": "11201",
+        "addr:street": "Court Street",
+        "shop": "vacant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361654,
+      "lat": 40.6501044,
+      "lon": -74.0053551,
+      "tags": {
+        "mobile_phone:sales": "yes",
+        "name": "Galaxy Wireless & Gift Shop",
+        "phone": "+1-718-879-8122",
+        "shop": "variety_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361814,
+      "lat": 40.7266107,
+      "lon": -73.9901732,
+      "tags": {
+        "name": "Random Accessories",
+        "opening_hours": "Mo 12:00-18:30; Tu-We 12:00-19:00; Th 12:00-20:00; Fr-Sa 12:00-21:00; Su 12:00-19:00",
+        "phone": "+1-212-358-0650",
+        "shop": "gift",
+        "website": "https://randomaccessoriesnyc.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361920,
+      "lat": 40.6876443,
+      "lon": -73.9665931,
+      "tags": {
+        "atm": "yes",
+        "cuisine": "sandwich;breakfast",
+        "drink:beer": "yes",
+        "drink:coffee": "yes",
+        "name": "Waverly Candy & Deli",
+        "phone": "+1-347-223-4997",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419361962,
+      "lat": 40.6867678,
+      "lon": -73.9936023,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/DumanHomeCourtStreet/",
+        "description": "bedding, towels, housewares, gifts",
+        "name": "Duman Home",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "phone": "+1-718-576-3145",
+        "shop": "linen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419362537,
+      "lat": 40.7486989,
+      "lon": -73.9761859,
+      "tags": {
+        "name": "Dazzle Beauty Salon",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00; Su 11:00-18:00",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419362614,
+      "lat": 40.6867609,
+      "lon": -73.966438,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "141",
+        "addr:postcode": "11238",
+        "addr:state": "NY",
+        "addr:street": "Greene Avenue",
+        "name": "Green Dry Cleaners",
+        "phone": "+1-518-290-3010",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419362647,
+      "lat": 40.7029965,
+      "lon": -73.9874746,
+      "tags": {
+        "addr:housenumber": "57",
+        "addr:postcode": "11201",
+        "addr:street": "Pearl Street",
+        "alt_name": "Hunter Douglas",
+        "name": "M & A Design",
+        "opening_hours": "Mo-Th 10:00-17:00; Fr 10:00-15:00; Su 12:00-17:00",
+        "phone": "+1-718-797-2636",
+        "shop": "window_blind",
+        "website": "https://www.m-adesign.net"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419362653,
+      "lat": 40.7272676,
+      "lon": -73.9903739,
+      "tags": {
+        "name": "The Hidden Rose",
+        "opening_hours": "Tu-Sa 11:30-20:00",
+        "shop": "tattoo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419363675,
+      "lat": 40.6500594,
+      "lon": -74.0053992,
+      "tags": {
+        "name": "Ferreteria Hardware",
+        "phone": "+1-917-909-0231",
+        "shop": "hardware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419363676,
+      "lat": 40.6702594,
+      "lon": -73.9506186,
+      "tags": {
+        "alt_name": "MetroPCS",
+        "brand": "Metro by T-Mobile",
+        "brand:wikidata": "Q1925685",
+        "fixme": "find address",
+        "name": "Metro by T-Mobile",
+        "shop": "mobile_phone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419364456,
+      "lat": 40.715726,
+      "lon": -73.9990159,
+      "tags": {
+        "addr:housenumber": "85B",
+        "addr:postcode": "10013",
+        "addr:street": "Bayard Street",
+        "brand": "Cricket Wireless",
+        "brand:wikidata": "Q5184987",
+        "name": "Cricket Wireless",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "phone": "+1-212-587-3840",
+        "shop": "mobile_phone",
+        "short_name": "Cricket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419364672,
+      "lat": 40.7486672,
+      "lon": -73.9762129,
+      "tags": {
+        "beauty": "nails",
+        "name": "Nail One",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419364727,
+      "lat": 40.6876868,
+      "lon": -73.9666017,
+      "tags": {
+        "beauty": "nails",
+        "name": "Charming Nails",
+        "opening_hours": "Mo-Fr 10:00-20:00; Sa 08:30-20:00; Su 10:00-19:30",
+        "phone": "+1-718-638-5320",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419364901,
+      "lat": 40.6510107,
+      "lon": -74.0036926,
+      "tags": {
+        "addr:housenumber": "506",
+        "addr:postcode": "11232",
+        "addr:street": "39th Street",
+        "beauty": "nails",
+        "name": "Almonte Casual",
+        "opening_hours": "Mo-Fr 10:30-20:00; Sa 10:00-20:00; Su 11:00-17:00",
+        "phone": "+1-718-360-0994",
+        "shop": "beauty"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419365583,
+      "lat": 40.6900874,
+      "lon": -73.9961748,
+      "tags": {
+        "addr:housenumber": "113",
+        "addr:postcode": "11201",
+        "addr:street": "Pacific Street",
+        "name": "A+ Skincare & Lash",
+        "opening_hours": "Mo-Su 10:30-19:30",
+        "phone": "+1-347-739-7775",
+        "shop": "beauty",
+        "website": "https://aplusbrooklyn.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419366609,
+      "lat": 40.7435659,
+      "lon": -73.9799283,
+      "tags": {
+        "amenity": "bar",
+        "drink:beer": "yes",
+        "drink:cider": "yes",
+        "drink:liquor": "no",
+        "drink:wine": "no",
+        "name": "Craft + Carry",
+        "outdoor_seating": "sidewalk;street",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419366928,
+      "lat": 40.6897993,
+      "lon": -73.9936179,
+      "tags": {
+        "laundry_service": "yes",
+        "level": "-1",
+        "name": "My Favorite Cleaners & Laundry",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 09:00-17:00",
+        "phone": "+1-718-935-9077",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419367032,
+      "lat": 40.6453921,
+      "lon": -74.0094856,
+      "tags": {
+        "addr:housenumber": "502",
+        "addr:postcode": "11220",
+        "addr:street": "49th Street",
+        "atm": "yes",
+        "drink:beer": "yes",
+        "name": "Hoops Deli Grocery",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419367212,
+      "lat": 40.7160717,
+      "lon": -73.9994196,
+      "tags": {
+        "addr:housenumber": "94",
+        "addr:postcode": "10013",
+        "addr:street": "Bayard Street",
+        "name": "Fu Kang Reflexology",
+        "phone": "+1-646-861-3360",
+        "shop": "massage"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419367346,
+      "lat": 40.6500204,
+      "lon": -74.0054467,
+      "tags": {
+        "name": "Elegant Decorations",
+        "phone": "+1-718-851-4232",
+        "shop": "party"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419367565,
+      "lat": 40.724848,
+      "lon": -73.9931701,
+      "tags": {
+        "name": "Arté Salon",
+        "shop": "hairdresser",
+        "website": "https://www.artesalon.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419367793,
+      "lat": 40.69005,
+      "lon": -73.9930552,
+      "tags": {
+        "name": "Damascus Bread & Bakery",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-19:00",
+        "phone": "+1-718-625-7070",
+        "shop": "bakery",
+        "website": "http://www.damascusbakery.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419367969,
+      "lat": 40.6676735,
+      "lon": -73.9877552,
+      "tags": {
+        "hairdresser": "children",
+        "name": "Sit Still",
+        "phone": "+1-929-405-1570",
+        "shop": "hairdresser",
+        "website": "https://parkslope.sitstillkids.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419368026,
+      "lat": 40.690273,
+      "lon": -73.9951007,
+      "tags": {
+        "alt_name": "Bubbly Laundry",
+        "branch": "BK1",
+        "laundry_service": "yes",
+        "name": "Bubbly Laundromat",
+        "opening_hours": "Mo-Su 08:00-20:30",
+        "phone": "+1-347-712-3375",
+        "self_service": "yes",
+        "shop": "laundry",
+        "website": "https://www.bubblyny.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419368080,
+      "lat": 40.6857118,
+      "lon": -73.9821364,
+      "tags": {
+        "name": "Dar-Us-Salam Bookstore",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "phone": "+1-718-625-5925",
+        "shop": "books",
+        "website": "https://darussalamny.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 419764776,
+      "lat": 40.7539832,
+      "lon": -73.9686085,
+      "tags": {
+        "level": "1",
+        "name": "NY Eden Spa",
+        "opening_hours": "Mo-Su 10:00-21:30",
+        "phone": "+1917-409-5958",
+        "shop": "massage"
+      }
+    },
+    {
+      "type": "node",
+      "id": 422438959,
+      "lat": 40.7701407,
+      "lon": -73.9723395,
+      "tags": {
+        "artist:wikidata": "Q3297902",
+        "artist_name": "John Steell",
+        "artwork_type": "statue",
+        "material": "bronze",
+        "name": "Sir Walter Scott",
+        "start_date": "1872-11-27",
+        "subject:wikidata": "Q79025",
+        "subject:wikipedia": "en:Walter Scott",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/1411",
+        "website:alternate": "https://www.centralparknyc.org/locations/sir-walter-scott",
+        "wikidata": "Q18157039",
+        "wikipedia": "en:Statue of Walter Scott (New York City)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 422438963,
+      "lat": 40.770193,
+      "lon": -73.9725659,
+      "tags": {
+        "artist:wikidata": "Q3297902",
+        "artist_name": "John Steell",
+        "artwork_type": "statue",
+        "material": "bronze",
+        "name": "Robert Burns",
+        "start_date": "1880-10-02",
+        "subject:wikidata": "Q81960",
+        "subject:wikipedia": "en:Robert Burns",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/197",
+        "website:alternate": "https://www.centralparknyc.org/locations/robert-burns",
+        "wikidata": "Q18009187",
+        "wikipedia": "en:Robert Burns (Steell)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 422438965,
+      "lat": 40.7699059,
+      "lon": -73.9727725,
+      "tags": {
+        "artist:wikidata": "Q3777337",
+        "artist_name": "Jeronimo Suñol",
+        "artwork_type": "statue",
+        "material": "bronze",
+        "name": "Christopher Columbus",
+        "name:fr": "Christophe Colomb",
+        "start_date": "1892-05-12",
+        "subject:wikidata": "Q7322",
+        "subject:wikipedia": "en:Christopher Columbus",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/297",
+        "website:alternate": "https://www.centralparknyc.org/locations/christopher-columbus",
+        "wikidata": "Q6022984",
+        "wikipedia": "en:Statue of Christopher Columbus (Central Park)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 427677179,
+      "lat": 44.9212799,
+      "lon": -74.9191274,
+      "tags": {
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 432760466,
+      "lat": 40.7942639,
+      "lon": -73.9519498,
+      "tags": {
+        "amenity": "fountain",
+        "artist:wikidata": "Q1724348",
+        "artist:wikipedia": "en:Walter Schott",
+        "artist_name": "Walter Schott",
+        "artwork_type": "statue",
+        "fountain": "decorative",
+        "material": "bronze;limestone",
+        "name": "Three Dancing Maidens – Untermyer Fountain",
+        "start_date": "1909",
+        "tourism": "artwork",
+        "website": "https://www.centralparknyc.org/locations/untermyer-fountain",
+        "website:alternate": "https://www.nycgovparks.org/parks/central-park/monuments/1600",
+        "wikidata": "Q54954645",
+        "wikipedia": "en:Three Dancing Maidens"
+      }
+    },
+    {
+      "type": "node",
+      "id": 448090425,
+      "lat": 43.4560932,
+      "lon": -73.6355862,
+      "tags": {
+        "amenity": "atm",
+        "food": "yes",
+        "fuel": "yes",
+        "name": "Cleverdale General Store",
+        "phone": "+1-518-656-9057",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 457540455,
+      "lat": 42.6659863,
+      "lon": -78.8862477,
+      "tags": {
+        "addr:city": "Eden",
+        "addr:housenumber": "8081",
+        "addr:postcode": "14057",
+        "addr:state": "NY",
+        "addr:street": "North Main Street",
+        "name": "Eden Shurfine Food Mart",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 469261425,
+      "lat": 42.0917118,
+      "lon": -78.7470127,
+      "tags": {
+        "name": "Red House General Store",
+        "shop": "general"
+      }
+    },
+    {
+      "type": "node",
+      "id": 475008764,
+      "lat": 44.6637129,
+      "lon": -73.4442835,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "name": "Wooden Ski and Wheel",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 483978210,
+      "lat": 40.7139378,
+      "lon": -73.9803505,
+      "tags": {
+        "name": "Franks Bike Shop",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 489646427,
+      "lat": 43.0789219,
+      "lon": -77.4215236,
+      "tags": {
+        "name": "Clawson's",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 502791662,
+      "lat": 40.743429,
+      "lon": -73.8253477,
+      "tags": {
+        "addr:housenumber": "59-11",
+        "addr:street": "Main Street",
+        "name": "Yong Fa",
+        "name:zh": "新中美超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 502833400,
+      "lat": 40.7595986,
+      "lon": -73.8291313,
+      "tags": {
+        "name": "New World Mall",
+        "name:zh": "新世界",
+        "operator": "Macy's",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 520798400,
+      "lat": 42.6496565,
+      "lon": -73.7634623,
+      "tags": {
+        "historic": "monument",
+        "name": "NYS Missing Person Eternal Flame"
+      }
+    },
+    {
+      "type": "node",
+      "id": 520798407,
+      "lat": 42.6492736,
+      "lon": -73.762709,
+      "tags": {
+        "historic": "monument",
+        "name": "Women Veterans' Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 520798436,
+      "lat": 42.6494175,
+      "lon": -73.7631942,
+      "tags": {
+        "historic": "monument",
+        "name": "Korean Veterans' Memorial"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534542752,
+      "lat": 43.6821882,
+      "lon": -73.9726829,
+      "tags": {
+        "name": "Stewart's Shop",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534542759,
+      "lat": 43.9682547,
+      "lon": -74.4181712,
+      "tags": {
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534950673,
+      "lat": 42.7594144,
+      "lon": -73.8845308,
+      "tags": {
+        "name": "Mini-Mart & Deli",
+        "shop": "convenience",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 534950676,
+      "lat": 42.7703375,
+      "lon": -73.8932781,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Sunoco",
+        "brand:wikidata": "Q1423218",
+        "check_date": "2024-09-27",
+        "name": "Sunoco",
+        "operator": "Sunoco Mart",
+        "phone": "+1 518-393-4057",
+        "shop": "convenience",
+        "website": "https://www.sunoco.com/locations/store/3522-state-st-schenectady-ny-0189074800",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 538187940,
+      "lat": 40.7410367,
+      "lon": -72.8695447,
+      "tags": {
+        "artwork_type": "sculpture",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 540501552,
+      "lat": 42.1426583,
+      "lon": -77.0509972,
+      "tags": {
+        "addr:city": "Corning",
+        "addr:flats": "201-202",
+        "addr:floor": "Floor 2;Floor 1",
+        "addr:housenumber": "88",
+        "addr:postcode": "14830",
+        "addr:state": "NY",
+        "addr:street": "East Market Street",
+        "addr:unit": "101",
+        "check_date": "2023-07-23",
+        "name": "Corning Bike Works",
+        "nysgissam:nysaddresspointid": "STEU056233;STEU056234;STEU038713;STEU056237",
+        "opening_hours": "Mo,Sa-Su off; Tu-Fr 10:00-17:00",
+        "operator": "Mom & Pop",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 543615570,
+      "lat": 43.0644081,
+      "lon": -76.9893932,
+      "tags": {
+        "addr:city": "Lyons",
+        "addr:housenumber": "67",
+        "addr:postcode": "14489",
+        "addr:state": "NY",
+        "addr:street": "Canal Street",
+        "shop": "vacant"
+      }
+    },
+    {
+      "type": "node",
+      "id": 551642730,
+      "lat": 40.6822674,
+      "lon": -73.9961167,
+      "tags": {
+        "addr:housenumber": "350",
+        "addr:postcode": "11231",
+        "addr:street": "Court Street",
+        "name": "Park Natural Foods",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-19:00",
+        "shop": "health_food",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 558645975,
+      "lat": 41.396104,
+      "lon": -74.3331394,
+      "tags": {
+        "atm": "yes",
+        "brand": "Gulf Express",
+        "brand:wikidata": "Q124073193",
+        "name": "Gulf Express",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 558678214,
+      "lat": 41.4293374,
+      "lon": -74.423651,
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "125",
+        "addr:postcode": "10940",
+        "addr:state": "NY",
+        "addr:street": "Dolson Avenue",
+        "branch": "Middletown",
+        "brand": "ShopRite",
+        "brand:wikidata": "Q7501097",
+        "name": "ShopRite",
+        "opening_hours": "Mo-Su 06:00-01:00",
+        "phone": "+1 845-343-1139",
+        "ref": "272",
+        "shop": "supermarket",
+        "website": "https://www.shoprite.com/sm/planning/rsid/272"
+      }
+    },
+    {
+      "type": "node",
+      "id": 561042174,
+      "lat": 40.7104974,
+      "lon": -74.0138892,
+      "tags": {
+        "artist:wikidata": "Q524205",
+        "artist_name": "Fritz Koenig",
+        "artwork_type": "sculpture",
+        "height": "7.64",
+        "historic": "memorial",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Liberty_Park_Sep_2018_06.jpg",
+        "material": "bronze",
+        "memorial": "sculpture",
+        "name": "The Sphere",
+        "note": "Twin Towers Memorial",
+        "start_date": "1971",
+        "tourism": "artwork",
+        "wheelchair": "yes",
+        "wikidata": "Q2164298",
+        "wikimedia_commons": "Category:The Sphere",
+        "wikipedia": "en:The Sphere"
+      }
+    },
+    {
+      "type": "node",
+      "id": 561950053,
+      "lat": 40.7697989,
+      "lon": -73.9723702,
+      "tags": {
+        "artist:wikidata": "Q2069921",
+        "artist_name": "John Quincy Adams Ward",
+        "artwork_type": "statue",
+        "material": "bronze",
+        "name": "William Shakespeare",
+        "start_date": "1872-05-23",
+        "subject:wikidata": "Q692",
+        "subject:wikipedia": "en:William Shakespeare",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/1431",
+        "website:alternate": "https://www.centralparknyc.org/locations/william-shakespeare",
+        "wikidata": "Q17194246",
+        "wikipedia": "en:Statue of William Shakespeare (New York City)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 561950133,
+      "lat": 40.7703769,
+      "lon": -73.9731523,
+      "tags": {
+        "artist_name": "John Quincy Adams Ward",
+        "artwork_type": "statue",
+        "name": "Indian Hunter",
+        "start_date": "1869-02-04",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/769",
+        "website:alternate": "https://www.centralparknyc.org/locations/indian-hunter",
+        "wikidata": "Q17194242",
+        "wikipedia": "en:Indian Hunter (Ward)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 561950155,
+      "lat": 40.7706639,
+      "lon": -73.9721367,
+      "tags": {
+        "artist:wikidata": "Q16649830",
+        "artist_name": "James MacDonald",
+        "artwork_type": "statue",
+        "material": "bronze",
+        "name": "Fitz-Greene Halleck",
+        "start_date": "1877",
+        "subject:wikidata": "Q1421265",
+        "subject:wikipedia": "en:Fitz-Greene Halleck",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/658",
+        "website:alternate": "https://www.centralparknyc.org/locations/fitz-greene-halleck",
+        "wikidata": "Q18148488",
+        "wikipedia": "en:Statue of Fitz-Greene Halleck"
+      }
+    },
+    {
+      "type": "node",
+      "id": 561950603,
+      "lat": 40.7750382,
+      "lon": -73.9665337,
+      "tags": {
+        "artist:wikidata": "Q3080662",
+        "artist:wikipedia": "en:Jose de Creeft",
+        "artist_name": "José de Creeft",
+        "artwork_type": "statue",
+        "material": "bronze",
+        "name": "Alice in Wonderland",
+        "name:en": "Alice in Wonderland",
+        "name:fr": "Alice au pays des merveilles",
+        "start_date": "1959",
+        "subject:wikidata": "Q92640",
+        "subject:wikipedia": "en:Alice's Adventures in Wonderland",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/13",
+        "website:alternate": "https://www.centralparknyc.org/locations/alice-in-wonderland"
+      }
+    },
+    {
+      "type": "node",
+      "id": 566894297,
+      "lat": 40.827278,
+      "lon": -73.8629704,
+      "tags": {
+        "addr:housenumber": "1851",
+        "addr:postcode": "10472",
+        "addr:street": "Bruckner Boulevard",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 07:00-21:00",
+        "operator": "Western Beef",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 568230825,
+      "lat": 40.7284202,
+      "lon": -73.8141144,
+      "tags": {
+        "addr:housenumber": "72-15",
+        "addr:postcode": "11367",
+        "addr:street": "Kissena Boulevard",
+        "name": "Aron's Kissena Farms",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 571116654,
+      "lat": 41.9547505,
+      "lon": -75.2845924,
+      "tags": {
+        "addr:city": "Hancock",
+        "addr:country": "US",
+        "addr:housenumber": "119",
+        "addr:postcode": "13783",
+        "addr:state": "NY",
+        "addr:street": "West Main Street",
+        "brand": "Walgreens",
+        "brand:wikidata": "Q1591889",
+        "name": "Walgreens",
+        "post_office": "post_partner",
+        "post_office:brand": "FedEx OnSite",
+        "post_office:service_provider": "FedEx",
+        "post_office:website": "https://local.fedex.com/en-us/ny/hancock/bgmld",
+        "shop": "chemist",
+        "website": "https://www.walgreens.com/locator/walgreens-119+w+main+st-hancock-ny-13783/id=18993"
+      }
+    },
+    {
+      "type": "node",
+      "id": 571116660,
+      "lat": 41.9554207,
+      "lon": -75.2824804,
+      "tags": {
+        "name": "Grand Union",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 575197379,
+      "lat": 42.4190289,
+      "lon": -73.5117497,
+      "tags": {
+        "addr:housenumber": "126",
+        "addr:street": "Black Bridge Road",
+        "name": "Librarium",
+        "shop": "books",
+        "url": "http://www.thelibrarium.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 575205785,
+      "lat": 40.6566599,
+      "lon": -73.6451029,
+      "tags": {
+        "addr:city": "Rockville Centre",
+        "addr:housenumber": "17",
+        "addr:postcode": "11570",
+        "addr:state": "NY",
+        "addr:street": "North Park Avenue",
+        "name": "Rockville Centre Bike Shop",
+        "service:bicycle:Bicycle_Sales_and_Service": "yes",
+        "service:bicycle:repair": "yes",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 584125647,
+      "lat": 40.7347925,
+      "lon": -73.9913589,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "4",
+        "addr:postcode": "10003",
+        "addr:state": "NY",
+        "addr:street": "Union Square South",
+        "branch": "Union Square",
+        "brand": "Whole Foods Market",
+        "brand:wikidata": "Q1809448",
+        "check_date": "2024-10-03",
+        "check_date:opening_hours": "2024-10-03",
+        "name": "Whole Foods Market",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "organic": "yes",
+        "phone": "+1 212-673-5388",
+        "ref": "unionsquare",
+        "shop": "supermarket",
+        "website": "https://www.wholefoodsmarket.com/stores/unionsquare"
+      }
+    },
+    {
+      "type": "node",
+      "id": 584141414,
+      "lat": 40.7404986,
+      "lon": -73.9864967,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "33",
+        "addr:postcode": "10010",
+        "addr:street": "East 23rd Street",
+        "brand": "Walgreens",
+        "brand:wikidata": "Q1591889",
+        "name": "Walgreens",
+        "phone": "+1-212-685-2047",
+        "shop": "chemist",
+        "website": "https://www.walgreens.com/locator/walgreens-33+e+23rd+st-new+york-ny-10010/id=7675"
+      }
+    },
+    {
+      "type": "node",
+      "id": 587983077,
+      "lat": 41.5243964,
+      "lon": -74.0723636,
+      "tags": {
+        "brand": "Marshalls",
+        "brand:wikidata": "Q15903261",
+        "name": "Marshalls",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 600524075,
+      "lat": 40.7931582,
+      "lon": -73.9527596,
+      "tags": {
+        "amenity": "fountain",
+        "artist:wikidata": "Q2899918",
+        "artist:wikipedia": "en:Bessie Potter Vonnoh",
+        "artist_name": "Bessie Potter Vonnoh",
+        "artwork_type": "statue",
+        "fountain": "decorative",
+        "historic": "memorial",
+        "material": "bronze",
+        "memorial": "statue",
+        "name": "Burnett Memorial Fountain",
+        "official_name": "Frances Hodgeson Burnett Memorial Fountain",
+        "start_date": "1936",
+        "subject": "Frances Eliza Hodgson Burnett",
+        "subject:wikidata": "Q276028",
+        "subject:wikipedia": "en:Frances Hodgson Burnett",
+        "tourism": "artwork",
+        "website": "https://www.nycgovparks.org/parks/central-park/monuments/196",
+        "website:alternate": "https://www.centralparknyc.org/locations/burnett-fountain",
+        "wikidata": "Q17512822",
+        "wikipedia": "en:Burnett Memorial Fountain"
+      }
+    },
+    {
+      "type": "node",
+      "id": 608606378,
+      "lat": 42.4279483,
+      "lon": -73.6903208,
+      "tags": {
+        "addr:housenumber": "2967",
+        "addr:postcode": "12184",
+        "addr:state": "NY",
+        "addr:street": "Route 9",
+        "addr:unit": "400",
+        "branch": "Kinderhook 2967 Route",
+        "brand": "Hannaford",
+        "brand:wikidata": "Q5648760",
+        "check_date:opening_hours": "2025-11-05",
+        "name": "Hannaford",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "phone": "+1 518-758-8800",
+        "ref": "8364",
+        "shop": "supermarket",
+        "website": "https://stores.hannaford.com/ny/valatie/8364"
+      }
+    },
+    {
+      "type": "node",
+      "id": 614876291,
+      "lat": 40.6693598,
+      "lon": -73.9929679,
+      "tags": {
+        "name": "Buttermilk Bakeshop",
+        "opening_hours": "Tu-Su 11:00-18:00",
+        "phone": "+1-646-245-5129",
+        "shop": "pastry",
+        "website": "https://www.schonebride.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 615079161,
+      "lat": 40.7176379,
+      "lon": -73.9477702,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:country": "US",
+        "addr:housenumber": "100",
+        "addr:postcode": "11211",
+        "addr:state": "NY",
+        "addr:street": "Frost Street",
+        "name": "The Meat Hook",
+        "shop": "butcher"
+      }
+    },
+    {
+      "type": "node",
+      "id": 617342589,
+      "lat": 40.7146404,
+      "lon": -73.9445688,
+      "tags": {
+        "addr:housenumber": "339",
+        "addr:postcode": "11211",
+        "addr:street": "Graham Avenue",
+        "cuisine": "breakfast;sandwich",
+        "drink:coffee": "yes",
+        "name": "One Love Deli",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 617378672,
+      "lat": 40.7146787,
+      "lon": -73.944223,
+      "tags": {
+        "addr:housenumber": "344",
+        "addr:postcode": "11211",
+        "addr:street": "Graham Avenue",
+        "level": "0",
+        "name": "Wholesome Basket",
+        "opening_hours": "07:00-24:00",
+        "phone": "+1 718-576-3229",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 617378676,
+      "lat": 40.714701,
+      "lon": -73.9388646,
+      "tags": {
+        "addr:housenumber": "905",
+        "addr:street": "Metropolitan Avenue",
+        "name": "Late Night Deli",
+        "shop": "deli"
+      }
+    },
+    {
+      "type": "node",
+      "id": 617378678,
+      "lat": 40.7143904,
+      "lon": -73.9441049,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:housenumber": "330",
+        "addr:postcode": "11211",
+        "addr:state": "NY",
+        "addr:street": "Graham Avenue",
+        "brand": "C-Town Supermarkets",
+        "brand:wikidata": "Q5005929",
+        "name": "C-Town",
+        "opening_hours": "Mo-Sa 07:30-23:00; Su 08:00-22:00",
+        "phone": "+1 718-388-8968",
+        "shop": "supermarket",
+        "website": "https://locations.ctownsupermarkets.com/ctown-supermarkets-3240f74cab63"
+      }
+    },
+    {
+      "type": "node",
+      "id": 618530024,
+      "lat": 43.0134227,
+      "lon": -78.8978429,
+      "tags": {
+        "addr:city": "Tonawanda",
+        "addr:housenumber": "533",
+        "addr:postcode": "14150",
+        "addr:state": "NY",
+        "addr:street": "Niagara Street",
+        "atm": "yes",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "fuel:propane": "yes",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "phone": "+1 716-693-2979",
+        "ref": "35153",
+        "shop": "convenience",
+        "website": "https://www.7-eleven.com/locations/ny/tonawanda/533-niagara-35153"
+      }
+    },
+    {
+      "type": "node",
+      "id": 625842823,
+      "lat": 40.8071007,
+      "lon": -73.9641277,
+      "tags": {
+        "name": "Columbia University Bookstore",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 631421881,
+      "lat": 41.1376363,
+      "lon": -73.9897816,
+      "tags": {
+        "brand": "CVS Pharmacy",
+        "brand:website": "https://www.cvs.com/",
+        "brand:wikidata": "Q2078880",
+        "name": "CVS Pharmacy",
+        "shop": "chemist",
+        "short_name": "CVS",
+        "website": "https://www.cvs.com/store-locator/new-city-ny-pharmacies/280-south-main-street-new-city-ny-10956/storeid=1030"
+      }
+    },
+    {
+      "type": "node",
+      "id": 631422073,
+      "lat": 41.1405527,
+      "lon": -73.9889316,
+      "tags": {
+        "addr:city": "New City",
+        "addr:flats": "1-2",
+        "addr:housenumber": "180",
+        "addr:postcode": "10956",
+        "addr:state": "NY",
+        "addr:street": "South Main Street",
+        "name": "DeCicco Family Market",
+        "nysgissam:nysaddresspointid": "ROCK110562;ROCK017155;ROCK110561",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 634781935,
+      "lat": 44.0572398,
+      "lon": -75.7003014,
+      "tags": {
+        "name": "AAFES Shoppette",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 661400080,
+      "lat": 43.1510089,
+      "lon": -77.569533,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:country": "US",
+        "addr:housenumber": "1239",
+        "addr:postcode": "14607",
+        "addr:state": "NY",
+        "addr:street": "University Avenue",
+        "name": "Full Moon Vista Bike & Sport",
+        "opening_hours": "Mo-Tu, Th 12:00-19:00; Fr-Sa 10:00-17:00",
+        "shop": "bicycle",
+        "website": "https://fullmoonvista.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 661834339,
+      "lat": 43.1940191,
+      "lon": -77.6503533,
+      "tags": {
+        "addr:city": "Rochester",
+        "addr:country": "US",
+        "addr:housenumber": "758",
+        "addr:postcode": "14615",
+        "addr:state": "NY",
+        "addr:street": "Ridgeway Avenue",
+        "name": "Mr. Moe's Deli",
+        "nysgissam:nysaddresspointid": "MONR258262",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 662355844,
+      "lat": 44.6954568,
+      "lon": -73.4925186,
+      "tags": {
+        "brand": "Price Chopper",
+        "brand:wikidata": "Q7242574",
+        "name": "Market 32",
+        "opening_hours": "05:00-24:00",
+        "phone": "+1 518 562 3560",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663072725,
+      "lat": 40.7572492,
+      "lon": -73.9784073,
+      "tags": {
+        "addr:housenumber": "592",
+        "addr:postcode": "10036",
+        "addr:street": "5th Avenue",
+        "brand": "Lululemon",
+        "brand:wikidata": "Q6702957",
+        "clothes": "men;women",
+        "name": "Lululemon",
+        "official_name": "Lululemon Athletica",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663079718,
+      "lat": 40.755224,
+      "lon": -73.97568,
+      "tags": {
+        "brand": "Audi",
+        "brand:wikidata": "Q23317",
+        "name": "Audi",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663084339,
+      "lat": 40.7535383,
+      "lon": -73.9805923,
+      "tags": {
+        "brand": "H&M",
+        "brand:wikidata": "Q188326",
+        "name": "H&M",
+        "shop": "clothes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663084489,
+      "lat": 40.7537116,
+      "lon": -73.9809753,
+      "tags": {
+        "brand": "Zara",
+        "brand:wikidata": "Q147662",
+        "name": "Zara",
+        "shop": "clothes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663085715,
+      "lat": 40.750696,
+      "lon": -73.982649,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "417",
+        "addr:postcode": "10016",
+        "addr:state": "NY",
+        "addr:street": "5th Avenue",
+        "brand": "Zales",
+        "brand:wikidata": "Q8065305",
+        "name": "Zales",
+        "official_name": "Zales The Diamond Store",
+        "opening_hours": "Mo-Fr 11:00-19:00; Su 12:00-18:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:nfc_mobile_payments": "yes",
+        "phone": "+1-212-679-3626",
+        "shop": "jewelry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663099302,
+      "lat": 40.75005,
+      "lon": -73.9888498,
+      "tags": {
+        "brand": "Sephora",
+        "brand:wikidata": "Q2408041",
+        "name": "Sephora",
+        "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00",
+        "shop": "cosmetics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663105088,
+      "lat": 40.752885,
+      "lon": -73.9926793,
+      "tags": {
+        "addr:city": "New York",
+        "addr:housenumber": "500",
+        "addr:postcode": "10018",
+        "addr:state": "NY",
+        "addr:street": "8th Avenue",
+        "addr:unit": "3",
+        "branch": "Eighth Avenue New York",
+        "brand": "Staples",
+        "brand:wikidata": "Q785943",
+        "fax": "+1 212-244-3237",
+        "name": "Staples",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 09:00-18:00; Su 12:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1 212-244-2681",
+        "ref": "1574",
+        "shop": "stationery",
+        "toilets": "no",
+        "website": "https://stores.staples.com/ny/new-york/500-eighth-avenue-new-york",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663354912,
+      "lat": 40.778723,
+      "lon": -73.960194,
+      "tags": {
+        "name": "Schweitzer Linen",
+        "shop": "furniture"
+      }
+    },
+    {
+      "type": "node",
+      "id": 663387539,
+      "lat": 40.7526109,
+      "lon": -73.9929161,
+      "tags": {
+        "addr:housenumber": "494",
+        "addr:postcode": "10001",
+        "addr:street": "8th Avenue",
+        "name": "NY Camera & Electronics Corporation",
+        "opening_hours": "08:00-23:00",
+        "phone": "+1 212-244-6460",
+        "shop": "electronics",
+        "website": "https://ny-camera-electronics-corporation.slue.io/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 674309033,
+      "lat": 42.7356145,
+      "lon": -73.9394454,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Sunoco",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 674317168,
+      "lat": 40.7176668,
+      "lon": -73.9476862,
+      "tags": {
+        "addr:city": "Brooklyn",
+        "addr:country": "US",
+        "addr:housenumber": "100",
+        "addr:postcode": "11211",
+        "addr:state": "NY",
+        "addr:street": "Frost Street",
+        "name": "Brooklyn Kitchen",
+        "shop": "doityourself"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677087678,
+      "lat": 44.6918664,
+      "lon": -75.487506,
+      "tags": {
+        "addr:city": "Massena",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=275"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677185167,
+      "lat": 42.723307,
+      "lon": -73.9362535,
+      "tags": {
+        "name": "Super Service Cleaners",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677219788,
+      "lat": 42.46779,
+      "lon": -73.8157035,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Cumberland Farms",
+        "brand:wikidata": "Q1143685",
+        "name": "Cumberland Farms",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677219791,
+      "lat": 42.4692041,
+      "lon": -73.8158362,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Getty",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677219792,
+      "lat": 42.4686475,
+      "lon": -73.8167413,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Stewart's",
+        "brand:wikidata": "Q7615690",
+        "name": "Stewarts",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677219793,
+      "lat": 42.4669648,
+      "lon": -73.8139474,
+      "tags": {
+        "name": "Shop 'n Save",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677219795,
+      "lat": 42.4724558,
+      "lon": -73.8084492,
+      "tags": {
+        "addr:city": "Ravena",
+        "addr:housenumber": "99",
+        "addr:postcode": "12143-1700",
+        "addr:state": "NY",
+        "addr:street": "Main Street",
+        "brand": "Ace Hardware",
+        "brand:wikidata": "Q4672981",
+        "name": "Tru-Value",
+        "opening_hours": "Mo-Tu 07:30-17:00; We-Th 07:30-18:00; Fr 07:30-17:00; Sa 08:00-16:00; Su 09:00-14:00",
+        "phone": "+1 518-756-8200",
+        "ref": "18613",
+        "shop": "hardware"
+      }
+    },
+    {
+      "type": "node",
+      "id": 677229443,
+      "lat": 42.5145035,
+      "lon": -73.6792676,
+      "tags": {
+        "amenity": "fuel",
+        "name": "Cumberland Farms",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 679534543,
+      "lat": 42.6504283,
+      "lon": -73.7520451,
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "25",
+        "addr:postcode": "12207",
+        "addr:state": "NY",
+        "addr:street": "North Pearl Street",
+        "name": "Mr. Good Vybz",
+        "shop": "cannabis",
+        "was:amenity": "cafe",
+        "was:name": "Cider Belly"
+      }
+    },
+    {
+      "type": "node",
+      "id": 684842655,
+      "lat": 43.6814511,
+      "lon": -73.9718231,
+      "tags": {
+        "name": "Nice n' Easy",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 693987000,
+      "lat": 41.1514496,
+      "lon": -74.187973,
+      "tags": {
+        "brand": "Applegreen",
+        "brand:wikidata": "Q7178908",
+        "drink:coffee": "yes",
+        "level": "0",
+        "name": "Applegreen",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 697985222,
+      "lat": 41.201747,
+      "lon": -73.8858565,
+      "tags": {
+        "addr:city": "Croton-on-Hudson",
+        "addr:postcode": "10520",
+        "addr:state": "NY",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "type": "node",
+      "id": 698000379,
+      "lat": 41.1921806,
+      "lon": -73.8793923,
+      "tags": {
+        "addr:city": "Croton-on-Hudson",
+        "addr:housenumber": "460",
+        "addr:postcode": "10520",
+        "addr:state": "NY",
+        "addr:street": "South Riverside Avenue",
+        "branch": "Croton",
+        "brand": "ShopRite",
+        "brand:wikidata": "Q7501097",
+        "name": "ShopRite",
+        "opening_hours": "Mo-Sa 06:00-00:00",
+        "phone": "+1 914-271-6400",
+        "ref": "202",
+        "shop": "supermarket",
+        "website": "https://www.shoprite.com/sm/planning/rsid/202"
+      }
+    },
+    {
+      "type": "node",
+      "id": 701022478,
+      "lat": 40.9233443,
+      "lon": -73.0430625,
+      "tags": {
+        "name": "Meat Farms",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}
