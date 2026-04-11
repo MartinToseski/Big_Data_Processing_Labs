@@ -2,7 +2,7 @@
 # - London
 # - New York
 # - Mexico City
-# - Own Selected City (Skopje)
+# - Own Selected City (Berlin)
 # Objects: Monuments/Statues & Shops/stores
 
 DB_NAME = "lab2.db"
