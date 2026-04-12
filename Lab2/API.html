@@ -1,0 +1,158 @@
+#%RAML 1.0
+title: Delivery Orders API
+version: v1
+baseUri: http://localhost:8080/api
+mediaType: application/json
+
+types:
+  Order:
+    type: object
+    properties:
+      orderId: string
+      customerName: string
+      address: string
+      meal: string
+      estimatedDeliveryTime: string
+      status: string
+
+  OrderDetail:
+    type: object
+    properties:
+      orderId: string
+      customer:
+        type: object
+        properties:
+          name: string
+          phone: string
+      address:
+        type: object
+        properties:
+          street: string
+          city: string
+          coordinates:
+            type: object
+            properties:
+              lat: number
+              lon: number
+      meal:
+        type: object
+        properties:
+          name: string
+          ingredients: string[]
+      estimatedDeliveryTime: string
+      status: string
+
+/orders:
+  get:
+    description: Gets all delivery orders
+    responses:
+      200:
+        body:
+          application/json:
+            type: Order[]
+            example:
+              - orderId: "101"
+                customerName: "John Doe"
+                address: "221B Baker Street, London"
+                meal: "Pizza Margherita"
+                estimatedDeliveryTime: "18:30"
+                status: "pending"
+
+/orders/today:
+  get:
+    description: Gets today's delivery orders for mobile application
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              date: "2026-04-12"
+              orders:
+                - orderId: "101"
+                  customerName: "John Doe"
+                  address: "221B Baker Street, London"
+                  meal: "Pizza Margherita"
+                  estimatedDeliveryTime: "18:30"
+                  status: "pending"
+
+/orders/{day}:
+  uriParameters:
+    day:
+      description: Selection of day to retrieve delivery orders
+      type: string
+      enum: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+      example: "Monday"
+  get:
+    description: Gets delivery orders for a specific day
+    responses:
+      200:
+        body:
+          application/json:
+            example:
+              day: "Monday"
+              orders:
+                - orderId: "102"
+                  customerName: "Alice Smith"
+                  address: "5th Avenue, New York"
+                  meal: "Burger + Fries"
+                  estimatedDeliveryTime: "14:00"
+                  status: "delivered"
+      400:
+        body:
+          application/json:
+            example:
+              message: "Invalid day provided"
+
+/orders/{orderId}:
+  uriParameters:
+    orderId:
+      description: ID of the order
+      type: string
+      example: "101"
+  get:
+    description: Gets detailed information about a specific order
+    responses:
+      200:
+        body:
+          application/json:
+            type: OrderDetail
+            example:
+              orderId: "101"
+              customer:
+                name: "John Doe"
+                phone: "+44 123 456"
+              address:
+                street: "221B Baker Street"
+                city: "London"
+                coordinates:
+                  lat: 51.5237
+                  lon: -0.1585
+              meal:
+                name: "Pizza Margherita"
+                ingredients: ["dough", "tomato sauce", "mozzarella"]
+              estimatedDeliveryTime: "18:30"
+              status: "pending"
+      404:
+        body:
+          application/json:
+            example:
+              message: "Order not found"
+
+
+
+
+
+ordersExample:
+  - orderId: "101"
+    customerName: "John Doe"
+    address: "221B Baker Street, London"
+    meal: "Pizza Margherita"
+    estimatedDeliveryTime: "18:30"
+    status: "pending"
+
+  - orderId: "102"
+    customerName: "Alice Smith"
+    address: "5th Avenue, New York"
+    meal: "Burger + Fries"
+    estimatedDeliveryTime: "14:00"
+    status: "delivered"

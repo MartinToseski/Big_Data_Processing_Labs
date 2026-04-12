@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 random.seed(42)
 
 
-def load_feature_vectors():
+def load_feature_vectors(start_ind=3):
     conn = connect("../../")
     c = conn.cursor()
 
@@ -28,7 +28,7 @@ def load_feature_vectors():
     metadata = []
 
     for row in rows:
-        vector = list(row[3:])
+        vector = list(row[start_ind:])
         data.append(vector)
 
         metadata.append({
