@@ -3,8 +3,9 @@ import json
 from init_db import connect
 from src.config import OVERPASS_API
 import time
+from src.utils.rate_limiter import safe_request
 
-
+"""
 def safe_request(query, retries=5):
     for i in range(retries):
         try:
@@ -15,7 +16,7 @@ def safe_request(query, retries=5):
         except:
             time.sleep(2 ** i)
     return None
-
+"""
 
 # Collect Raw Data
 def fetch_osm_data(city, timeout=60):
@@ -30,7 +31,7 @@ def fetch_osm_data(city, timeout=60):
     out body 300;
     """
 
-    data = safe_request(query)
+    data = safe_request(OVERPASS_API, method="POST", data=query)
     if not data:
         print("Failed to fetch data")
         return None, None

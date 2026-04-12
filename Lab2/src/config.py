@@ -5,12 +5,12 @@
 # - Own Selected City (Berlin)
 # Objects: Monuments/Statues & Shops/stores
 
-DB_NAME = "lab2.db"
+DB_PATH = "db/lab2.db"
 
 CITIES = [
     "London",
     "New York",
-    "Mexico City",
+    "Ciudad de México",
     "Berlin"
 ]
 
@@ -20,6 +20,10 @@ PLACE_TYPES = [
     "shop",
     "store"
 ]
+
+HEADERS = {
+    "User-Agent": "big-data-lab-project"
+}
 
 MIN_OBJECTS_PER_CITY = 200
 REQUEST_DELAY = 0.5

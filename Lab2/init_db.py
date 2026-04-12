@@ -1,10 +1,8 @@
 import sqlite3
-from src.config import DB_NAME
-
-DB = f"db/{DB_NAME}"
+from src.config import DB_PATH
 
 def connect():
-    conn = sqlite3.connect(DB)
+    conn = sqlite3.connect(DB_PATH)
     conn.execute("PRAGMA foreign_keys = ON;")
     return conn
 

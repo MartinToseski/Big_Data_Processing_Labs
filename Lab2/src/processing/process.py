@@ -21,15 +21,12 @@ def process(osm_data, raw_id, city):
     c = conn.cursor()
 
     center = get_city_center(city)
-
     if not center:
         print(f"Could not get center for {city}")
         return
 
     center_lat, center_lon = center
-
     count = 0
-
     for el in osm_data.get("elements", []):
         tags = el.get("tags", {})
 

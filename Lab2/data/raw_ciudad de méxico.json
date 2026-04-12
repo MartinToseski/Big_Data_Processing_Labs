@@ -1,0 +1,3798 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-12T09:24:02Z",
+    "timestamp_areas_base": "2026-04-11T19:21:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 280158023,
+      "lat": 19.3559748,
+      "lon": -99.1564423,
+      "tags": {
+        "name": "Estetica Lord's",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 291615516,
+      "lat": 19.3334958,
+      "lon": -99.1808107,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "shop",
+        "name": "Bicipuma",
+        "opening_hours": "Mo-Fr 06:00-16:30",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "shop": "rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 291615671,
+      "lat": 19.3257819,
+      "lon": -99.1878175,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "shop",
+        "name": "Bicipuma Estadio Tapatio Mendez",
+        "opening_hours": "Mo-Fr 06:00-16:30",
+        "shop": "rental",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 317911271,
+      "lat": 19.34718,
+      "lon": -99.1859217,
+      "tags": {
+        "historic": "monument",
+        "name": "Monumento Alvaro Obregón",
+        "tourism": "attraction",
+        "wikidata": "Q6062723",
+        "wikimedia_commons": "Category:La Bombilla Park, San Ángel",
+        "wikipedia": "es:Parque de la Bombilla (Ciudad de México)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 318077363,
+      "lat": 19.3476329,
+      "lon": -99.1819828,
+      "tags": {
+        "addr:housenumber": "134",
+        "addr:postcode": "01050",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "Gandhi Oportunidades",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "operator": "Gandhi",
+        "shop": "books",
+        "website": "https://www.gandhi.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 318077401,
+      "lat": 19.3472627,
+      "lon": -99.1822775,
+      "tags": {
+        "addr:housenumber": "121",
+        "addr:postcode": "01050",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "Gandhi Librería Mauricio Achar",
+        "opening_hours": "Mo-Fr 9:00-22:00; Sa-Su 10:00-22:00",
+        "operator": "Gandhi",
+        "shop": "books",
+        "website": "https://www.gandhi.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 318077472,
+      "lat": 19.3473494,
+      "lon": -99.1826437,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "115",
+        "addr:postcode": "01070",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "Octavio Paz",
+        "opening_hours": "Mo-Su 11:00-17:00",
+        "operator": "Fondo de Cultura Económica",
+        "shop": "books",
+        "website": "https://www.fondodeculturaeconomica.com/LibreriasEstado/9"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319155982,
+      "lat": 19.3783606,
+      "lon": -99.1786948,
+      "tags": {
+        "name": "Reloj Floral",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319281725,
+      "lat": 19.3350242,
+      "lon": -99.1990842,
+      "tags": {
+        "branch": "Pedregal",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 319651892,
+      "lat": 19.3465335,
+      "lon": -99.1803399,
+      "tags": {
+        "addr:housenumber": "201",
+        "addr:postcode": "04310",
+        "addr:street": "Miguel Ángel de Quevedo",
+        "name": "Santo Domingo",
+        "phone": "+52 55 56841570;+52 55 58783671",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473056315,
+      "lat": 19.3961815,
+      "lon": -99.1738933,
+      "tags": {
+        "addr:city": "México",
+        "addr:housename": "Altadena #59, col. Nápoles",
+        "addr:housenumber": "59",
+        "addr:postcode": "03810",
+        "addr:street": "Altadena",
+        "name": "Extra",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473056316,
+      "lat": 19.3969133,
+      "lon": -99.1752691,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473056318,
+      "lat": 19.3966785,
+      "lon": -99.1755009,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473112376,
+      "lat": 19.398225,
+      "lon": -99.1696832,
+      "tags": {
+        "name": "Extra",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473112378,
+      "lat": 19.3977324,
+      "lon": -99.1673509,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473196186,
+      "lat": 19.4012256,
+      "lon": -99.1701794,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473196187,
+      "lat": 19.3935097,
+      "lon": -99.1758998,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50MTK"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473229501,
+      "lat": 19.4242981,
+      "lon": -99.0916849,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473358264,
+      "lat": 19.3955216,
+      "lon": -99.1808872,
+      "tags": {
+        "brand": "Sanborns",
+        "brand:wikidata": "Q113206386",
+        "name": "Sanborns",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473811594,
+      "lat": 19.3968558,
+      "lon": -99.1646241,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473811687,
+      "lat": 19.4025066,
+      "lon": -99.1541215,
+      "tags": {
+        "addr:housenumber": "320",
+        "addr:postcode": "03020",
+        "addr:street": "Obrero Mundial",
+        "brand": "Soriana",
+        "brand:wikidata": "Q735562",
+        "brand:wikipedia": "en:Soriana",
+        "name": "Soriana",
+        "phone": "+52 55 54403552; +52 55 54403587",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 473817647,
+      "lat": 19.3862336,
+      "lon": -99.1752088,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "327",
+        "addr:postcode": "03810",
+        "addr:street": "Nueva York",
+        "brand": "BMW",
+        "brand:wikidata": "Q26678",
+        "brand:wikipedia": "en:BMW",
+        "name": "BMW San Antonio",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 474713878,
+      "lat": 19.3968098,
+      "lon": -99.1813157,
+      "tags": {
+        "brand": "Nissan",
+        "brand:wikidata": "Q20165",
+        "brand:wikipedia": "ja:日産自動車",
+        "name": "Nissan",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 484177484,
+      "lat": 19.4322392,
+      "lon": -99.1643715,
+      "tags": {
+        "name": "Super K",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 484177707,
+      "lat": 19.4310771,
+      "lon": -99.1637532,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "operator": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50RLM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 583127872,
+      "lat": 19.4027709,
+      "lon": -99.1979278,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50EQB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 666125666,
+      "lat": 19.2856561,
+      "lon": -99.1354791,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 666125673,
+      "lat": 19.2967901,
+      "lon": -99.1535974,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "operator": "Oxxo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 666979367,
+      "lat": 19.2894457,
+      "lon": -99.1308471,
+      "tags": {
+        "name": "Bodega Comercial Mexicana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 673839513,
+      "lat": 19.4171306,
+      "lon": -99.1765301,
+      "tags": {
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 700174560,
+      "lat": 19.4858029,
+      "lon": -99.0930994,
+      "tags": {
+        "brand": "Chedraui",
+        "brand:wikidata": "Q2961952",
+        "name": "Chedraui",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 700231572,
+      "lat": 19.4786293,
+      "lon": -99.0944911,
+      "tags": {
+        "name": "Waldo´s",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 700231644,
+      "lat": 19.4796135,
+      "lon": -99.0956273,
+      "tags": {
+        "branch": "Eduardo Molina",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Supercenter",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 728700303,
+      "lat": 19.3041679,
+      "lon": -99.1899965,
+      "tags": {
+        "name": "Centro Commercial Perisur",
+        "shop": "supermarket",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 729787006,
+      "lat": 19.2882576,
+      "lon": -99.168211,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 729854779,
+      "lat": 19.2904418,
+      "lon": -99.1671683,
+      "tags": {
+        "addr:city": "Mexico",
+        "addr:housenumber": "s/n",
+        "addr:postcode": "14000",
+        "addr:street": "Calle Ignacio Allende",
+        "brand": "Fondo de Cultura Económica",
+        "email": "encargado.tlalpan@fondodeculturaeconomica.com",
+        "image": "http://www.fondodeculturaeconomica.com/contacto/imagenes/ElsaCeciliaFrost.png",
+        "name": "Librería Elsa Cecilia Frost",
+        "note": "Calle Allende s/n, entre Juárez y Madero, dentro del Parque Juana de Asbaje, Col. Tlalpan Centro, C.P. 14000, Deleg. Tlalpan, México, D.F.",
+        "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-17:00",
+        "operator": "Fondo de Culatura Economica",
+        "phone": "+52 55 54 85 84 32",
+        "shop": "books",
+        "website": "https://www.fondodeculturaeconomica.com/contacto/?id_lib=11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 739036019,
+      "lat": 19.3136233,
+      "lon": -99.1850907,
+      "tags": {
+        "name": "Libreria Julio Torri",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 772405246,
+      "lat": 19.35032,
+      "lon": -99.1615512,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:postcode": "4100",
+        "addr:street": "Calle Ignacio Allende",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "check_date": "2025-01-17",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 779094279,
+      "lat": 19.3644936,
+      "lon": -99.1698035,
+      "tags": {
+        "addr:housenumber": "1763",
+        "addr:postcode": "03100",
+        "addr:street": "Gabriel Mancera",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 779117570,
+      "lat": 19.354591,
+      "lon": -99.1752413,
+      "tags": {
+        "addr:housenumber": "1469",
+        "addr:street": "Avenida Universidad",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 792613330,
+      "lat": 19.3422447,
+      "lon": -99.1489242,
+      "tags": {
+        "addr:housenumber": "2943",
+        "addr:street": "Avenida División del Norte",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 823731713,
+      "lat": 19.3659655,
+      "lon": -99.2090875,
+      "tags": {
+        "branch": "Centenario",
+        "brand": "Bodega Aurrera",
+        "brand:wikidata": "Q3365858",
+        "name": "Bodega Aurrera",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 823764288,
+      "lat": 19.3649155,
+      "lon": -99.1893825,
+      "tags": {
+        "branch": "Revolución",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 830603055,
+      "lat": 19.3561983,
+      "lon": -99.1552084,
+      "tags": {
+        "alt_name": "PasteFam Caramel",
+        "description": "Panadería y pastelería de tradición francesa.",
+        "name": "Panadería Caramel",
+        "opening_hours": "Mo-Fr 07:30-20:00; Sa, Su 08:00-20:00",
+        "shop": "bakery",
+        "short_name": "Caramel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 831627356,
+      "lat": 19.3412434,
+      "lon": -99.1398319,
+      "tags": {
+        "addr:housenumber": "1323",
+        "addr:postcode": "04200",
+        "addr:street": "Calzada Taxqueña",
+        "name": "Lumen",
+        "opening_hours": "Mo-Fr 09:00-20:00;Sa 09:00-18:00;Su 10:00-18:00",
+        "phone": "+52 55 56894658",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 831627388,
+      "lat": 19.3412224,
+      "lon": -99.1395149,
+      "tags": {
+        "addr:housenumber": "1333",
+        "addr:street": "Calzada Taxqueña",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 831644981,
+      "lat": 19.33936,
+      "lon": -99.1374247,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50CSW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 831644982,
+      "lat": 19.3295448,
+      "lon": -99.1366165,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50VKN"
+      }
+    },
+    {
+      "type": "node",
+      "id": 831644983,
+      "lat": 19.3343466,
+      "lon": -99.1372434,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832389897,
+      "lat": 19.339942,
+      "lon": -99.1482754,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50KNO"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832415121,
+      "lat": 19.3407427,
+      "lon": -99.1361315,
+      "tags": {
+        "addr:housenumber": "1443",
+        "addr:postcode": "06700",
+        "addr:street": "Calzada Taxqueña",
+        "name": "El Globo",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832415126,
+      "lat": 19.3299728,
+      "lon": -99.128797,
+      "tags": {
+        "name": "Fitness Station",
+        "shop": "sports"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832415129,
+      "lat": 19.3362768,
+      "lon": -99.1294527,
+      "tags": {
+        "name": "K",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832415134,
+      "lat": 19.3312808,
+      "lon": -99.1287436,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50LXN"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832425838,
+      "lat": 19.3215786,
+      "lon": -99.1322112,
+      "tags": {
+        "addr:housenumber": "2600",
+        "addr:postcode": "04850",
+        "addr:street": "Canal de Miramontes",
+        "brand": "Soriana",
+        "brand:wikidata": "Q735562",
+        "brand:wikipedia": "en:Soriana",
+        "name": "Soriana",
+        "phone": "+52 55 56844651",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 832425840,
+      "lat": 19.3175999,
+      "lon": -99.1288452,
+      "tags": {
+        "addr:housenumber": "2697",
+        "addr:postcode": "04810",
+        "addr:street": "Canal de Miramontes",
+        "name": "Steren",
+        "opening_hours": "Mo-Fr 09:30-19:00; Sa-Su 10:00-15:00",
+        "phone": "+52 55 56793300",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 837150045,
+      "lat": 19.3451998,
+      "lon": -99.1675501,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50QVD"
+      }
+    },
+    {
+      "type": "node",
+      "id": 837157067,
+      "lat": 19.3909903,
+      "lon": -99.1753866,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50NBK"
+      }
+    },
+    {
+      "type": "node",
+      "id": 837157068,
+      "lat": 19.3816707,
+      "lon": -99.1718041,
+      "tags": {
+        "name": "Farmacias del Ahorro",
+        "shop": "chemist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 837157070,
+      "lat": 19.383937,
+      "lon": -99.1705963,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "name:es": "Oxxo Ángel Urraza",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50RZW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 837157478,
+      "lat": 19.3743948,
+      "lon": -99.1790304,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "check_date": "2024-12-24",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 837167441,
+      "lat": 19.3670352,
+      "lon": -99.1799415,
+      "tags": {
+        "name": "K",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 843139220,
+      "lat": 19.3501229,
+      "lon": -99.1629744,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "8",
+        "addr:street": "Belisario Dominguez",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "check_date": "2026-02-09",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845502001,
+      "lat": 19.3548756,
+      "lon": -99.1584982,
+      "tags": {
+        "check_date": "2026-02-07",
+        "level": "0",
+        "name": "Tintoreria Álvarez",
+        "opening_hours": "Mo-Fr 09:00-17:45; Sa 09:00-14:00",
+        "shop": "dry_cleaning"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845526632,
+      "lat": 19.3452477,
+      "lon": -99.1705836,
+      "tags": {
+        "addr:housenumber": "477",
+        "addr:postcode": "04310",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "Librería Bonilla",
+        "phone": "+52 55 55549402",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845526634,
+      "lat": 19.3452259,
+      "lon": -99.1704131,
+      "tags": {
+        "addr:housenumber": "483",
+        "addr:postcode": "04310",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "J. García López",
+        "phone": "+52 55 56592171",
+        "shop": "funeral_directors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845540697,
+      "lat": 19.3448225,
+      "lon": -99.168701,
+      "tags": {
+        "addr:housenumber": "531",
+        "addr:postcode": "04310",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "brand": "Honda",
+        "brand:wikidata": "Q9584",
+        "name": "Honda Coyoacán",
+        "operator": "Honda",
+        "phone": "+52 55 53395580",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845540701,
+      "lat": 19.3448199,
+      "lon": -99.1672672,
+      "tags": {
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "Maiper",
+        "shop": "confectionery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845540703,
+      "lat": 19.3448799,
+      "lon": -99.1676777,
+      "tags": {
+        "addr:housenumber": "559",
+        "addr:postcode": "04310",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "brand": "Comex",
+        "brand:wikidata": "Q5151654",
+        "name": "Comex",
+        "phone": "+52 55 56592336",
+        "shop": "paint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 845838787,
+      "lat": 19.3484242,
+      "lon": -99.1634544,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "Calle Francisco Ortega",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846537205,
+      "lat": 19.346509,
+      "lon": -99.179819,
+      "tags": {
+        "addr:housenumber": "209",
+        "addr:postcode": "04310",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "El Sótano",
+        "opening_hours": "Mo-Sa 09:00-22:00; Su 10:00-21:00",
+        "phone": "+52 55 53391300",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 846537224,
+      "lat": 19.3464841,
+      "lon": -99.1794514,
+      "tags": {
+        "addr:housenumber": "217",
+        "addr:postcode": "04310",
+        "addr:street": "Avenida Miguel Ángel de Quevedo",
+        "name": "El Sótano de los Niños",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-20:00",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 850383276,
+      "lat": 19.351639,
+      "lon": -99.1859681,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:postcode": "01030",
+        "addr:street": "Avenida Vito Alessio Robles",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 854385862,
+      "lat": 19.3942515,
+      "lon": -99.1594436,
+      "tags": {
+        "addr:postcode": "03020",
+        "name": "Sumesa",
+        "operator": "Comercial Mexicana",
+        "phone": "+52 55 56395308; +52 55 56390218",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 855769187,
+      "lat": 19.3682626,
+      "lon": -99.1872799,
+      "tags": {
+        "name": "La Guadalupana",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 863075077,
+      "lat": 19.4056023,
+      "lon": -99.1316869,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50SKW"
+      }
+    },
+    {
+      "type": "node",
+      "id": 864612067,
+      "lat": 19.3287345,
+      "lon": -99.1086677,
+      "tags": {
+        "addr:postcode": "04480",
+        "name": "Super ISSSTE",
+        "name:ru": "ямада",
+        "phone": "+52 55 56089795",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 869822837,
+      "lat": 19.3556149,
+      "lon": -99.1742951,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50CCY"
+      }
+    },
+    {
+      "type": "node",
+      "id": 869822838,
+      "lat": 19.3514021,
+      "lon": -99.1783055,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50TGQ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 873739478,
+      "lat": 19.3985007,
+      "lon": -99.1555352,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "548",
+        "addr:street": "Cuauhtémoc",
+        "brand": "Volkswagen",
+        "brand:wikidata": "Q246",
+        "name": "Volkswagen Cresta Narvarte",
+        "operator": "Volkswagen",
+        "phone": "+52 55 56349780",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 873739498,
+      "lat": 19.3809081,
+      "lon": -99.1589314,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "1311",
+        "addr:postcode": "03100",
+        "addr:street": "Angel Urraza",
+        "brand": "Kia",
+        "brand:wikidata": "Q35349",
+        "name": "KIA Del Valle",
+        "operator": "KIA",
+        "phone": "+52 55 8526 3594",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 877118475,
+      "lat": 19.374074,
+      "lon": -99.1605037,
+      "tags": {
+        "addr:housenumber": "865",
+        "addr:street": "Miguel Laurent",
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50MGL"
+      }
+    },
+    {
+      "type": "node",
+      "id": 877118489,
+      "lat": 19.3816775,
+      "lon": -99.1625852,
+      "tags": {
+        "addr:housenumber": "1107",
+        "addr:postcode": "03100",
+        "addr:street": "Heriberto Frias",
+        "branch": "del Valle",
+        "brand": "Superama",
+        "brand:wikidata": "Q6135762",
+        "name": "Superama",
+        "opening_hours": "24/7",
+        "operator": "Superama",
+        "phone": "+52 55 55751844; +52 55 55594769",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 882127345,
+      "lat": 19.3609128,
+      "lon": -99.1851943,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Calle Manuel M. Ponce",
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50INN"
+      }
+    },
+    {
+      "type": "node",
+      "id": 882127365,
+      "lat": 19.3373047,
+      "lon": -99.1503186,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50MMP"
+      }
+    },
+    {
+      "type": "node",
+      "id": 882127381,
+      "lat": 19.3205974,
+      "lon": -99.1391167,
+      "tags": {
+        "addr:housenumber": "3651",
+        "addr:postcode": "04600",
+        "addr:street": "Avenida División del Norte",
+        "branch": "División Del Norte",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Express",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+52 55 56103407;+52 55 56103282",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 882127407,
+      "lat": 19.3398417,
+      "lon": -99.1525332,
+      "tags": {
+        "addr:housenumber": "249",
+        "addr:postcode": "04330",
+        "addr:street": "Avenida Pacífico",
+        "brand": "BMW",
+        "brand:wikidata": "Q249173",
+        "name": "BMW Motohaus",
+        "operator": "BMW Motorrad",
+        "phone": "+52 55 53383620",
+        "shop": "motorcycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 883900389,
+      "lat": 19.3532539,
+      "lon": -99.1515963,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 883900392,
+      "lat": 19.3543712,
+      "lon": -99.1518011,
+      "tags": {
+        "name": "Waldo's",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 888303244,
+      "lat": 19.3556688,
+      "lon": -99.1850799,
+      "tags": {
+        "addr:housenumber": "1847",
+        "addr:street": "Avenida Insurgentes Sur",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 888384814,
+      "lat": 19.3548808,
+      "lon": -99.1525617,
+      "tags": {
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "en:Circle K",
+        "name": "Circle K",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 888384925,
+      "lat": 19.408575,
+      "lon": -99.131469,
+      "tags": {
+        "addr:housenumber": "69",
+        "addr:postcode": "06850",
+        "addr:street": "Calz. Chabacano",
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "phone": "+52 55 57416039",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50TDJ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 901015346,
+      "lat": 19.3487894,
+      "lon": -99.1864416,
+      "tags": {
+        "name": "La Europea",
+        "shop": "beverages"
+      }
+    },
+    {
+      "type": "node",
+      "id": 901019211,
+      "lat": 19.3508945,
+      "lon": -99.1866793,
+      "tags": {
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 901848843,
+      "lat": 19.4270305,
+      "lon": -99.1602943,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 928461640,
+      "lat": 19.3516255,
+      "lon": -99.1866084,
+      "tags": {
+        "name": "Aeroméxico",
+        "shop": "travel_agency"
+      }
+    },
+    {
+      "type": "node",
+      "id": 928462103,
+      "lat": 19.3544169,
+      "lon": -99.186071,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 928649437,
+      "lat": 19.3022286,
+      "lon": -99.16536,
+      "tags": {
+        "name": "Go Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 949256719,
+      "lat": 19.413708,
+      "lon": -99.156223,
+      "tags": {
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 949289428,
+      "lat": 19.330454,
+      "lon": -99.208573,
+      "tags": {
+        "name": "Comercial Mexicana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 957892531,
+      "lat": 19.4602714,
+      "lon": -99.1934323,
+      "tags": {
+        "brand": "Comercial Mexicana",
+        "brand:wikidata": "Q2985173",
+        "brand:wikipedia": "es:Comercial Mexicana",
+        "name": "Comercial Mexicana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 957892543,
+      "lat": 19.4616674,
+      "lon": -99.1923809,
+      "tags": {
+        "name": "Gascasonica",
+        "operator": "Mercado Gascasonica",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959857322,
+      "lat": 19.4303647,
+      "lon": -99.161612,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959873682,
+      "lat": 19.4316479,
+      "lon": -99.1617936,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50NEM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959896382,
+      "lat": 19.407101,
+      "lon": -99.1826244,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50ZTA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959896392,
+      "lat": 19.4023955,
+      "lon": -99.1774746,
+      "tags": {
+        "name": "Mercado Escandón",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959896393,
+      "lat": 19.4028003,
+      "lon": -99.1731079,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50ZSU"
+      }
+    },
+    {
+      "type": "node",
+      "id": 959896396,
+      "lat": 19.4043791,
+      "lon": -99.178611,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50ZPR"
+      }
+    },
+    {
+      "type": "node",
+      "id": 976546551,
+      "lat": 19.3758521,
+      "lon": -99.161874,
+      "tags": {
+        "addr:housenumber": "697",
+        "addr:postcode": "03100",
+        "addr:street": "Avenida Universidad",
+        "name": "B Store Pilares",
+        "operator": "Blockbuster",
+        "phone": "+52 55 56059092;+52 55 56058517",
+        "shop": "video"
+      }
+    },
+    {
+      "type": "node",
+      "id": 978451583,
+      "lat": 19.3872395,
+      "lon": -99.1906814,
+      "tags": {
+        "brand": "Costco",
+        "brand:wikidata": "Q715583",
+        "brand:wikipedia": "en:Costco",
+        "name": "Costco",
+        "operator": "Costco",
+        "shop": "wholesale"
+      }
+    },
+    {
+      "type": "node",
+      "id": 985934044,
+      "lat": 19.3724215,
+      "lon": -99.1406998,
+      "tags": {
+        "name": "Papelera Dabo",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1041455880,
+      "lat": 19.3873357,
+      "lon": -99.2434769,
+      "tags": {
+        "addr:city": "Mexico",
+        "addr:housenumber": "9",
+        "addr:postcode": "11910",
+        "addr:street": "Cerrada de Bezares",
+        "description": "Corporate office building",
+        "name": "Roche",
+        "phone": "5552585000",
+        "shop": "department_store",
+        "website": "https://www.roche.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1042263321,
+      "lat": 19.4144162,
+      "lon": -99.1772819,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "81",
+        "addr:postcode": "06140",
+        "addr:street": "Avenida Mazatlán",
+        "diet:vegetarian": "yes",
+        "name": "Green Corner",
+        "opening_hours": "Mo-Sa 07:30-22:00, Su 08:00-22:00",
+        "organic": "yes",
+        "shop": "convenience",
+        "website": "https://www.thegreencorner.org/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1093457235,
+      "lat": 19.5063414,
+      "lon": -99.1434575,
+      "tags": {
+        "branch": "Torres Lindavista",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "brand:wikipedia": "en:Walmart",
+        "name": "Walmart Supercenter",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1109328964,
+      "lat": 19.3500744,
+      "lon": -99.222786,
+      "tags": {
+        "name": "El Globo",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1109329488,
+      "lat": 19.3500051,
+      "lon": -99.2230946,
+      "tags": {
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1110576997,
+      "lat": 19.2405114,
+      "lon": -99.1481256,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1112512304,
+      "lat": 19.3575535,
+      "lon": -99.1988878,
+      "tags": {
+        "brand": "Office Depot",
+        "brand:wikidata": "Q1337797",
+        "brand:wikipedia": "en:Office Depot",
+        "name": "Office Depot",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1120443998,
+      "lat": 19.422523,
+      "lon": -99.2046676,
+      "tags": {
+        "brand": "Soriana",
+        "brand:wikidata": "Q735562",
+        "brand:wikipedia": "en:Soriana",
+        "name": "Soriana",
+        "operator": "Soriana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1120443999,
+      "lat": 19.4234468,
+      "lon": -99.2048249,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1126746224,
+      "lat": 19.3356484,
+      "lon": -99.1403336,
+      "tags": {
+        "addr:housenumber": "2360",
+        "addr:postcode": "04450",
+        "addr:street": "Calz. de Tlalpan",
+        "brand": "Hella",
+        "name": "Hella Shop",
+        "operator": "Hella",
+        "phone": "+52 55 55442002; +52 55 17902811",
+        "service": "parts",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1135158125,
+      "lat": 19.3407672,
+      "lon": -99.13708,
+      "tags": {
+        "brand": "Blockbuster",
+        "brand:wikidata": "Q884711",
+        "brand:wikipedia": "en:Blockbuster LLC",
+        "name": "Blockbuster",
+        "shop": "video"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1137180912,
+      "lat": 19.4093567,
+      "lon": -99.1905935,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "survey:date": "2023-08-12",
+        "website": "https://www.oxxo.com/tiendas?cr=50GQ5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1140435639,
+      "lat": 19.3306988,
+      "lon": -99.181562,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "shop",
+        "name": "Bicipuma Química",
+        "opening_hours": "Mo-Fr 06:00-16:30",
+        "shop": "rental"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142616804,
+      "lat": 19.5251968,
+      "lon": -99.1508697,
+      "tags": {
+        "name": "La Fragata",
+        "operator": "La Fragata",
+        "shop": "convenience",
+        "survey:date": "2023-02-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142616811,
+      "lat": 19.5243677,
+      "lon": -99.1489269,
+      "tags": {
+        "operator": "El Danes",
+        "shop": "convenience",
+        "survey:date": "2023-02-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142616813,
+      "lat": 19.5277786,
+      "lon": -99.1569379,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "operator": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50QYY"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142616815,
+      "lat": 19.5271512,
+      "lon": -99.1553351,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "operator": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50YJO"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142649869,
+      "lat": 19.5255844,
+      "lon": -99.1518417,
+      "tags": {
+        "name": "Super Zoom",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142672576,
+      "lat": 19.521398,
+      "lon": -99.1427528,
+      "tags": {
+        "brand": "Continental AG",
+        "brand:wikidata": "Q163241",
+        "brand:wikipedia": "en:Continental AG",
+        "name": "Continental AG",
+        "shop": "tyres",
+        "survey:date": "2023-07-27"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1142692440,
+      "lat": 19.5284258,
+      "lon": -99.1517988,
+      "tags": {
+        "name": "Tintoreria Acueducto",
+        "shop": "water",
+        "survey:date": "2023-02-01"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152082270,
+      "lat": 19.3887026,
+      "lon": -99.1729839,
+      "tags": {
+        "addr:housenumber": "112",
+        "addr:postcode": "03100",
+        "addr:street": "Concepción Beistigui",
+        "name": "Todo de Cartón",
+        "phone": "+52 55 55232232; +52 55 55433381",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152082272,
+      "lat": 19.3824351,
+      "lon": -99.1650959,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "name:es": "Oxxo Eje 6",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50IOJ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152082278,
+      "lat": 19.3899395,
+      "lon": -99.1739983,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "opening_hours": "Mo-Su 00:00-00:00",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532767,
+      "lat": 19.3715868,
+      "lon": -99.1674813,
+      "tags": {
+        "addr:housenumber": "810",
+        "addr:postcode": "03100",
+        "addr:street": "Félix Cuevas",
+        "name": "Gayosso Félix Cuevas",
+        "operator": "Gayosso",
+        "phone": "+52 55 56886288",
+        "shop": "funeral_directors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532776,
+      "lat": 19.3777345,
+      "lon": -99.161581,
+      "tags": {
+        "addr:housenumber": "1244",
+        "addr:postcode": "03100",
+        "addr:street": "José Enrique Pestalozzi",
+        "name": "Sunshine",
+        "phone": "+52 55 56057774",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532779,
+      "lat": 19.3709795,
+      "lon": -99.1655221,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532784,
+      "lat": 19.3719469,
+      "lon": -99.1643616,
+      "tags": {
+        "addr:housenumber": "833",
+        "addr:postcode": "03100",
+        "addr:street": "Avenida Universidad",
+        "check_date": "2025-05-24",
+        "name": "El Globo",
+        "phone": "+52 55 56884889",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532790,
+      "lat": 19.3712892,
+      "lon": -99.1669046,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "check_date": "2026-02-08",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532792,
+      "lat": 19.3709634,
+      "lon": -99.1653509,
+      "tags": {
+        "name": "La Esperanza",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1152532801,
+      "lat": 19.3797111,
+      "lon": -99.162636,
+      "tags": {
+        "name": "K",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1153346870,
+      "lat": 19.3598799,
+      "lon": -99.171297,
+      "tags": {
+        "addr:housenumber": "1955",
+        "addr:postcode": "03340",
+        "addr:street": "Coyoacán",
+        "brand": "OfficeMax",
+        "brand:wikidata": "Q7079111",
+        "name": "OfficeMax",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 8:00-21:00; Su 8:00-20:00",
+        "phone": "+52 55 56057007; +52 55 56055839; +52 55 56054428",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1156051127,
+      "lat": 19.3690639,
+      "lon": -99.1683893,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "operator": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1156910771,
+      "lat": 19.428372,
+      "lon": -99.2169486,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:country": "MX",
+        "addr:housenumber": "810",
+        "addr:street": "Avenida Paseo de las Palmas",
+        "name": "Steren Shop",
+        "operator": "Steren",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1165746726,
+      "lat": 19.3872452,
+      "lon": -99.167263,
+      "tags": {
+        "addr:housenumber": "703",
+        "addr:postcode": "03100",
+        "addr:street": "Coyoacán",
+        "name": "Dormimundo Valle",
+        "operator": "Dormimundo",
+        "phone": "+52 55 55433077",
+        "shop": "bed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1165746898,
+      "lat": 19.360631,
+      "lon": -99.1717036,
+      "tags": {
+        "addr:housenumber": "1925",
+        "addr:postcode": "03100",
+        "addr:street": "Avenida Coyoacán",
+        "name": "SpeeDee Universidad",
+        "operator": "SpeeDee",
+        "phone": "+52 55 55240363; +52 55 55240355",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1165746931,
+      "lat": 19.3634919,
+      "lon": -99.1731286,
+      "tags": {
+        "addr:housenumber": "1827",
+        "addr:postcode": "03100",
+        "addr:street": "Avenida Coyoacán",
+        "name": "Centro Corporativo Automotriz",
+        "phone": "+52 55 55245750; +52 55 55240869",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1165829689,
+      "lat": 19.3662054,
+      "lon": -99.1771318,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50FRA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1179438785,
+      "lat": 19.3937645,
+      "lon": -99.1717889,
+      "tags": {
+        "name": "K",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1179485708,
+      "lat": 19.3962736,
+      "lon": -99.1718952,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1179485716,
+      "lat": 19.3958895,
+      "lon": -99.1715097,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1212733805,
+      "lat": 19.4540084,
+      "lon": -99.0856018,
+      "tags": {
+        "name": "Mercado San Juan de Aragón Sec. 2",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1212777050,
+      "lat": 19.4654566,
+      "lon": -99.0821376,
+      "tags": {
+        "branch": "San Juan de Aragón",
+        "brand": "Bodega Aurrera",
+        "brand:wikidata": "Q3365858",
+        "name": "Bodega Aurrera",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1244575976,
+      "lat": 19.4250481,
+      "lon": -99.1635105,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience",
+        "website": "https://www.7-eleven.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1289693756,
+      "lat": 19.3952265,
+      "lon": -99.1549148,
+      "tags": {
+        "addr:housenumber": "860",
+        "addr:street": "Dr. Barragan",
+        "name": "Bicimaniacos",
+        "shop": "bicycle",
+        "website": "http://www.bicimaniacos.com/web/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1289700979,
+      "lat": 19.385666,
+      "lon": -99.1676379,
+      "tags": {
+        "addr:housenumber": "745",
+        "addr:street": "Avenida Coyoacán",
+        "name": "Enbiciados Bike",
+        "shop": "bicycle",
+        "website": "http://www.enbiciadosbike.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1289810292,
+      "lat": 19.4164423,
+      "lon": -99.1569188,
+      "tags": {
+        "addr:housenumber": "55",
+        "addr:street": "Calle Zacatecas",
+        "name": "People for Bikes",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1289815017,
+      "lat": 19.4205672,
+      "lon": -99.1745719,
+      "tags": {
+        "addr:housenumber": "13-B",
+        "addr:street": "Acapulco",
+        "name": "Bicicletería Piñon Fijo",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307096355,
+      "lat": 19.4803836,
+      "lon": -99.0651475,
+      "tags": {
+        "name": "Lecaroz \"El Norte\"",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1307096372,
+      "lat": 19.4805859,
+      "lon": -99.0659308,
+      "tags": {
+        "name": "Neto",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1351117496,
+      "lat": 19.4952901,
+      "lon": -99.1324729,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1379957085,
+      "lat": 19.4346338,
+      "lon": -99.1589176,
+      "tags": {
+        "brand": "Oxxo",
+        "check_date": "2026-02-17",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1383390222,
+      "lat": 19.4085623,
+      "lon": -99.1229136,
+      "tags": {
+        "name": "Mercado de Jamaica",
+        "shop": "florist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1383639470,
+      "lat": 19.4279649,
+      "lon": -99.170282,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1383645681,
+      "lat": 19.427338,
+      "lon": -99.1729738,
+      "tags": {
+        "name": "CFE",
+        "shop": "toys"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1403764326,
+      "lat": 19.4700434,
+      "lon": -99.1700154,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "OXXO",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50KPI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1404442232,
+      "lat": 19.3973438,
+      "lon": -99.0994004,
+      "tags": {
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "name": "Circle K",
+        "operator": "Circle K",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1409192200,
+      "lat": 19.3484987,
+      "lon": -99.1632302,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:postcode": "04000",
+        "addr:street": "Calle Felipe Carillo Puerto",
+        "name": "Gandhi Coyoacán",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "operator": "Gandhi",
+        "shop": "books",
+        "website": "https://www.gandhi.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1409454623,
+      "lat": 19.4336022,
+      "lon": -99.1680604,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:housenumber": "23",
+        "addr:postcode": "06500",
+        "addr:street": "Calle Río Balsas",
+        "branch": "Sena",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "name": "Walmart Express",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1415534726,
+      "lat": 19.2877926,
+      "lon": -99.1742719,
+      "tags": {
+        "name": "Sanborn's",
+        "operator": "Sanborns",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1415534729,
+      "lat": 19.2839159,
+      "lon": -99.1753432,
+      "tags": {
+        "name": "Steren",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1433073701,
+      "lat": 19.2984786,
+      "lon": -99.1374142,
+      "tags": {
+        "branch": "Acoxpa",
+        "brand": "Best Buy",
+        "brand:wikidata": "Q533415",
+        "name": "Best Buy",
+        "operator": "Best Buy",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1435216126,
+      "lat": 19.272069,
+      "lon": -99.1180513,
+      "tags": {
+        "brand": "Office Depot",
+        "brand:wikidata": "Q1337797",
+        "brand:wikipedia": "en:Office Depot",
+        "name": "Office Depot",
+        "shop": "stationery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1439034350,
+      "lat": 19.2544125,
+      "lon": -99.1143849,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50XMI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1445924929,
+      "lat": 19.4233322,
+      "lon": -99.0745237,
+      "tags": {
+        "description": "Primer avión presidencial",
+        "historic": "monument",
+        "name": "C47 - El Mexicano"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446234569,
+      "lat": 19.4559781,
+      "lon": -99.1565306,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446234571,
+      "lat": 19.4551081,
+      "lon": -99.157818,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446234572,
+      "lat": 19.4556392,
+      "lon": -99.1565896,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446234574,
+      "lat": 19.4551183,
+      "lon": -99.1579146,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1446278055,
+      "lat": 19.4621565,
+      "lon": -99.147969,
+      "tags": {
+        "name": "Área de juegos",
+        "shop": "toys"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1454740663,
+      "lat": 19.4381617,
+      "lon": -99.1905985,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50EJC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1462033670,
+      "lat": 19.3630819,
+      "lon": -99.248561,
+      "tags": {
+        "name": "Lecaroz",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1477979998,
+      "lat": 19.3935163,
+      "lon": -99.0657698,
+      "tags": {
+        "name": "La Esperanza",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1477980001,
+      "lat": 19.3931128,
+      "lon": -99.0630586,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478207462,
+      "lat": 19.3955067,
+      "lon": -99.0629089,
+      "tags": {
+        "brand": "Neto",
+        "brand:wikidata": "Q113205593",
+        "name": "Neto",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478210743,
+      "lat": 19.3934928,
+      "lon": -99.0626407,
+      "tags": {
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478212931,
+      "lat": 19.3954695,
+      "lon": -99.060754,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218062,
+      "lat": 19.3949332,
+      "lon": -99.0651489,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218064,
+      "lat": 19.3958305,
+      "lon": -99.063008,
+      "tags": {
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218067,
+      "lat": 19.3935989,
+      "lon": -99.0657144,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218068,
+      "lat": 19.3933916,
+      "lon": -99.0654329,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218069,
+      "lat": 19.3932901,
+      "lon": -99.0607793,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218070,
+      "lat": 19.3958126,
+      "lon": -99.0628487,
+      "tags": {
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478218071,
+      "lat": 19.3933891,
+      "lon": -99.0654033,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478221485,
+      "lat": 19.3955231,
+      "lon": -99.065048,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478223905,
+      "lat": 19.3960797,
+      "lon": -99.0660431,
+      "tags": {
+        "addr:street": "Avenida Sur 12",
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50KAV"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478223912,
+      "lat": 19.3965642,
+      "lon": -99.068732,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478223914,
+      "lat": 19.3968008,
+      "lon": -99.0689949,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1478266713,
+      "lat": 19.4018214,
+      "lon": -99.0638008,
+      "tags": {
+        "name": "El Globo",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1479433846,
+      "lat": 19.3763025,
+      "lon": -99.16869,
+      "tags": {
+        "addr:housenumber": "336",
+        "addr:postcode": "03100",
+        "addr:street": "Miguel Laurent",
+        "brand": "Mercedes-Benz",
+        "brand:wikidata": "Q36008",
+        "name": "Estrella del Valle",
+        "operator": "Mercedes-Benz",
+        "phone": "+52 55 5575 9166",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1482031190,
+      "lat": 19.3370383,
+      "lon": -99.1843097,
+      "tags": {
+        "name": "Instituto de Contadores Publicos",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1482098741,
+      "lat": 19.3553384,
+      "lon": -99.1521921,
+      "tags": {
+        "name": "El Globo",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1482098744,
+      "lat": 19.3497016,
+      "lon": -99.1613429,
+      "tags": {
+        "name": "Flexi",
+        "shop": "shoes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1494079872,
+      "lat": 19.3507507,
+      "lon": -99.2204771,
+      "tags": {
+        "name": "Lecaroz",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1498986109,
+      "lat": 19.4223611,
+      "lon": -99.1631234,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1499489411,
+      "lat": 19.5092487,
+      "lon": -99.1001102,
+      "tags": {
+        "fixme": "Regularmente donde había una super tienda Gigante existe ahora un Mercado Soriana.",
+        "name": "Gigante",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1499492696,
+      "lat": 19.5071553,
+      "lon": -99.0954565,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1503139017,
+      "lat": 19.413175,
+      "lon": -99.1565469,
+      "tags": {
+        "name": "Under the Volcano Books",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1507941780,
+      "lat": 19.3894124,
+      "lon": -99.0408118,
+      "tags": {
+        "branch": "Zaragoza",
+        "brand": "Soriana",
+        "brand:wikidata": "Q735562",
+        "name": "MEGA Soriana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1524949258,
+      "lat": 19.3314461,
+      "lon": -99.1894954,
+      "tags": {
+        "amenity": "bicycle_rental",
+        "bicycle_rental": "shop",
+        "layer": "-1",
+        "name": "Bicipuma Estadio Olímpico",
+        "opening_hours": "Mo-Fr 06:00-16:30",
+        "operator": "Bicipuma",
+        "shop": "rental",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1532928820,
+      "lat": 19.4913154,
+      "lon": -99.1192192,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "Izcóatl",
+        "source": "survey",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1532928834,
+      "lat": 19.4916504,
+      "lon": -99.1193093,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "Ahuizotl",
+        "source": "survey",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1539913145,
+      "lat": 19.3954948,
+      "lon": -99.0516347,
+      "tags": {
+        "name": "Office Depot",
+        "shop": "doityourself"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1539913180,
+      "lat": 19.4220474,
+      "lon": -99.0992814,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1539913199,
+      "lat": 19.4294943,
+      "lon": -99.1039592,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50CIH"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1540934011,
+      "lat": 19.3416516,
+      "lon": -99.1815471,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50SBF"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1561800151,
+      "lat": 19.3431774,
+      "lon": -99.1261364,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50SAE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1562439187,
+      "lat": 19.4102161,
+      "lon": -99.1351524,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "toilets:wheelchair": "no",
+        "website": "https://www.oxxo.com/tiendas?cr=50CBH",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1582063398,
+      "lat": 19.3413454,
+      "lon": -99.1712154,
+      "tags": {
+        "addr:housename": "Bordados Rikami",
+        "addr:housenumber": "242-B",
+        "addr:postcode": "04310",
+        "addr:street": "Calle Omega",
+        "designation": "Bordados",
+        "name": "Bordados Rikami",
+        "opening_hours": "Mo-Th 09:00-14:00, 15:00-18:00; Fr 09:00-13:00",
+        "phone": "55542457",
+        "shop": "clothes",
+        "website": "https://www.saketo.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1589092958,
+      "lat": 19.2932123,
+      "lon": -99.1197238,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1589092959,
+      "lat": 19.292311,
+      "lon": -99.1203299,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1589092960,
+      "lat": 19.2923009,
+      "lon": -99.1202682,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1589092961,
+      "lat": 19.2934477,
+      "lon": -99.1201878,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1589092962,
+      "lat": 19.2918756,
+      "lon": -99.122127,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1589092965,
+      "lat": 19.2927693,
+      "lon": -99.122245,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1634800735,
+      "lat": 19.3032089,
+      "lon": -99.1242509,
+      "tags": {
+        "addr:housenumber": "519",
+        "addr:postcode": "14300",
+        "addr:street": "Calzada del Hueso",
+        "branch": "Coapa",
+        "brand": "Liverpool",
+        "brand:wikidata": "Q1143318",
+        "brand:wikipedia": "es:El Puerto de Liverpool",
+        "contact:email": "atencion@liverpool.com.mx",
+        "contact:facebook": "https://www.facebook.com/liverpoolmexico",
+        "contact:instagram": "https://www.instagram.com/liverpool_mexico",
+        "contact:linkedin": "https://mx.linkedin.com/company/elpuertodeliverpool",
+        "contact:phone": "+52 55 5627 9600",
+        "contact:twitter": "https://twitter.com/liverpoolmexico",
+        "contact:website": "https://www.liverpool.com.mx/tienda/home",
+        "contact:youtube": "https://www.youtube.com/@liverpoolmexico",
+        "name": "Liverpool",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "operator": "Liverpool",
+        "shop": "department_store",
+        "tiktok": "https://www.tiktok.com/@liverpool_mexico"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1634800743,
+      "lat": 19.302574,
+      "lon": -99.122231,
+      "tags": {
+        "branch": "Coapa",
+        "brand": "Sears",
+        "brand:wikidata": "Q6499202",
+        "brand:wikipedia": "en:Sears",
+        "name": "Sears",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1675148990,
+      "lat": 19.3340078,
+      "lon": -99.1534811,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "04330",
+        "addr:street": "Del Rosal",
+        "email": "nesign@live.com.mx",
+        "name": "SingleGear",
+        "phone": "+52 55 46224915",
+        "shop": "bicycle",
+        "website": "http://www.singlegear.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1675149911,
+      "lat": 19.3339728,
+      "lon": -99.1534862,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:postcode": "04330",
+        "addr:street": "Del Rosal",
+        "email": "cobragt700@gmail.com",
+        "name": "CobraGT700",
+        "phone": "+52 55 46224915",
+        "shop": "toys",
+        "website": "http://www.cobragt700.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677090126,
+      "lat": 19.4722259,
+      "lon": -99.1207786,
+      "tags": {
+        "branch": "Tepeyac",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "designation": "Wal Mart",
+        "name": "Walmart Supercenter",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677097431,
+      "lat": 19.4707339,
+      "lon": -99.1183056,
+      "tags": {
+        "brand": "Suburbia",
+        "brand:wikidata": "Q6134992",
+        "brand:wikipedia": "en:Suburbia (department store)",
+        "clothes": "suburbia;torre",
+        "contact:email": "contacto@suburbia.com.mx",
+        "contact:facebook": "https://www.facebook.com/estrenasuburbia",
+        "contact:instagram": "https://www.instagram.com/modasuburbia",
+        "contact:linkedin": "https://www.linkedin.com/company/suburbiamexico",
+        "contact:tiktok": "https://www.tiktok.com/@suburbiaoficial",
+        "contact:twitter": "https://twitter.com/EstrenaSuburbia",
+        "contact:youtube": "https://www.youtube.com/@ModaSuburbia",
+        "name": "Suburbia",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "phone": "+52 55 5759 1327",
+        "shop": "clothes",
+        "website": "https://www.suburbia.com.mx/tienda/home"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677134611,
+      "lat": 19.4733335,
+      "lon": -99.1269678,
+      "tags": {
+        "name": "Panadería \"La Paty\"",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677138182,
+      "lat": 19.4729845,
+      "lon": -99.1314162,
+      "tags": {
+        "designation": "local owner",
+        "name": "\"Lonja Mercantil San Rafael\"",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677151794,
+      "lat": 19.4674647,
+      "lon": -99.1236493,
+      "tags": {
+        "designation": "Local owner",
+        "name": "Quality Bakery",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677160031,
+      "lat": 19.4736198,
+      "lon": -99.1267794,
+      "tags": {
+        "designation": "Craft Beer",
+        "name": "Cervezas Artesanales",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677168261,
+      "lat": 19.4619308,
+      "lon": -99.1276129,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "designation": "FEMSA OXXO",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50MSY"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677171704,
+      "lat": 19.4652589,
+      "lon": -99.1254912,
+      "tags": {
+        "branch": "La Villa",
+        "brand": "Soriana",
+        "brand:wikidata": "Q735562",
+        "name": "Soriana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677171707,
+      "lat": 19.4641588,
+      "lon": -99.1263415,
+      "tags": {
+        "name": "Waldo´s Dollar Mart",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677276395,
+      "lat": 19.4176264,
+      "lon": -99.1736033,
+      "tags": {
+        "designation": "Kosher",
+        "name": "Super Delicatessen",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677827369,
+      "lat": 19.470708,
+      "lon": -99.1255182,
+      "tags": {
+        "name": "Flores (Puesto de Flores)",
+        "shop": "florist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677827987,
+      "lat": 19.4706088,
+      "lon": -99.1251749,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677829795,
+      "lat": 19.4706504,
+      "lon": -99.1247959,
+      "tags": {
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677830054,
+      "lat": 19.4706314,
+      "lon": -99.124747,
+      "tags": {
+        "name": "Abarrotes Sagitario",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677832482,
+      "lat": 19.4699974,
+      "lon": -99.1252057,
+      "tags": {
+        "name": "Tlapalería San Rafael",
+        "shop": "doityourself"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677833879,
+      "lat": 19.4710405,
+      "lon": -99.1259399,
+      "tags": {
+        "name": "Abarrotes \"La Luz\"",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677834269,
+      "lat": 19.4710873,
+      "lon": -99.1265696,
+      "tags": {
+        "name": "Abarrotes \"Atomic\"",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677834912,
+      "lat": 19.4706056,
+      "lon": -99.126913,
+      "tags": {
+        "name": "Abarrotes \"Toñolín\"",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677836050,
+      "lat": 19.4710632,
+      "lon": -99.1264737,
+      "tags": {
+        "name": "Taller eléctrico",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677836415,
+      "lat": 19.4690744,
+      "lon": -99.1275808,
+      "tags": {
+        "name": "Vulcanizadora",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677836713,
+      "lat": 19.4692653,
+      "lon": -99.1282259,
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677841251,
+      "lat": 19.4738956,
+      "lon": -99.1335743,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "designation": "FEMSA",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "source": "24hrs.",
+        "website": "https://www.oxxo.com/tiendas?cr=50BSO"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677842684,
+      "lat": 19.4716778,
+      "lon": -99.13123,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "designation": "FEMSA",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50XKH"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677843278,
+      "lat": 19.4721455,
+      "lon": -99.1295609,
+      "tags": {
+        "designation": "Local owner",
+        "name": "Abarrotes \"La Fortaleza\"",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677843456,
+      "lat": 19.4713971,
+      "lon": -99.1273802,
+      "tags": {
+        "name": "Taller de Holatería y pintura",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677843457,
+      "lat": 19.4721533,
+      "lon": -99.129736,
+      "tags": {
+        "addr:housenumber": "386",
+        "addr:postcode": "07800",
+        "addr:street": "Calle Norte 26",
+        "name": "Bollería Mexicana",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677843861,
+      "lat": 19.4732988,
+      "lon": -99.127314,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677843863,
+      "lat": 19.4733924,
+      "lon": -99.1276136,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677845136,
+      "lat": 19.4720976,
+      "lon": -99.1239612,
+      "tags": {
+        "shop": "bed",
+        "survey:date": "2022-12-28"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677845137,
+      "lat": 19.4725477,
+      "lon": -99.1252621,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677845138,
+      "lat": 19.4721026,
+      "lon": -99.1240007,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677845140,
+      "lat": 19.4731823,
+      "lon": -99.1264951,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677845141,
+      "lat": 19.4730383,
+      "lon": -99.1266729,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677856209,
+      "lat": 19.467662,
+      "lon": -99.1226925,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677865132,
+      "lat": 19.4770742,
+      "lon": -99.1248946,
+      "tags": {
+        "designation": "Grupo Soriana",
+        "name": "Súper Precio",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677865144,
+      "lat": 19.4758604,
+      "lon": -99.124229,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677865148,
+      "lat": 19.4781363,
+      "lon": -99.1250448,
+      "tags": {
+        "name": "Panadería \"Buen Tono\"",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677865153,
+      "lat": 19.4762461,
+      "lon": -99.1245205,
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677868820,
+      "lat": 19.468489,
+      "lon": -99.1251776,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677868821,
+      "lat": 19.476619,
+      "lon": -99.1256322,
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1677871328,
+      "lat": 19.468599,
+      "lon": -99.1255437,
+      "tags": {
+        "shop": "doityourself"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1679093325,
+      "lat": 19.2824509,
+      "lon": -99.1740595,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50DHM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1679093413,
+      "lat": 19.2820645,
+      "lon": -99.174525,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1695892209,
+      "lat": 19.35874,
+      "lon": -99.198282,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1707410490,
+      "lat": 19.4302481,
+      "lon": -99.1481191,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "check_date": "2025-05-11",
+        "name": "Oxxo",
+        "opening_hours": "24/7",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50PGB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1719691576,
+      "lat": 19.3950409,
+      "lon": -99.0510813,
+      "tags": {
+        "name": "Bodega Comercial Mexicana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1719881704,
+      "lat": 19.4005881,
+      "lon": -99.1244494,
+      "tags": {
+        "addr:housename": "Sistemas de Escape",
+        "addr:housenumber": "528",
+        "addr:postcode": "08300",
+        "addr:street": "Calzada de La Viga",
+        "name": "Sistemas de Escape",
+        "shop": "car_repair"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1729196465,
+      "lat": 19.365712,
+      "lon": -99.1676327,
+      "tags": {
+        "addr:housename": "Vanity",
+        "addr:housenumber": "1052",
+        "addr:postcode": "03330",
+        "addr:street": "Avenida Universidad",
+        "name": "Vanity Universidad",
+        "shop": "clothes",
+        "website": "https://www.vanity.com.mx/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738878713,
+      "lat": 19.3525783,
+      "lon": -99.1448618,
+      "tags": {
+        "name": "Bodegas Alianza",
+        "shop": "alcohol"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738878716,
+      "lat": 19.3529047,
+      "lon": -99.1447814,
+      "tags": {
+        "name": "La Esperanza",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738878717,
+      "lat": 19.3543505,
+      "lon": -99.1443485,
+      "tags": {
+        "brand": "Renault",
+        "brand:wikidata": "Q6686",
+        "brand:wikipedia": "en:Renault",
+        "name": "Renault",
+        "operator": "Renault",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1738878753,
+      "lat": 19.3532641,
+      "lon": -99.144633,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1747161978,
+      "lat": 19.3373447,
+      "lon": -99.1843817,
+      "tags": {
+        "addr:housenumber": "2060",
+        "addr:street": "Avenida Universidad",
+        "brand": "Volkswagen",
+        "brand:wikidata": "Q246",
+        "contact:fax": "+52 55 56589363",
+        "contact:phone": "+52 55 50010000",
+        "contact:website": "http://www.daltoncopilco.com.mx/",
+        "name": "Volkswagen Dalton Copilco",
+        "operator": "Volkswagen",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1764784220,
+      "lat": 19.4367359,
+      "lon": -99.1568035,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50TUB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1800088902,
+      "lat": 19.4282957,
+      "lon": -99.2084039,
+      "tags": {
+        "addr:city": "Ciudad de México",
+        "addr:country": "MX",
+        "addr:housenumber": "325",
+        "addr:postcode": "11000",
+        "addr:street": "Prado Norte",
+        "name": "Fussion Estilistas",
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1802013721,
+      "lat": 19.3531626,
+      "lon": -99.1446778,
+      "tags": {
+        "name": "Farmacias del Ahorro",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1802013723,
+      "lat": 19.3504475,
+      "lon": -99.1449236,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50FDE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1815422123,
+      "lat": 19.3512718,
+      "lon": -99.1493348,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "check_date": "2026-02-08",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1824412674,
+      "lat": 19.3707077,
+      "lon": -99.1761382,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "check_date": "2024-12-29",
+        "name": "7-Eleven",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1824415094,
+      "lat": 19.3766489,
+      "lon": -99.1722329,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "website": "https://www.oxxo.com/tiendas?cr=50PCI"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1824415811,
+      "lat": 19.3761732,
+      "lon": -99.1698028,
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "name": "7-Eleven",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1846152629,
+      "lat": 19.2826384,
+      "lon": -99.1443533,
+      "tags": {
+        "brand": "Renault",
+        "brand:wikidata": "Q6686",
+        "brand:wikipedia": "fr:Renault",
+        "name": "Renault",
+        "shop": "car"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1846206918,
+      "lat": 19.3681848,
+      "lon": -99.1776844,
+      "tags": {
+        "addr:housenumber": "161 BIS",
+        "addr:street": "Búfalo",
+        "name": "Lavados y Planchados S.A.",
+        "shop": "laundry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1848829205,
+      "lat": 19.4409979,
+      "lon": -99.0888262,
+      "tags": {
+        "name": "La Esperanza",
+        "shop": "bakery"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1859284264,
+      "lat": 19.3034048,
+      "lon": -99.1899125,
+      "tags": {
+        "brand": "Sears",
+        "brand:wikidata": "Q6499202",
+        "brand:wikipedia": "en:Sears",
+        "name": "Sears",
+        "shop": "department_store",
+        "toilets:wheelchair": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1859284915,
+      "lat": 19.3036594,
+      "lon": -99.1891458,
+      "tags": {
+        "brand": "Sanborns",
+        "brand:wikidata": "Q113206386",
+        "name": "Sanborns",
+        "shop": "department_store"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1859286719,
+      "lat": 19.3041656,
+      "lon": -99.1880354,
+      "tags": {
+        "addr:housenumber": "4690",
+        "addr:postcode": "04500",
+        "addr:street": "Periférico Sur",
+        "branch": "Perisur",
+        "brand": "Liverpool",
+        "brand:wikidata": "Q1143318",
+        "contact:email": "atencion@liverpool.com.mx",
+        "contact:facebook": "https://www.facebook.com/liverpoolmexico",
+        "contact:instagram": "https://www.instagram.com/liverpool_mexico",
+        "contact:linkedin": "https://mx.linkedin.com/company/elpuertodeliverpool",
+        "contact:phone": "+52 55 5447 1200",
+        "contact:twitter": "https://twitter.com/liverpoolmexico",
+        "contact:website": "https://www.liverpool.com.mx/tienda/home",
+        "contact:youtube": "https://www.youtube.com/@liverpoolmexico",
+        "name": "Liverpool",
+        "opening_hours": "Mo-Su 11:00-21:00",
+        "operator": "Liverpool",
+        "shop": "department_store",
+        "tiktok": "https://www.tiktok.com/@liverpool_mexico"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1859292580,
+      "lat": 19.304458,
+      "lon": -99.1919322,
+      "tags": {
+        "addr:housenumber": "4690",
+        "addr:postcode": "04500",
+        "addr:street": "Periférico Sur",
+        "name": "El Palacio de Hierro",
+        "operator": "El Palacio de Hierro",
+        "shop": "department_store",
+        "toilets:wheelchair": "yes",
+        "website": "http://www.elpalaciodehierro.com.mx/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1862172310,
+      "lat": 19.2803644,
+      "lon": -99.1378767,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1865892528,
+      "lat": 19.3370986,
+      "lon": -99.1836223,
+      "tags": {
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "source": "Bing",
+        "website": "https://www.oxxo.com/tiendas?cr=50MJF"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1865892532,
+      "lat": 19.3359792,
+      "lon": -99.1804484,
+      "tags": {
+        "addr:street": "Avenida Copilco",
+        "brand": "Oxxo",
+        "brand:wikidata": "Q1342538",
+        "brand:wikipedia": "es:Oxxo",
+        "name": "Oxxo",
+        "shop": "convenience",
+        "source": "Bing",
+        "website": "https://www.oxxo.com/tiendas?cr=50ODX"
+      }
+    }
+  ]
+}
