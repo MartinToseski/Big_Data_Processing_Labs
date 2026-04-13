@@ -130,11 +130,7 @@ def report():
 
     print(f"\nTotal records: {total}")
 
-    # -----------------------------
-    # NUMERICAL FEATURES
-    # -----------------------------
     print("\n===== NUMERICAL FEATURES =====")
-
     numerical_features = [
         "lat",
         "lon",
@@ -152,11 +148,7 @@ def report():
         for k, v in stats.items():
             print(f"  {k}: {round(v, 3) if isinstance(v, float) else v}")
 
-    # -----------------------------
-    # CATEGORICAL FEATURES
-    # -----------------------------
     print("\n===== CATEGORICAL FEATURES =====")
-
     categorical_features = [
         "category_encoded",
         "has_website",

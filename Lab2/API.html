@@ -1,7 +1,5 @@
 #%RAML 1.0
 title: Delivery Orders API
-version: v1
-baseUri: http://localhost:8080/api
 mediaType: application/json
 
 types:
@@ -75,7 +73,7 @@ types:
                   estimatedDeliveryTime: "18:30"
                   status: "pending"
 
-/orders/{day}:
+/orders/day/{day}:
   uriParameters:
     day:
       description: Selection of day to retrieve delivery orders
@@ -103,7 +101,7 @@ types:
             example:
               message: "Invalid day provided"
 
-/orders/{orderId}:
+/orders/id/{orderId}:
   uriParameters:
     orderId:
       description: ID of the order

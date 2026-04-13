@@ -5,8 +5,6 @@ from matplotlib import pyplot as plt
 
 
 random.seed(42)
-
-
 def print_cluster_stats(clusters, metadata):
     print("\n===== CLUSTER ANALYSIS =====")
 

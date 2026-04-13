@@ -1,24 +1,6 @@
-import requests
 import urllib.parse
 import time
-from src.config import HEADERS
 from src.utils.rate_limiter import safe_request
-
-
-"""
-def safe_get(url, retries=5):
-    for i in range(retries):
-        try:
-            r = requests.get(url, headers=HEADERS)
-
-            if r.status_code == 200:
-                return r.json()
-
-        except Exception as e:
-            time.sleep(2 ** i)
-
-    return None
-"""
 
 
 def get_wikipedia_title(wikidata_id):

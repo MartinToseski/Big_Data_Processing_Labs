@@ -1,22 +1,8 @@
-import requests
 import json
 from init_db import connect
 from src.config import OVERPASS_API
-import time
 from src.utils.rate_limiter import safe_request
 
-"""
-def safe_request(query, retries=5):
-    for i in range(retries):
-        try:
-            r = requests.post(OVERPASS_API, data=query)
-            print(f"Try {i+1}: {r.status_code}")
-            if r.status_code == 200:
-                return r.json()
-        except:
-            time.sleep(2 ** i)
-    return None
-"""
 
 # Collect Raw Data
 def fetch_osm_data(city, timeout=60):
