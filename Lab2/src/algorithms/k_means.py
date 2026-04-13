@@ -7,6 +7,25 @@ from matplotlib import pyplot as plt
 random.seed(42)
 
 
+def print_cluster_stats(clusters, metadata):
+    print("\n===== CLUSTER ANALYSIS =====")
+
+    for i, cluster in enumerate(clusters):
+        print(f"\nCluster {i + 1}")
+        print(f"Size: {len(cluster)}")
+
+        city_counts = {}
+
+        for idx in cluster:
+            city = metadata[idx]["city"]
+            city_counts[city] = city_counts.get(city, 0) + 1
+
+        print("City distribution:")
+        for city, count in city_counts.items():
+            print(f"  {city}: {count}")
+    print("")
+
+
 def load_feature_vectors(start_ind=3):
     conn = connect("../../")
     c = conn.cursor()
@@ -152,6 +171,6 @@ def kmeans(data, k=5, max_iters=50, tol=1e-4):
 if __name__ == "__main__":
     data, metadata = load_feature_vectors()
     normalized_data = normalize(data)
-    elbow_method(normalized_data, k_range=range(2, 21), runs=1)
+    #elbow_method(normalized_data, k_range=range(2, 21), runs=1)
     elbow_method(normalized_data, k_range=range(2, 21), runs=3)
-    elbow_method(normalized_data, k_range=range(2, 21), runs=5)
+    #elbow_method(normalized_data, k_range=range(2, 21), runs=5)

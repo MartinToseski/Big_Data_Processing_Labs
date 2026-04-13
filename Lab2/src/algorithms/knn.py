@@ -1,5 +1,5 @@
 import math
-from src.algorithms.k_means import load_feature_vectors, normalize, kmeans
+from src.algorithms.k_means import load_feature_vectors, normalize, kmeans, print_cluster_stats
 
 
 def euclidean(a, b):
@@ -66,10 +66,9 @@ def find_similar_places(place_name, clusters, data, metadata, k=5):
 if __name__ == "__main__":
     data, metadata = load_feature_vectors(start_ind=5)
     normalized_data = normalize(data)
-    for row in normalized_data[:5]:
-        print(row)
-    print("")
-    clusters, _, _ = kmeans(normalized_data, k=8)
+
+    clusters, _, _ = kmeans(normalized_data, k=6)
+    print_cluster_stats(clusters, metadata)
     for k in range(3, 15, 2):
         print("K=" + str(k))
         results = find_similar_places("EDEKA", clusters, normalized_data, metadata, k=k)

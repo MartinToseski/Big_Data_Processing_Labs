@@ -2,6 +2,18 @@ from init_db import connect
 import math
 
 
+def print_table_sizes(c):
+    print("\n===== DATASET SIZE =====")
+
+    tables = ["raw_data", "intermediate_data", "features"]
+
+    for table in tables:
+        c.execute(f"SELECT COUNT(*) FROM {table}")
+        count = c.fetchone()[0]
+
+        print(f"{table}: {count} rows")
+
+
 # Helper functions
 def percentile(sorted_data, p):
     if not sorted_data:
@@ -109,6 +121,8 @@ def report():
     print("\n=======================")
     print("     DATA REPORT")
     print("=======================")
+
+    print_table_sizes(c)
 
     # Dataset size
     c.execute("SELECT COUNT(*) FROM features")
