@@ -1,6 +1,6 @@
 import random
 import math
-from init_db import connect
+from Lab2.init_db import connect
 from matplotlib import pyplot as plt
 
 

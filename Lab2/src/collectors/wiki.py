@@ -1,6 +1,6 @@
 import urllib.parse
 import time
-from src.utils.rate_limiter import safe_request
+from Lab2.src.utils.rate_limiter import safe_request
 
 
 def get_wikipedia_title(wikidata_id):

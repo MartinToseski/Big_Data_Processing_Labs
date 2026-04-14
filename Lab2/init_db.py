@@ -1,6 +1,7 @@
 import sqlite3
 from src.config import DB_PATH
 
+
 def connect(path=""):
     conn = sqlite3.connect(path+DB_PATH)
     conn.execute("PRAGMA foreign_keys = ON;")
@@ -52,6 +53,35 @@ def create_tables():
         is_tourism_place INTEGER,
         has_phone INTEGER,
         FOREIGN KEY (intermediate_id) REFERENCES intermediate_data(id)
+    )
+    """)
+
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS relevance (
+        id INTEGER PRIMARY KEY,
+        feature_id INTEGER,
+        score REAL,
+        FOREIGN KEY (feature_id) REFERENCES features(id) ON DELETE CASCADE
+    )
+    """)
+
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS graph_edges (
+        id INTEGER PRIMARY KEY,
+        source_id INTEGER,
+        target_id INTEGER,
+        FOREIGN KEY (source_id) REFERENCES features(id) ON DELETE CASCADE,
+        FOREIGN KEY (target_id) REFERENCES features(id) ON DELETE CASCADE,
+        UNIQUE(source_id, target_id)
+    )
+    """)
+
+    c.execute("""
+    CREATE TABLE IF NOT EXISTS pagerank (
+        id INTEGER PRIMARY KEY,
+        node_id INTEGER,
+        score REAL,
+        FOREIGN KEY (node_id) REFERENCES features(id) ON DELETE CASCADE
     )
     """)
 
