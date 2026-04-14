@@ -105,10 +105,10 @@ def save_edges(all_edges):
         for source, target, weight in chunk:
             try:
                 c.execute("""
-                    INSERT OR IGNORE INTO graph_edges (source_id, target_id)
-                    VALUES (?, ?)
-                """, (source, target))
-            except:
+                    INSERT OR IGNORE INTO graph_edges (source_id, target_id, weight)
+                    VALUES (?, ?, ?)
+                """, (source, target, weight))
+            except Exception:
                 pass
 
     conn.commit()

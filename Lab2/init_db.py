@@ -70,6 +70,7 @@ def create_tables():
         id INTEGER PRIMARY KEY,
         source_id INTEGER,
         target_id INTEGER,
+        weight REAL,
         FOREIGN KEY (source_id) REFERENCES features(id) ON DELETE CASCADE,
         FOREIGN KEY (target_id) REFERENCES features(id) ON DELETE CASCADE,
         UNIQUE(source_id, target_id)
