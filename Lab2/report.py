@@ -115,7 +115,7 @@ def analyze_categorical(c, feature):
 
 
 def report():
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
 
     print("\n=======================")

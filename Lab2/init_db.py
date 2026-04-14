@@ -1,5 +1,5 @@
 import sqlite3
-from src.config import DB_PATH
+from Lab2.src.config import DB_PATH
 
 
 def connect(path=""):
@@ -9,7 +9,7 @@ def connect(path=""):
 
 
 def create_tables():
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
 
     c.execute("""

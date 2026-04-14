@@ -22,7 +22,7 @@ def fetch_osm_data(city, timeout=60):
         print("Failed to fetch data")
         return None, None
 
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
 
     c.execute(

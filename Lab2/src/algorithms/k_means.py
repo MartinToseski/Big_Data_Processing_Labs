@@ -25,7 +25,7 @@ def print_cluster_stats(clusters, metadata):
 
 
 def load_feature_vectors(start_ind=3):
-    conn = connect("../../")
+    conn = connect("")
     c = conn.cursor()
 
     c.execute("""

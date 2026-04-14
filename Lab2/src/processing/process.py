@@ -17,7 +17,7 @@ def encode_category(tags):
 
 
 def process(osm_data, raw_id, city):
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
 
     center = get_city_center(city)

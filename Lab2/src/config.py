@@ -5,7 +5,10 @@
 # - Own Selected City (Berlin)
 # Objects: Monuments/Statues & Shops/stores
 
-DB_PATH = "db/lab2.db"
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DB_PATH = os.path.join(BASE_DIR, "db", "lab2.db")
 
 CITIES = [
     "London",

@@ -1,9 +1,17 @@
+import os
+import sys
 from mpi4py import MPI
-from ..init_db import connect
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+sys.path.append(PROJECT_ROOT)
+from src import config
+config.DB_PATH = os.path.join(PROJECT_ROOT, "db", "lab2.db")
+from init_db import connect
 
 
 def load_data():
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
 
     c.execute("""
@@ -53,7 +61,7 @@ def compute_relevance(row, max_desc, max_tags):
 
 
 def save_results(results):
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
     c.execute("DELETE FROM relevance")
 
