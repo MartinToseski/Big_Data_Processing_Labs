@@ -1,7 +1,7 @@
 import json
-from Lab2.init_db import connect
-from Lab2.src.config import OVERPASS_API
-from Lab2.src.utils.rate_limiter import safe_request
+from init_db import connect
+from src.config import OVERPASS_API
+from src.utils.rate_limiter import safe_request
 
 
 # Collect Raw Data

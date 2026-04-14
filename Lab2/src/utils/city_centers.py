@@ -1,6 +1,6 @@
 import requests
 import time
-from Lab2.src.config import NOMINATIM_API, HEADERS
+from src.config import NOMINATIM_API, HEADERS
 
 
 # Cache to avoid repeated API calls

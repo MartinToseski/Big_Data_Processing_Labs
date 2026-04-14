@@ -1,7 +1,7 @@
 import json
-from Lab2.init_db import connect
-from Lab2.src.collectors.wiki import enrich
-from Lab2.src.utils.city_centers import get_city_center
+from init_db import connect
+from src.collectors.wiki import enrich
+from src.utils.city_centers import get_city_center
 
 
 def distance(lat1, lon1, lat2, lon2):

@@ -1,5 +1,5 @@
 import requests
-from Lab2.src.config import HEADERS
+from src.config import HEADERS
 import time
 
 

@@ -1,5 +1,5 @@
 import sqlite3
-from Lab2.src.config import DB_PATH
+from src.config import DB_PATH
 
 
 def connect(path=""):

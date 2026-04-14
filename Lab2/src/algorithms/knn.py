@@ -1,5 +1,5 @@
 import math
-from Lab2.src.algorithms.k_means import load_feature_vectors, normalize, kmeans, print_cluster_stats
+from src.algorithms.k_means import load_feature_vectors, normalize, kmeans, print_cluster_stats
 
 
 def euclidean(a, b):

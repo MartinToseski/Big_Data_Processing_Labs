@@ -1,7 +1,6 @@
 import os
 import sys
 from mpi4py import MPI
-
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
 sys.path.append(PROJECT_ROOT)

@@ -1,9 +1,9 @@
 import os
 import json
 from init_db import connect, create_tables
-from Lab2.src.collectors.osm import fetch_osm_data
-from Lab2.src.config import CITIES, DB_PATH
-from Lab2.src.processing.process import process
+from src.collectors.osm import fetch_osm_data
+from src.config import CITIES, DB_PATH
+from src.processing.process import process
 
 
 if __name__ == '__main__':
