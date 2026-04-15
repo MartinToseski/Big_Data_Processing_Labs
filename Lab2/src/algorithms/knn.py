@@ -1,5 +1,6 @@
 import math
 from src.algorithms.k_means import load_feature_vectors, normalize, kmeans, print_cluster_stats
+from src.utils.visualisations import plot_cluster_distribution_percent
 
 
 def euclidean(a, b):
@@ -45,7 +46,6 @@ def knn_search(query_idx, cluster, data, metadata, k=5):
 
     # Sort by distance
     distances.sort(key=lambda x: x["distance"])
-
     return distances[:k]
 
 
@@ -68,6 +68,8 @@ if __name__ == "__main__":
     normalized_data = normalize(data)
     clusters, _, _ = kmeans(normalized_data, k=6)
     print_cluster_stats(clusters, metadata)
+
+    plot_cluster_distribution_percent(clusters, metadata)
 
     results = find_similar_places("EDEKA", clusters, normalized_data, metadata, k=10)
     for result in results:

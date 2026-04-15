@@ -2,8 +2,8 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-04-14T13:41:30Z",
-    "timestamp_areas_base": "2026-04-14T05:36:01Z",
+    "timestamp_osm_base": "2026-04-15T12:07:19Z",
+    "timestamp_areas_base": "2026-04-14T18:40:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -186,10 +186,14 @@
       "type": "node",
       "id": 293302405,
       "lat": 42.965135,
-      "lon": -78.8437546,
+      "lon": -78.843781,
       "tags": {
-        "created_by": "Potlatch 0.10b",
-        "name": "Handlebars Bike Shop",
+        "addr:city": "Buffalo",
+        "addr:housenumber": "685",
+        "addr:postcode": "14223",
+        "addr:state": "NY",
+        "addr:street": "Englewood Avenue",
+        "name": "Handlebars Cycle Company",
         "shop": "bicycle"
       }
     },

@@ -114,9 +114,7 @@ def elbow_method(data, k_range=range(2, 11), runs=3):
 
         print(f"  → Avg WCSS for K={k}: {avg_wcss:.2f}")
 
-    # -----------------------------
-    # PLOT
-    # -----------------------------
+    # Elbow Method Plot
     plt.figure()
     plt.plot(list(k_range), wcss_values, marker='o')
     plt.xlabel("Number of clusters (K)")

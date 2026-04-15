@@ -3,14 +3,7 @@ import time
 from src.config import NOMINATIM_API, HEADERS
 
 
-# Cache to avoid repeated API calls
-_city_cache = {}
-
-
 def get_city_center(city):
-    if city in _city_cache:
-        return _city_cache[city]
-
     params = {
         "q": city,
         "format": "json",
@@ -28,7 +21,6 @@ def get_city_center(city):
 
         lat = float(data[0]["lat"])
         lon = float(data[0]["lon"])
-        _city_cache[city] = (lat, lon)
         time.sleep(1)
 
         return lat, lon
