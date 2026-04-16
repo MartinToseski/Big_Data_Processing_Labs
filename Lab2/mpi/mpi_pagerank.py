@@ -18,16 +18,30 @@ def load_graph():
 
 
 def build_adjacency(edges):
-    adj = {}
+    out_adj = {}
+    in_adj = {}
+    nodes = set()
 
     for src, tgt in edges:
-        if src not in adj:
-            adj[src] = []
-        adj[src].append(tgt)
+        nodes.add(src)
+        nodes.add(tgt)
 
-    nodes = list(adj.keys())
+        # Outgoing
+        if src not in out_adj:
+            out_adj[src] = []
+        out_adj[src].append(tgt)
 
-    return adj, nodes
+        # Incoming
+        if tgt not in in_adj:
+            in_adj[tgt] = []
+        in_adj[tgt].append(src)
+
+    # Ensure all nodes exist in both dicts
+    for node in nodes:
+        out_adj.setdefault(node, [])
+        in_adj.setdefault(node, [])
+
+    return out_adj, in_adj, list(nodes)
 
 
 def split_nodes(nodes, size):
@@ -39,17 +53,22 @@ def initialize_pagerank(nodes):
     return {node: 1.0 / N for node in nodes}
 
 
-def compute_local_pagerank(local_nodes, adj, pr, N):
+def compute_local_pagerank(local_nodes, out_adj, in_adj, pr, N):
     new_pr = {}
+
+    # Precompute dangling mass
+    dangling_sum = sum(pr[node] for node in pr if len(out_adj[node]) == 0)
 
     for node in local_nodes:
         rank_sum = 0.0
 
-        for src in adj:
-            if node in adj[src]:
-                out_degree = len(adj[src])
-                if out_degree > 0:
-                    rank_sum += pr[src] / out_degree
+        for src in in_adj[node]:
+            out_degree = len(out_adj[src])
+            if out_degree > 0:
+                rank_sum += pr[src] / out_degree
+
+        # Add dangling contribution
+        rank_sum += dangling_sum / N
 
         new_pr[node] = (1 - DAMPING) / N + DAMPING * rank_sum
 
@@ -87,27 +106,31 @@ if __name__ == "__main__":
     # Load graph
     if rank == 0:
         edges = load_graph()
-        adj, nodes = build_adjacency(edges)
+
+        out_adj, in_adj, nodes = build_adjacency(edges)
+
         chunks = split_nodes(nodes, size)
         pr = initialize_pagerank(nodes)
     else:
-        adj = None
+        out_adj = None
+        in_adj = None
         nodes = None
         chunks = None
         pr = None
 
-    # Broadcast adjacency + pagerank
-    adj = comm.bcast(adj, root=0)
+    out_adj = comm.bcast(out_adj, root=0)
+    in_adj = comm.bcast(in_adj, root=0)
     pr = comm.bcast(pr, root=0)
 
-    # Scatter nodes
     local_nodes = comm.scatter(chunks, root=0)
 
     N = len(pr)
 
-    for _ in range(ITERATIONS):
-        local_pr = compute_local_pagerank(local_nodes, adj, pr, N)
+    for i in range(ITERATIONS):
+        if rank == 0:
+            print(f"Iteration {i+1}/{ITERATIONS}", flush=True)
 
+        local_pr = compute_local_pagerank(local_nodes, out_adj, in_adj, pr, N)
         gathered = comm.gather(local_pr, root=0)
 
         if rank == 0:
@@ -117,4 +140,4 @@ if __name__ == "__main__":
 
     if rank == 0:
         save_pagerank(pr)
-        print("PageRank computed and stored.")
+        print("PageRank computed and stored.", flush=True)

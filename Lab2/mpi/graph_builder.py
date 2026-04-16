@@ -1,5 +1,52 @@
+import os
+import sys
 from mpi4py import MPI
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(CURRENT_DIR)
+sys.path.append(PROJECT_ROOT)
+
 from init_db import connect
+from src.collectors.wiki import get_wikipedia_title
+from src.utils.rate_limiter import safe_request
+
+
+def normalize_title(t):
+    return t.replace("_", " ").strip().lower() if t else None
+
+
+# Get Wikipedia links
+def get_wikipedia_links(title):
+    if not title:
+        return []
+    try:
+        formatted = title.replace(" ", "_")
+        url = "https://en.wikipedia.org/w/api.php"
+
+        params = {
+            "action": "query",
+            "titles": formatted,
+            "prop": "links",
+            "pllimit": "max",
+            "format": "json"
+        }
+
+        data = safe_request(url, params=params)
+
+        if not data:
+            return []
+
+        pages = data.get("query", {}).get("pages", {})
+
+        links = []
+        for page in pages.values():
+            for link in page.get("links", []):
+                links.append(link["title"])
+
+        return links
+
+    except:
+        return []
 
 
 def load_data():
@@ -7,14 +54,10 @@ def load_data():
     c = conn.cursor()
 
     c.execute("""
-    SELECT id,
-        city,
-        category_encoded,
-        description_length,
-        tags_count,
-        has_wikipedia,
-        distance_to_center
-    FROM features
+    SELECT f.id, i.wikidata_id
+    FROM features f
+    JOIN intermediate_data i ON f.intermediate_id = i.id
+    WHERE f.has_wikipedia = 1
     """)
 
     data = c.fetchall()
@@ -26,72 +69,24 @@ def split_data(data, size):
     return [data[i::size] for i in range(size)]
 
 
-def build_edges(local_data, full_data):
+def build_edges(local_data, titles_map, title_to_id, rank):
     edges = []
 
-    for row_i in local_data:
-        id_i, city_i, cat_i, desc_i, tags_i, wiki_i, dist_i = row_i
+    for i, (fid, wikidata_id) in enumerate(local_data):
+        title = titles_map.get(fid)
 
-        candidates = []
+        if not title:
+            continue
 
-        for row_j in full_data:
-            id_j, city_j, cat_j, desc_j, tags_j, wiki_j, dist_j = row_j
+        links = get_wikipedia_links(title)
 
-            if id_i == id_j:
-                continue
+        for link in links:
+            target_id = title_to_id.get(normalize_title(link))
 
-            same_category = (cat_i == cat_j)
+            if target_id:
+                edges.append((fid, target_id, 1.0))  # directed
 
-            if same_category:
-                similar_tags = abs(tags_i - tags_j) <= 3
-            else:
-                similar_tags = abs(tags_i - tags_j) <= 10
-
-            if desc_i == 0 and desc_j == 0:
-                similar_desc = False
-            else:
-                if same_category:
-                    similar_desc = abs(desc_i - desc_j) <= 100
-                else:
-                    similar_desc = abs(desc_i - desc_j) <= 350
-
-            if not (similar_tags and similar_desc):
-                continue
-
-            # Weight calculation
-            weight = 1.0
-
-            # Category influence
-            if same_category:
-                weight += 0.25
-            else:
-                weight -= 0.15
-
-            # Geographic boost
-            if city_i == city_j:
-                weight += 0.2
-
-            # Wikipedia boost
-            if wiki_i == 1 and wiki_j == 1:
-                weight += 0.3
-
-            # Distance-to-center similarity
-            if abs(dist_i - dist_j) <= 0.1:
-                weight += 0.2
-
-            # Prevent invalid edges
-            if weight <= 0:
-                continue
-
-            candidates.append((id_j, weight))
-
-        K = 150
-        candidates.sort(key=lambda x: x[1], reverse=True)
-        top_neighbors = candidates[:K]
-
-        for target_id, weight in top_neighbors:
-            edges.append((id_i, target_id, weight))
-
+    print(f"Rank {rank}: finished {len(local_data)} items", flush=True)
     return edges
 
 
@@ -108,7 +103,7 @@ def save_edges(all_edges):
                     INSERT OR IGNORE INTO graph_edges (source_id, target_id, weight)
                     VALUES (?, ?, ?)
                 """, (source, target, weight))
-            except Exception:
+            except:
                 pass
 
     conn.commit()
@@ -122,17 +117,33 @@ if __name__ == "__main__":
 
     if rank == 0:
         data = load_data()
+
+        titles_map = {}
+        title_to_id = {}
+
+        for i, (fid, wikidata_id) in enumerate(data):
+            title = get_wikipedia_title(wikidata_id) if wikidata_id else None
+            titles_map[fid] = title
+
+            if title:
+                title_to_id[normalize_title(title)] = fid
+
         chunks = split_data(data, size)
+
     else:
         data = None
         chunks = None
+        titles_map = None
+        title_to_id = None
 
     local_data = comm.scatter(chunks, root=0)
-    full_data = comm.bcast(data, root=0)
-    local_edges = build_edges(local_data, full_data)
+
+    titles_map = comm.bcast(titles_map, root=0)
+    title_to_id = comm.bcast(title_to_id, root=0)
+
+    local_edges = build_edges(local_data, titles_map, title_to_id, rank)
     gathered_edges = comm.gather(local_edges, root=0)
 
-    # Save results
     if rank == 0:
         save_edges(gathered_edges)
-        print("Graph edges created and stored.")
+        print("Graph built using Wikipedia links.", flush=True)

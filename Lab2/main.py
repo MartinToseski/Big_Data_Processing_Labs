@@ -11,36 +11,6 @@ if __name__ == '__main__':
         os.remove(DB_PATH)
     create_tables()
 
-    """
-    conn = connect()
-    c = conn.cursor()
-    c.execute("SELECT name FROM sqlite_master WHERE type='table';")
-    tables = c.fetchall()
-    print("Tables:", tables)
-
-    c.execute("PRAGMA table_info(raw_data);")
-    columns = c.fetchall()
-    for col in columns:
-        print(col)
-    print("\n")
-
-    c.execute("PRAGMA table_info(intermediate_data);")
-    columns = c.fetchall()
-    for col in columns:
-        print(col)
-    print("\n")
-
-    c.execute("PRAGMA table_info(features);")
-    columns = c.fetchall()
-    for col in columns:
-        print(col)
-    
-    c.execute("SELECT COUNT(*) FROM raw_data")
-    print("Raw count:", c.fetchone()[0])
-    
-    conn.close()
-    """
-
     for city in CITIES:
         print("Processing:", city)
         osm_data, raw_id = fetch_osm_data(city)

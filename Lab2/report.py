@@ -9,12 +9,14 @@ def print_table_sizes(c):
 
     for table in tables:
         c.execute(f"SELECT COUNT(*) FROM {table}")
-        count = c.fetchone()[0]
+        rows = c.fetchone()[0]
 
-        print(f"{table}: {count} rows")
+        c.execute(f"PRAGMA table_info({table})")
+        columns = len(c.fetchall())
+
+        print(f"{table}: {rows} rows, {columns} columns")
 
 
-# Helper functions
 def percentile(sorted_data, p):
     if not sorted_data:
         return None

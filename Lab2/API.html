@@ -51,8 +51,8 @@ types:
             example:
               - orderId: "101"
                 customerName: "John Doe"
-                address: "221B Baker Street, London"
-                meal: "Pizza Margherita"
+                address: "A. Purėno g. 20, Kaunas, 51374 Kauno m. sav."
+                meal: "Pizza Pepperoni"
                 estimatedDeliveryTime: "18:30"
                 status: "pending"
 
@@ -68,8 +68,8 @@ types:
               orders:
                 - orderId: "101"
                   customerName: "John Doe"
-                  address: "221B Baker Street, London"
-                  meal: "Pizza Margherita"
+                  address: "A. Purėno g. 20, Kaunas, 51374 Kauno m. sav."
+                  meal: "Pizza Pepperoni"
                   estimatedDeliveryTime: "18:30"
                   status: "pending"
 
@@ -91,8 +91,8 @@ types:
               orders:
                 - orderId: "102"
                   customerName: "Alice Smith"
-                  address: "5th Avenue, New York"
-                  meal: "Burger + Fries"
+                  address: "A. Purėno g. 18, Kaunas, 51374 Kauno m. sav."
+                  meal: "Large Cheesburger Meal"
                   estimatedDeliveryTime: "14:00"
                   status: "delivered"
       400:
@@ -118,16 +118,16 @@ types:
               orderId: "101"
               customer:
                 name: "John Doe"
-                phone: "+44 123 456"
+                phone: "+123 123 123"
               address:
-                street: "221B Baker Street"
-                city: "London"
+                street: "A. Purėno g. 20, Kaunas, 51374 Kauno m. sav."
+                city: "Kaunas"
                 coordinates:
-                  lat: 51.5237
-                  lon: -0.1585
+                  lat: 54.905835
+                  lon: 23.964115
               meal:
-                name: "Pizza Margherita"
-                ingredients: ["dough", "tomato sauce", "mozzarella"]
+                name: "Pizza Pepperoni"
+                ingredients: ["dough", "tomato sauce", "mozzarella". "pepperoni"]
               estimatedDeliveryTime: "18:30"
               status: "pending"
       404:
@@ -143,14 +143,14 @@ types:
 ordersExample:
   - orderId: "101"
     customerName: "John Doe"
-    address: "221B Baker Street, London"
-    meal: "Pizza Margherita"
+    address: "A. Purėno g. 20, Kaunas, 51374 Kauno m. sav."
+    meal: "Pizza Pepperoni"
     estimatedDeliveryTime: "18:30"
     status: "pending"
 
   - orderId: "102"
     customerName: "Alice Smith"
-    address: "5th Avenue, New York"
-    meal: "Burger + Fries"
+    address: "A. Purėno g. 18, Kaunas, 51374 Kauno m. sav."
+    meal: "Large Cheeseburger Meal"
     estimatedDeliveryTime: "14:00"
     status: "delivered"

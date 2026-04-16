@@ -1,7 +1,8 @@
 from init_db import connect
 import matplotlib.pyplot as plt
 import numpy as np
-import math
+import collections
+import networkx as nx
 
 
 def plot_city_distribution():
@@ -115,32 +116,23 @@ def plot_distance_to_center():
 
 
 def plot_cluster_distribution(clusters, metadata):
-    import collections
-
-    # Collect all cities
     cities = sorted(set(m["city"] for m in metadata))
 
-    # Prepare data
     cluster_counts = []
 
     for cluster in clusters:
         counts = collections.Counter(metadata[i]["city"] for i in cluster)
         cluster_counts.append([counts.get(city, 0) for city in cities])
 
-    # Transpose for stacking
     cluster_counts = list(zip(*cluster_counts))
 
-    # Plot
     plt.figure()
 
     bottom = [0] * len(clusters)
 
     for i, city in enumerate(cities):
         values = cluster_counts[i]
-
         plt.bar(range(len(clusters)), values, bottom=bottom, label=city)
-
-        # Update bottom for stacking
         bottom = [bottom[j] + values[j] for j in range(len(values))]
 
     plt.title("Cluster City Distribution")
@@ -152,7 +144,7 @@ def plot_cluster_distribution(clusters, metadata):
 
 
 def plot_pagerank_vs_relevance():
-    conn = connect()
+    conn = connect("")
     c = conn.cursor()
 
     c.execute("""
@@ -164,19 +156,22 @@ def plot_pagerank_vs_relevance():
     data = c.fetchall()
     conn.close()
 
-    pagerank = [row[0] for row in data]
-    relevance = [row[1] for row in data]
+    if not data:
+        print("No data available for plotting.")
+        return
+
+    pagerank = np.array([row[0] for row in data])
+    relevance = np.array([row[1] for row in data])
+
+    correlation = np.corrcoef(relevance, pagerank)[0, 1]
 
     plt.figure()
     plt.scatter(relevance, pagerank)
-    plt.title("PageRank vs Relevance")
-    plt.xlabel("Relevance")
-    plt.ylabel("PageRank")
+    plt.title(f"PageRank vs Relevance (corr={correlation:.3f})")
+    plt.xlabel("Relevance Score")
+    plt.ylabel("PageRank Score")
+    plt.grid(True)
     plt.show()
-
-
-import matplotlib.pyplot as plt
-import collections
 
 
 def plot_cluster_distribution_percent(clusters, metadata):
@@ -184,7 +179,6 @@ def plot_cluster_distribution_percent(clusters, metadata):
     num_clusters = len(clusters)
     num_cities = len(cities)
 
-    # Prepare data matrix: clusters x cities
     data = []
 
     for cluster in clusters:
@@ -200,9 +194,8 @@ def plot_cluster_distribution_percent(clusters, metadata):
 
     data = np.array(data)
 
-    # X positions
     x = np.arange(num_clusters)
-    width = 0.8 / num_cities  # total width split among cities
+    width = 0.8 / num_cities
 
     plt.figure(figsize=(12, 6))
 
@@ -236,7 +229,35 @@ def plot_cluster_distribution_percent(clusters, metadata):
     plt.xticks(x + width * (num_cities - 1) / 2, [f"C{i + 1}" for i in range(num_clusters)])
     plt.legend()
     plt.tight_layout()
+    plt.show()
 
+
+def plot_graph_network():
+    conn = connect("")
+    c = conn.cursor()
+
+    c.execute("SELECT source_id, target_id FROM graph_edges")
+    edges = c.fetchall()
+    conn.close()
+
+    G = nx.DiGraph()
+    G.add_edges_from(edges)
+
+    plt.figure(figsize=(10, 8))
+
+    pos = nx.spring_layout(G, seed=42)
+
+    pr_values = dict(G.degree())
+
+    nx.draw(
+        G, pos,
+        node_size=30,
+        arrows=False,
+        node_color=list(pr_values.values()),
+        cmap=plt.cm.Blues
+    )
+
+    plt.title("Graph Visualization (Wikipedia Links)")
     plt.show()
 
 
@@ -246,4 +267,5 @@ if __name__ == "__main__":
     #plot_description_length_hist()
     #plot_tags_count_hist()
     #plot_distance_to_center()
-    plot_pagerank_vs_relevance()
+    #plot_pagerank_vs_relevance()
+    plot_graph_network()

@@ -3,7 +3,7 @@ from src.config import HEADERS
 import time
 
 
-def safe_request(url, method="GET", data=None, params=None, retries=5, delay=0.2):
+def safe_request(url, method="GET", data=None, params=None, retries=5):
     for i in range(retries):
         try:
             if method == "GET":
