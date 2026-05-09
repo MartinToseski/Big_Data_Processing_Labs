@@ -25,6 +25,7 @@ def process_single_image(image_path, k=10, resize_size=(200, 200), max_iteration
     sorted_centroids, sorted_sizes = sort_clusters_by_size(centroids, cluster_sizes)
     feature_vector = create_feature_vector(sorted_centroids)
 
+    '''
     print(iteration)
     print("")
     print(cluster_sizes)
@@ -32,5 +33,6 @@ def process_single_image(image_path, k=10, resize_size=(200, 200), max_iteration
     print("")
     print(sorted_centroids)
     print(feature_vector)
+    '''
 
     return sorted_centroids, feature_vector
