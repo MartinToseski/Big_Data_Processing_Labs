@@ -1,11 +1,20 @@
 import numpy as np
+import math
 
 
 # -----------------------------------
 # Euclidean Distance
 # -----------------------------------
 def compute_distance(vector1, vector2):
-    return np.sqrt(np.sum((vector1 - vector2) ** 2))
+    distance_sum = 0
+
+    for i in range(len(vector1)):
+        difference = (vector1[i] - vector2[i])
+        squared = (difference * difference)
+        distance_sum = (distance_sum + squared)
+
+    return math.sqrt(distance_sum)
+
 
 
 # -----------------------------------
@@ -42,7 +51,7 @@ def sort_distances(distances):
 # Get K Nearest Neighbors
 # -----------------------------------
 def get_k_neighbors(sorted_distances, k=5):
-    return sort_distances[:k]
+    return sorted_distances[:k]
 
 
 # -----------------------------------
