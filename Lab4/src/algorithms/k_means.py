@@ -3,6 +3,7 @@ import random
 
 
 random.seed(42)
+np.random.seed(42)
 
 
 def euclidean_distance(a, b):

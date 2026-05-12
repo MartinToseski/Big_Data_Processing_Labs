@@ -75,3 +75,27 @@ def predict_class(neighbors):
             best_class = image_class
 
     return best_class
+
+
+# -----------------------------------
+# Majority Voting + Closest Neighbour
+# -----------------------------------
+def predict_class_closest(neighbors):
+    class_counts = {}
+
+    for neighbor in neighbors:
+        image_class = (neighbor["image_class"])
+
+        if image_class not in class_counts:
+            class_counts[image_class] = 0
+        class_counts[image_class] = (class_counts[image_class] + 1)
+
+    class_counts = sorted(class_counts.items(), key=lambda item: item[1], reverse=True)
+
+    if len(class_counts) == 1:
+        return class_counts[0][0]
+
+    if class_counts[0][1] == class_counts[1][1]:
+        return neighbors[0]["image_class"]
+
+    return class_counts[0][0]
