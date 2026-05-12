@@ -1,7 +1,7 @@
 import sqlite3
 
 
-DATABASE_PATH = "database/image_database.db"
+DATABASE_PATH = "../../database/image_database.db"
 
 
 # -----------------------------------

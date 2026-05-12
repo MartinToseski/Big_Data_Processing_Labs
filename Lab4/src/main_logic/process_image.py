@@ -1,8 +1,6 @@
-from image_loader import load_image_pixels
-
-from k_means import initialize_centroids, assign_pixels_to_clusters, recompute_centroids, centroids_are_equal, count_cluster_sizes
-
-from feature_vector import sort_clusters_by_size, create_feature_vector
+from src.utils.image_loader import load_image_pixels
+from src.algorithms.k_means import initialize_centroids, assign_pixels_to_clusters, recompute_centroids, centroids_are_equal, count_cluster_sizes
+from src.utils.feature_vector import sort_clusters_by_size, create_feature_vector
 
 
 def process_single_image(image_path, k=10, resize_size=(200, 200), max_iterations=20):
@@ -24,15 +22,5 @@ def process_single_image(image_path, k=10, resize_size=(200, 200), max_iteration
     cluster_sizes = count_cluster_sizes(cluster_indices, k)
     sorted_centroids, sorted_sizes = sort_clusters_by_size(centroids, cluster_sizes)
     feature_vector = create_feature_vector(sorted_centroids)
-
-    '''
-    print(iteration)
-    print("")
-    print(cluster_sizes)
-    print(sorted_sizes)
-    print("")
-    print(sorted_centroids)
-    print(feature_vector)
-    '''
 
     return sorted_centroids, feature_vector

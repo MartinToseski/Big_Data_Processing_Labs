@@ -1,12 +1,12 @@
 import os
 
-from process_image import process_single_image
-from palette_visualization import save_palette_image
-from database_manager import create_database, insert_image_data, image_exists
+from src.main_logic.process_image import process_single_image
+from src.utils.palette_visualization import save_palette_image
+from src.database.database_manager import create_database, insert_image_data, image_exists
 
 
-RAW_DATA_FOLDER = "raw_data"
-PALETTES_FOLDER = "palettes"
+RAW_DATA_FOLDER = "../../raw_data"
+PALETTES_FOLDER = "../../palettes"
 K_COLORS = 10
 
 

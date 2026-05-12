@@ -3,14 +3,14 @@ import random
 
 import numpy as np
 import matplotlib.pyplot as plt
-from image_loader import load_image_pixels
-from k_means import initialize_centroids, assign_pixels_to_clusters, recompute_centroids, centroids_are_equal, euclidean_distance
+from src.utils.image_loader import load_image_pixels
+from src.algorithms.k_means import initialize_centroids, assign_pixels_to_clusters, recompute_centroids, centroids_are_equal, euclidean_distance
 
 
 random.seed(42)
 np.random.seed(42)
 
-RAW_DATA_FOLDER = "raw_data"
+RAW_DATA_FOLDER = "../../raw_data"
 K_CLUSTERS = 10
 MAX_ITERATIONS = 20
 RESIZE_SIZE = (50, 50)
@@ -230,6 +230,7 @@ for i in range(len(bars)):
         ha='center'
     )
 
+plt.grid(False)
 plt.show()
 
 

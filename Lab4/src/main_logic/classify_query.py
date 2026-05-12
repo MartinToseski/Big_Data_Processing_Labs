@@ -1,9 +1,9 @@
-from process_image import process_single_image
-from database_manager import load_dataset
-from knn import compute_all_distances, sort_distances, get_k_neighbors, predict_class
+from src.main_logic.process_image import process_single_image
+from src.database.database_manager import load_dataset
+from src.algorithms.knn import compute_all_distances, sort_distances, get_k_neighbors, predict_class
 
 
-QUERY_IMAGE = "raw_data/sunset/sunset_1.jpg"
+QUERY_IMAGE = "../../raw_data/sunset/sunset_1.jpg"
 K_NEIGHBORS = 5
 dataset = load_dataset()
 

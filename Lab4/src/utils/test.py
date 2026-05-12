@@ -1,9 +1,9 @@
 import os
-from process_image import process_single_image
-from palette_visualization import save_palette_image
+from src.main_logic.process_image import process_single_image
+from src.utils.palette_visualization import save_palette_image
 
 if __name__ == "__main__":
-    image_path = "raw_data/sunset/sunset_1.jpg"
+    image_path = "../../raw_data/sunset/sunset_1.jpg"
     sorted_centroids, feature_vector = process_single_image(image_path)
 
     relative_folder = os.path.dirname(image_path)

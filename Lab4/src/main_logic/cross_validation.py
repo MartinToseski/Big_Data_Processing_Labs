@@ -1,7 +1,7 @@
 import random
 
-from database_manager import load_dataset
-from knn import compute_all_distances, sort_distances, get_k_neighbors, predict_class
+from src.database.database_manager import load_dataset
+from src.algorithms.knn import compute_all_distances, sort_distances, get_k_neighbors, predict_class
 
 random.seed(42)
 
