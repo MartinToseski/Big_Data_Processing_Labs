@@ -1,5 +1,38 @@
 # Big_Data_Processing_Labs 
 
+### Lab1:
+The goal of this laboratory work is to develop skills in dataset analysis and processing by performing feature selection, handling outliers and missing values, and visualizing data. Additionally, you will implement the K-Nearest Neighbors (KNN) algorithm to make predictions and evaluate model performance using given datasets. This work aims to enhance your ability to manage and analyze large datasets effectively and apply machine learning techniques.
+
+***Task 1.*** Perform dataset analysis (define types of features, prepare a data quality report). For further analysis, choose a subset of features (>8) from categorical (at least 2) and continuous variables (at least 2). Feature selection (or rejection) must have a logical basis following directly from the logical problem of the task or data quality report.
+
+***Task 2.*** Perform data processing: handle outliers and missing values (use the methodology provided in Individual_problems_LD1.xlsx for handling missing values). Visualize the dependencies between features using at least 3 different visualization methods.
+
+***Task 3.*** Implement the KNN algorithm and make predictions for the feature specified in Individual_problems_LD1.xlsx. Provide results when predicting based on "train_*.csv" data for "test_*.csv" data.
+
+### Grading Criteria:
+##### Feature Identification and Data Quality Report
+
+Correctly identifies and categorizes all features in the dataset as either categorical or continuous. Provides a clear and detailed data quality report, including information on missing values, cardinality, statistical indicators.
+
+##### Feature Selection with Logical Basis
+
+Chooses an appropriate subset of features, including at least 2 categorical and 2 continuous variables. Provides a logical and well-justified basis for feature selection or rejection, directly related to the task's problem or the data quality report.
+
+##### Handling Outliers and Missing Values
+
+Correctly identifies and handles outliers in the dataset. Properly addresses missing values according to the methodology provided in Table 1.
+
+##### Visualization of Feature Dependencies
+
+Uses at least 3 different visualization methods to represent feature dependencies. The visualizations are clear, well-labeled, and provide meaningful insights into the relationships between features.
+
+##### KNN Algorithm Implementation
+
+Correctly implements the KNN algorithm to predict the target feature specified in table 1.
+
+##### Results
+Provides well-formatted analysis of KNN performance (including accuracy and other potential issues) on prediction results for "test_.csv" data using the "train_.csv" data as training data.
+
 ### Lab2 (merged with Lab3):
 Data collection, processing and grouping
 
