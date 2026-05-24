@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Select City</h1>
+
+<div class="row">
+
+{% for city in cities %}
+
+<div class="col-md-4 mb-3">
+    <div class="card p-3 shadow-sm">
+
+        <h3>{{ city.city }}</h3>
+
+        <a
+            href="/city/{{ city.city }}"
+            class="btn btn-primary"
+        >
+            Open
+        </a>
+
+    </div>
+</div>
+
+{% endfor %}
+
+</div>
+
+{% endblock %}

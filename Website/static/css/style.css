@@ -1,0 +1,13 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card img {
+    height: 250px;
+    object-fit: cover;
+}

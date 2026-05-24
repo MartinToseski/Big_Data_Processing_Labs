@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{ place.name }}</h1>
+
+<div class="row mb-5">
+
+    <div class="col-md-6">
+
+        <img
+            src="{{ url_for('static', filename=place.image_path) }}"
+            class="img-fluid rounded shadow"
+        >
+
+    </div>
+
+    <div class="col-md-6">
+
+        <h3>Information</h3>
+
+        <p>{{ place.description }}</p>
+
+        <p>
+            <strong>City:</strong>
+            {{ place.city }}
+        </p>
+
+        <p>
+            <strong>PageRank:</strong>
+            {{ place.pagerank_score }}
+        </p>
+
+        <img
+            src="{{ url_for('static', filename=place.palette_path) }}"
+            class="img-fluid mt-3"
+        >
+
+    </div>
+
+</div>
+
+
+<h2>Structural Recommendations</h2>
+<div class="row mb-5">
+{% for item in structural %}
+    <div class="col-md-3">
+        <div class="card p-2">
+            <h5>{{ item.name }}</h5>
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+
+<h2>Same City Image Similarity</h2>
+<div class="row mb-5">
+{% for item in same_city %}
+    <div class="col-md-3">
+        <div class="card p-2">
+            <h5>{{ item.name }}</h5>
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+
+<h2>Other City Image Similarity</h2>
+<div class="row mb-5">
+{% for item in other_city %}
+    <div class="col-md-3">
+        <div class="card p-2">
+            <h5>{{ item.name }}</h5>
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+{% endblock %}
