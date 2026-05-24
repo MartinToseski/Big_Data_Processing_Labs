@@ -92,3 +92,26 @@ Using data collected from Task 1&2 creates connection graph and stores somewhere
 * One script to calculate page rank and save results to Database for query (enough to have table with to columns: title/description, pr)
 
 * Second script to perform query from created database.
+
+
+
+### Lab4:
+The goal of these tasks is to develop expertise in automated image collection, color analysis, and similarity-based search in image datasets. You will collect and manage image data related to places of interest, analyze the dominant colors in these images using clustering techniques, and implement a similarity search algorithm to find similar places based on color features. These tasks aim to enhance your skills in image processing, feature extraction, and similarity-based data retrieval.
+
+Image Based Data Comparison
+
+***Task 1.*** Automatically collect images about the places of interest of the specified cities (see individual task from  Lab 2 & Lab 3). There must be at least 1000 objects with images for each city. (3 points).
+
+***Task 2.*** Apply K-means algorithm for extraction of dominant colors. Sort the clusters based on the number of assigned points in decreasing order. (Format feature vector of Kx3 numerical values, here 1-3 positions represent the centroid of largest cluster (RGB), the last 3 positions represent the centroid of smallest cluster (RGB)). (4 points).
+
+***Task 3.*** Apply similar places search by formatted vectors (task 2) using KNN. (3 points).
+
+### Grading Criteria:
+##### Data Collection
+Collects at least 1000 images for each specified city, ensuring a diverse and representative dataset. Images are appropriately labeled or associated with their respective places of interest.
+
+##### K-means Clustering Implementation
+Successfully applies the K-means algorithm to extract dominant colors from the images including the formatting of the feature vector with Kx3 numerical values, representing the centroids from largest to the smallest clusters (RGB values).
+
+##### KNN Implementation for Similar Places
+Correctly implements the K-Nearest Neighbors (KNN) algorithm to search for similar places based on the color feature vectors. The KNN implementation is efficient and correctly configured.
