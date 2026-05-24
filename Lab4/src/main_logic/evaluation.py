@@ -27,13 +27,9 @@ class_labels = [
 confusion_matrix = []
 
 for i in range(len(class_labels)):
-
     row = []
-
     for j in range(len(class_labels)):
-
         row.append(0)
-
     confusion_matrix.append(row)
 
 
@@ -59,9 +55,7 @@ for i in range(len(dataset)):
     training_dataset = []
 
     for j in range(len(dataset)):
-
         if i != j:
-
             training_dataset.append(dataset[j])
 
     # -----------------------------------
@@ -105,27 +99,19 @@ for i in range(len(dataset)):
     # Update Confusion Matrix
     # -----------------------------------
     actual_index = class_labels.index(actual_class)
-
     predicted_index = class_labels.index(predicted_class)
-
     confusion_matrix[actual_index][predicted_index] += 1
 
 
 # -----------------------------------
 # Final Accuracy
 # -----------------------------------
-accuracy = (
-    correct_predictions /
-    total_predictions
-)
+accuracy = correct_predictions / total_predictions
 
 print()
 print("===================================")
-
 print("FINAL ACCURACY:")
-
 print(accuracy)
-
 print("===================================")
 
 
@@ -136,7 +122,6 @@ print()
 print("CONFUSION MATRIX")
 
 for row in confusion_matrix:
-
     print(row)
 
 
@@ -173,11 +158,8 @@ plt.title("KNN Confusion Matrix")
 # Show Values Inside Matrix
 # -----------------------------------
 for i in range(len(class_labels)):
-
     for j in range(len(class_labels)):
-
         value = confusion_matrix[i][j]
-
         plt.text(
             j,
             i,
