@@ -12,10 +12,20 @@
 
     <div class="card shadow-sm h-100">
 
+        {% if place.image_path %}
+
         <img
             src="{{ url_for('static', filename=place.image_path) }}"
             class="card-img-top"
         >
+
+        {% else %}
+
+        <div class="placeholder-image">
+            No image
+        </div>
+
+        {% endif %}
 
         <div class="card-body">
 
