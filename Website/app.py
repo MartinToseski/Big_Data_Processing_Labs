@@ -1,59 +1,49 @@
 from flask import Flask, render_template
-
-from services.database_service import (
-    get_cities,
-    get_places_by_city,
-    get_place,
-    get_place_image
-)
-
-from services.recommendation_service import (
-    get_structural_recommendations,
-    get_same_city_image_recommendations,
-    get_other_city_image_recommendations
-)
+from services.database_service import get_cities, get_places_by_city, get_place, get_place_image
+from services.recommendation_service import get_recommendations
+from services.database_service import get_city
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def home():
-
     cities = get_cities()
-
     return render_template(
         'home.html',
         cities=cities
     )
 
 
-@app.route('/city/<city>')
-def city(city):
-
-    places = get_places_by_city(city)
-
+@app.route('/city/<int:city_id>')
+def city(city_id):
+    places = get_places_by_city(city_id)
+    city_data = get_city(city_id)
     return render_template(
         'city.html',
-        city=city,
+        city=city_data,
         places=places
     )
 
 
 @app.route('/place/<int:place_id>')
 def place(place_id):
-
     place = get_place(place_id)
-
     image = get_place_image(place_id)
-
-    structural = get_structural_recommendations(place_id)
-
-    same_city = get_same_city_image_recommendations(
-        place_id
+    structural = get_recommendations(
+        place_id,
+    'structural'
     )
 
-    other_city = get_other_city_image_recommendations(
-        place_id
+    same_city = get_recommendations(
+        place_id,
+    'image',
+        same_city=True
+    )
+
+    other_city = get_recommendations(
+        place_id,
+    'image',
+        same_city=False
     )
 
     return render_template(
@@ -64,7 +54,6 @@ def place(place_id):
         same_city=same_city,
         other_city=other_city
     )
-
 
 if __name__ == '__main__':
     app.run(debug=True)

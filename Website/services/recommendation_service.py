@@ -1,102 +1,44 @@
-from services.database_service import (
-    get_connection
-)
+from database.database import get_connection
 
-# ------------------------------------------------
-# Structural Recommendations
-# ------------------------------------------------
 
-def get_structural_recommendations(place_id):
-
+def get_recommendations(place_id, recommendation_type, same_city=None):
     conn = get_connection()
     cursor = conn.cursor()
+    query = '''
+     SELECT
+        p.*,
+        c.name as city_name
+     FROM similar_places sp
+     JOIN places p
+     ON sp.target_place_id = p.place_id
+     JOIN cities c
+     ON p.city_id = c.city_id
+     WHERE sp.source_place_id=?
+     AND sp.recommendation_type=?
+     '''
 
-    cursor.execute('''
-    SELECT p.*
-    FROM structural_recommendations sr
-    JOIN places p
-    ON sr.recommended_place_id = p.id
-    WHERE sr.source_place_id=?
-    ORDER BY sr.similarity_score DESC
-    LIMIT 5
-    ''', (place_id,))
-
-    results = cursor.fetchall()
-
-    conn.close()
-
-    return results
-
-
-# ------------------------------------------------
-# Same City Image Recommendations
-# ------------------------------------------------
-
-def get_same_city_image_recommendations(place_id):
-
-    conn = get_connection()
-    cursor = conn.cursor()
-
-    cursor.execute('''
-    SELECT city
-    FROM places
-    WHERE id=?
-    ''', (place_id,))
-
-    city = cursor.fetchone()['city']
-
-    cursor.execute('''
-    SELECT p.*
-    FROM image_recommendations ir
-    JOIN places p
-    ON ir.recommended_place_id = p.id
-    WHERE ir.source_place_id=?
-    AND p.city=?
-    LIMIT 5
-    ''', (
+    params = [
         place_id,
-        city
-    ))
+        recommendation_type
+    ]
 
+    if same_city is not None:
+        cursor.execute('''
+         SELECT city_id
+         FROM places
+         WHERE place_id=?
+         ''', (place_id,))
+
+        city_id = cursor.fetchone()['city_id']\
+
+        if same_city:
+            query += ' AND p.city_id=?'
+        else:
+            query += ' AND p.city_id!=?'
+        params.append(city_id)
+
+    query += ' LIMIT 5'
+    cursor.execute(query, params)
     results = cursor.fetchall()
-
     conn.close()
-
-    return results
-
-
-# ------------------------------------------------
-# Other City Image Recommendations
-# ------------------------------------------------
-
-def get_other_city_image_recommendations(place_id):
-
-    conn = get_connection()
-    cursor = conn.cursor()
-
-    cursor.execute('''
-    SELECT city
-    FROM places
-    WHERE id=?
-    ''', (place_id,))
-
-    city = cursor.fetchone()['city']
-
-    cursor.execute('''
-    SELECT p.*
-    FROM image_recommendations ir
-    JOIN places p
-    ON ir.recommended_place_id = p.id
-    WHERE ir.source_place_id=?
-    AND p.city!=?
-    LIMIT 5
-    ''', (
-        place_id,
-        city
-    ))
-
-    results = cursor.fetchall()
-
-    conn.close()
-
     return results

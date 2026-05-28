@@ -9,18 +9,20 @@
 {% for city in cities %}
 
 <div class="col-md-4 mb-3">
+
     <div class="card p-3 shadow-sm">
 
-        <h3>{{ city.city }}</h3>
+        <h3>{{ city.name }}</h3>
 
         <a
-            href="/city/{{ city.city }}"
+            href="/city/{{ city.city_id }}"
             class="btn btn-primary"
         >
             Open
         </a>
 
     </div>
+
 </div>
 
 {% endfor %}

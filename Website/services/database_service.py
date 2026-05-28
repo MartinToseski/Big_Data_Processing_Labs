@@ -1,90 +1,81 @@
-import sqlite3
+from database.database import get_connection
 
-DATABASE = 'database/website.db'
-
-
-def get_connection():
-    conn = sqlite3.connect(DATABASE)
-    conn.row_factory = sqlite3.Row
-    return conn
-
-
-# ------------------------------------------------
-# Cities
-# ------------------------------------------------
 def get_cities():
     conn = get_connection()
     cursor = conn.cursor()
-
     cursor.execute('''
-    SELECT DISTINCT city
-    FROM places
-    ORDER BY city
-    ''')
+     SELECT *
+     FROM cities
+     ORDER BY name
+     ''')
 
     results = cursor.fetchall()
     conn.close()
-
     return results
 
 
-# ------------------------------------------------
-# Places By City
-# ------------------------------------------------
-def get_places_by_city(city):
+def get_places_by_city(city_id):
     conn = get_connection()
     cursor = conn.cursor()
-
     cursor.execute('''
-    SELECT
+     SELECT
         p.*,
         i.image_path
-    FROM places p
-    LEFT JOIN images i
-    ON p.id = i.place_id
-    WHERE p.city=?
-    ORDER BY p.pagerank_score DESC
-    ''', (city,))
+     FROM places p
+     LEFT JOIN images i
+     ON p.place_id = i.place_id
+     WHERE p.city_id=?
+     ORDER BY p.pagerank_score DESC
+     ''', (city_id,))
 
     results = cursor.fetchall()
     conn.close()
     return results
 
 
-# ------------------------------------------------
-# Single Place
-# ------------------------------------------------
 def get_place(place_id):
     conn = get_connection()
     cursor = conn.cursor()
-
     cursor.execute('''
-    SELECT *
-    FROM places
-    WHERE id=?
-    ''', (place_id,))
+     SELECT
+        p.*,
+        c.name as city_name
+     FROM places p
+     JOIN cities c
+     ON p.city_id = c.city_id
+     WHERE p.place_id=?
+     ''', (place_id,))
 
     result = cursor.fetchone()
     conn.close()
-
     return result
 
 
-# ------------------------------------------------
-# Place Image
-# ------------------------------------------------
 def get_place_image(place_id):
+    conn = get_connection()
+    cursor = conn.cursor()
+    cursor.execute('''
+     SELECT *
+     FROM images
+     WHERE place_id=?
+     LIMIT 1
+     ''', (place_id,))
+
+    result = cursor.fetchone()
+    conn.close()
+    return result
+
+
+def get_city(city_id):
     conn = get_connection()
     cursor = conn.cursor()
 
     cursor.execute('''
     SELECT *
-    FROM images
-    WHERE place_id=?
-    LIMIT 1
-    ''', (place_id,))
+    FROM cities
+    WHERE city_id=?
+    ''', (city_id,))
 
     result = cursor.fetchone()
     conn.close()
-
     return result

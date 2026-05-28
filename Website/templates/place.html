@@ -34,7 +34,7 @@
 
         <p>
             <strong>City:</strong>
-            {{ place.city }}
+            {{ place.city_name }}
         </p>
 
         <p>
@@ -75,7 +75,7 @@
             <p>{{ item.city }}</p>
 
             <a
-                href="/place/{{ item.id }}"
+                href="/place/{{ item.place_id }}"
                 class="btn btn-dark"
             >
                 Open
@@ -110,7 +110,7 @@
             <p>{{ item.city }}</p>
 
             <a
-                href="/place/{{ item.id }}"
+                href="/place/{{ item.place_id }}"
                 class="btn btn-primary"
             >
                 Open
@@ -145,7 +145,7 @@
             <p>{{ item.city }}</p>
 
             <a
-                href="/place/{{ item.id }}"
+                href="/place/{{ item.place_id }}"
                 class="btn btn-success"
             >
                 Open

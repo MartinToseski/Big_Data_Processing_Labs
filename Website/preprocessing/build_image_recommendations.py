@@ -64,16 +64,18 @@ for item in dataset:
     for target_id, d in top_k:
         similarity = 1 / (1 + d)
         cursor.execute('''
-        INSERT INTO image_recommendations (
+        INSERT INTO similar_places (
             source_place_id,
-            recommended_place_id,
-            similarity_score
+            target_place_id,
+            similarity_score,
+            recommendation_type
         )
-        VALUES (?, ?, ?)
+        VALUES (?, ?, ?, ?)
         ''', (
             source_id,
             target_id,
-            similarity
+            similarity,
+            'image'
         ))
 
 conn.commit()
