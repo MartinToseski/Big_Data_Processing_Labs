@@ -1,8 +1,0 @@
-flask
-numpy
-pandas
-scikit-learn
-pillow
-matplotlib
-requests
-mpi4py
