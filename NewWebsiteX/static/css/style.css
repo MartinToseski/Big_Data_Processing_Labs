@@ -1,0 +1,54 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+.card img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.placeholder-image {
+    height: 240px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommendation-image {
+    height: 160px !important;
+}
+
+h1, h3 {
+    margin-bottom: 20px;
+}
+
+.score-text {
+    color: #666;
+    font-size: 14px;
+}
+
+.palette-preview {
+    width: 100%;
+    height: auto;
+    image-rendering: pixelated;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    display: block;
+}
